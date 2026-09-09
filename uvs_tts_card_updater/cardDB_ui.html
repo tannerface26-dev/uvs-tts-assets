@@ -1,0 +1,852 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UVS CardDB</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101113;
+      --panel: #17191d;
+      --panel-2: #20242a;
+      --line: #343a43;
+      --text: #f0f3f7;
+      --muted: #a7b0bd;
+      --accent: #2da8a0;
+      --accent-2: #d3a740;
+      --danger: #d65d5d;
+      --ok: #61b66f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .app {
+      display: grid;
+      grid-template-columns: 320px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+    aside {
+      background: #15171b;
+      border-right: 1px solid var(--line);
+      padding: 22px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: auto;
+    }
+    main {
+      padding: 22px;
+      overflow: hidden;
+    }
+    h1, h2, h3 {
+      margin: 0;
+      letter-spacing: 0;
+    }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; margin-bottom: 12px; }
+    h3 { font-size: 15px; }
+    .subtle {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    input, select {
+      width: 100%;
+      margin-top: 6px;
+      border: 1px solid var(--line);
+      background: #0e1012;
+      color: var(--text);
+      border-radius: 6px;
+      padding: 10px 11px;
+      font-size: 14px;
+      outline: none;
+    }
+    input:focus, select:focus { border-color: var(--accent); }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .checks {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .checks input {
+      width: auto;
+      margin: 0;
+    }
+    button {
+      border: 1px solid transparent;
+      background: var(--panel-2);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 10px 12px;
+      cursor: pointer;
+      font-weight: 650;
+      font-size: 14px;
+    }
+    button:hover { border-color: var(--accent); }
+    button.primary {
+      background: var(--accent);
+      color: #041110;
+    }
+    button.warn {
+      background: var(--accent-2);
+      color: #171000;
+    }
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
+    }
+    .actions {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 12px;
+    }
+    .tabs button {
+      min-width: 110px;
+    }
+    .tabs button.active {
+      background: #e8edf2;
+      color: #101113;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(120px, 1fr));
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px;
+    }
+    .metric b {
+      display: block;
+      font-size: 23px;
+      margin-bottom: 2px;
+    }
+    section {
+      display: none;
+      min-width: 0;
+    }
+    section.active { display: block; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      min-width: 0;
+    }
+    .image-frame {
+      width: 100%;
+      aspect-ratio: 0.704;
+      background: #0b0c0e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .card-body {
+      padding: 10px;
+      display: grid;
+      gap: 6px;
+    }
+    .card-title {
+      font-size: 13px;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+      min-height: 34px;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .url {
+      color: var(--muted);
+      font-size: 11px;
+      overflow-wrap: anywhere;
+    }
+    .conflict {
+      margin-bottom: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 14px;
+    }
+    .choice-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .choice {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #111316;
+      overflow: hidden;
+      cursor: pointer;
+      min-width: 0;
+    }
+    .choice.skip {
+      display: flex;
+      align-items: center;
+      min-height: 136px;
+    }
+    .choice.selected {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(45, 168, 160, 0.25);
+    }
+    .choice input { display: none; }
+    .choice .badge {
+      color: #101113;
+      background: var(--muted);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 11px;
+      width: fit-content;
+    }
+    .choice.incoming .badge { background: var(--accent); }
+    .choice.existing .badge { background: #b9c2cf; }
+    .empty {
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      padding: 18px;
+      background: rgba(255,255,255,0.02);
+    }
+    pre {
+      height: 250px;
+      overflow: auto;
+      background: #0b0c0e;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      color: #d8dee8;
+      white-space: pre-wrap;
+      font-size: 12px;
+    }
+    .result {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #0d1113;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+    .status {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .history-layout {
+      display: grid;
+      grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+      gap: 14px;
+    }
+    .history-list {
+      display: grid;
+      gap: 10px;
+      align-content: start;
+    }
+    .history-item {
+      width: 100%;
+      text-align: left;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      display: grid;
+      gap: 5px;
+    }
+    .history-item.active {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(45, 168, 160, 0.18);
+    }
+    .history-title {
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+    .history-meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+    @media (max-width: 860px) {
+      .app { grid-template-columns: 1fr; }
+      aside {
+        position: static;
+        height: auto;
+      }
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+      .history-layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <h1>UVS CardDB</h1>
+      <p class="subtle">Local scraper and conflict picker</p>
+
+      <label for="extensionCode">Extension Number</label>
+      <input id="extensionCode" placeholder="137" autocomplete="off">
+
+      <label for="format">Format</label>
+      <select id="format">
+        <option value="legacy" selected>legacy</option>
+        <option value="standard">standard</option>
+      </select>
+
+      <div class="row">
+        <div>
+          <label for="maxPages">Max pages</label>
+          <input id="maxPages" type="number" min="1" value="300">
+        </div>
+        <div>
+          <label for="emptyPages">Stop empty</label>
+          <input id="emptyPages" type="number" min="1" value="2">
+        </div>
+      </div>
+
+      <label for="targetJson">Target JSON</label>
+      <input id="targetJson">
+
+      <label for="targetLua">Target Lua</label>
+      <input id="targetLua">
+
+      <label for="decisionsJson">Decision log</label>
+      <input id="decisionsJson">
+
+      <label for="targetTtsLua">TTS Card DB Lua</label>
+      <input id="targetTtsLua">
+
+      <label for="targetTtsSave">TTS Save</label>
+      <select id="targetTtsSave"></select>
+
+      <label class="checks"><input id="insecure" type="checkbox"> Disable TLS verification</label>
+      <label class="checks"><input id="keepVariants" type="checkbox"> Keep unselected choices as variants</label>
+
+      <div class="actions">
+        <button id="scrapeBtn" class="primary">Scan Set</button>
+        <button id="applyBtn" class="warn" disabled>Apply Choices</button>
+        <button id="publishBtn">Publish to TTS</button>
+        <button id="publishSaveBtn">Publish to Save</button>
+      </div>
+
+      <div id="status" class="status">Idle</div>
+      <pre id="log"></pre>
+    </aside>
+
+    <main>
+      <div class="tabs">
+        <button class="active" data-tab="preview">Preview</button>
+        <button data-tab="conflicts">Conflicts</button>
+        <button data-tab="history">History</button>
+        <button data-tab="output">Output</button>
+      </div>
+
+      <div class="metrics">
+        <div class="metric"><b id="mExisting">0</b><span class="subtle">Existing</span></div>
+        <div class="metric"><b id="mIncoming">0</b><span class="subtle">Matched</span></div>
+        <div class="metric"><b id="mNew">0</b><span class="subtle">New</span></div>
+        <div class="metric"><b id="mConflicts">0</b><span class="subtle">Conflicts</span></div>
+        <div class="metric"><b id="mSkipped">0</b><span class="subtle">Same image</span></div>
+      </div>
+
+      <section id="preview" class="active">
+        <h2>New Cards</h2>
+        <div id="previewGrid" class="grid"></div>
+      </section>
+
+      <section id="conflicts">
+        <h2>Resolve Conflicts</h2>
+        <div id="conflictList"></div>
+      </section>
+
+      <section id="history">
+        <h2>History</h2>
+        <div class="history-layout">
+          <div id="historyList" class="history-list"></div>
+          <div id="historyDetail" class="result">No history item selected.</div>
+        </div>
+      </section>
+
+      <section id="output">
+        <h2>Update Result</h2>
+        <div id="result" class="result">No update has been applied yet.</div>
+        <div id="publishResult" class="result">No TTS publish has been run yet.</div>
+        <div id="publishSaveResult" class="result">No save publish has been run yet.</div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const state = { jobId: null, historyEntryId: null, job: null, choices: {} };
+
+    function setStatus(text) {
+      $("status").textContent = text;
+    }
+
+    function settings() {
+      return {
+        extension_code: $("extensionCode").value.trim(),
+        format: $("format").value,
+        max_pages: Number($("maxPages").value || 300),
+        stop_empty_pages: Number($("emptyPages").value || 2),
+        target_json: $("targetJson").value.trim(),
+        target_lua: $("targetLua").value.trim(),
+        insecure: $("insecure").checked
+      };
+    }
+
+    async function loadDefaults() {
+      const res = await fetch("/api/defaults");
+      const data = await res.json();
+      $("targetJson").value = data.target_json;
+      $("targetLua").value = data.target_lua;
+      $("decisionsJson").value = data.decisions_json;
+      $("targetTtsLua").value = data.target_tts_lua;
+      await loadSaves(data.target_tts_save);
+      await loadHistory();
+    }
+
+    async function loadSaves(selectedPath) {
+      const select = $("targetTtsSave");
+      const res = await fetch("/api/saves");
+      const data = await res.json();
+      const saves = data.saves || [];
+      select.innerHTML = saves.length
+        ? saves.map((save) => {
+          const label = `${save.file}${save.save_name ? " - " + save.save_name : ""} (${save.modified})`;
+          const selected = save.path === selectedPath ? "selected" : "";
+          return `<option value="${escapeAttr(save.path)}" ${selected}>${escapeHtml(label)}</option>`;
+        }).join("")
+        : `<option value="">No TS_Save_*.json files found</option>`;
+    }
+
+    function cardMarkup(card) {
+      const meta = [card.source, card.type, card.uvs_id ? `ID ${card.uvs_id}` : ""].filter(Boolean).join(" / ");
+      return `
+        <article class="card">
+          <div class="image-frame"><img src="${escapeAttr(card.image)}" alt=""></div>
+          <div class="card-body">
+            <div class="card-title">${escapeHtml(card.name || card.key)}</div>
+            <span class="pill">${escapeHtml(meta)}</span>
+            <div class="url">${escapeHtml(card.image || "")}</div>
+          </div>
+        </article>`;
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
+      })[ch]);
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replace(/`/g, "&#096;");
+    }
+
+    function renderJob(job) {
+      $("log").textContent = (job.log || []).join("\n");
+      if (!job.result) return;
+      const r = job.result;
+      $("mExisting").textContent = r.existing_count;
+      $("mIncoming").textContent = r.incoming_count;
+      $("mNew").textContent = r.new_count;
+      $("mConflicts").textContent = r.conflict_count;
+      $("mSkipped").textContent = r.skipped_same_image;
+
+      $("previewGrid").innerHTML = r.new_cards.length
+        ? r.new_cards.map(cardMarkup).join("")
+        : `<div class="empty">No new non-conflicting cards found.</div>`;
+
+      $("conflictList").innerHTML = r.conflicts.length
+        ? r.conflicts.map(renderConflict).join("")
+        : `<div class="empty">No same-name image conflicts found.</div>`;
+
+      for (const conflict of r.conflicts) {
+        state.choices[conflict.base_key] = state.choices[conflict.base_key] || conflict.default_ref;
+      }
+      syncChoiceStyles();
+      $("applyBtn").disabled = false;
+    }
+
+    function switchTab(tabId) {
+      document.querySelectorAll(".tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tabId));
+      document.querySelectorAll("main section").forEach((s) => s.classList.toggle("active", s.id === tabId));
+    }
+
+    function historyTypeLabel(type) {
+      return ({
+        apply_choices: "Applied choices",
+        publish_tts_lua: "Published TTS Lua",
+        publish_save: "Published save"
+      })[type] || type || "History";
+    }
+
+    async function loadHistory() {
+      const list = $("historyList");
+      const res = await fetch("/api/history");
+      const data = await res.json();
+      const entries = data.history || [];
+      list.innerHTML = entries.length
+        ? entries.map(renderHistoryItem).join("")
+        : `<div class="empty">No published or applied updates yet.</div>`;
+      syncHistorySelection();
+    }
+
+    function renderHistoryItem(entry) {
+      const target = entry.target ? entry.target.split(/[\\/]/).pop() : "";
+      const counts = [
+        entry.cards_total !== "" ? `${entry.cards_total} cards` : "",
+        entry.added !== "" ? `${entry.added} added` : "",
+        entry.replaced_conflicts !== "" ? `${entry.replaced_conflicts} conflicts` : "",
+        entry.conflict_count !== "" ? `${entry.conflict_count} found` : ""
+      ].filter(Boolean).join(" / ");
+      return `
+        <button class="history-item" data-history-id="${escapeAttr(entry.id)}">
+          <span class="history-title">${escapeHtml(historyTypeLabel(entry.type))}${entry.label ? " - " + escapeHtml(entry.label) : ""}</span>
+          <span class="history-meta">${escapeHtml(entry.timestamp || "")}</span>
+          <span class="history-meta">${escapeHtml([entry.format, entry.extension_code].filter(Boolean).join(" / "))}</span>
+          <span class="history-meta">${escapeHtml(target)}</span>
+          <span class="history-meta">${escapeHtml(counts)}</span>
+        </button>`;
+    }
+
+    function syncHistorySelection() {
+      document.querySelectorAll(".history-item").forEach((button) => {
+        button.classList.toggle("active", button.dataset.historyId === state.historyEntryId);
+      });
+    }
+
+    function renderHistoryDetail(entry) {
+      const result = entry.result || {};
+      const settingsData = entry.settings || {};
+      const rows = [
+        ["Type", historyTypeLabel(entry.type)],
+        ["When", entry.timestamp || ""],
+        ["Extension", settingsData.extension_code || settingsData.extension_id || ""],
+        ["Format", settingsData.format || ""],
+        ["Cards total", result.cards_total ?? ""],
+        ["Added", result.added ?? ""],
+        ["Resolved conflicts", result.replaced_conflicts ?? ""],
+        ["Source JSON", result.source_json || ""],
+        ["Target JSON", result.target_json || ""],
+        ["Target Lua", result.target_lua || result.target_tts_lua || ""],
+        ["Target Save", result.target_tts_save || ""],
+        ["Backup", result.backup || [result.json_backup, result.lua_backup].filter(Boolean).join(" | ")]
+      ].filter((row) => row[1] !== "");
+      const canLoadChoices = entry.type === "apply_choices" && entry.analysis;
+      $("historyDetail").innerHTML = `
+        <b>${escapeHtml(historyTypeLabel(entry.type))}</b>
+        <div class="detail-grid">
+          ${rows.map(([label, value]) => `
+            <div>
+              <div class="history-meta">${escapeHtml(label)}</div>
+              <div class="history-title">${escapeHtml(value)}</div>
+            </div>
+          `).join("")}
+        </div>
+        ${canLoadChoices ? `<button id="loadHistoryChoicesBtn" class="warn" style="margin-top: 14px;">Load Decisions</button>` : ""}
+      `;
+      const loadButton = $("loadHistoryChoicesBtn");
+      if (loadButton) {
+        loadButton.addEventListener("click", () => loadHistoryChoices(entry));
+      }
+    }
+
+    async function openHistoryEntry(historyId) {
+      const res = await fetch(`/api/history-entry?id=${encodeURIComponent(historyId)}`);
+      const entry = await res.json();
+      if (!res.ok) {
+        $("historyDetail").textContent = entry.error || "History item could not be loaded.";
+        return;
+      }
+      state.historyEntryId = historyId;
+      syncHistorySelection();
+      renderHistoryDetail(entry);
+    }
+
+    function loadHistoryChoices(entry) {
+      state.historyEntryId = entry.id;
+      state.jobId = null;
+      state.job = {
+        status: "ready",
+        result: entry.analysis,
+        log: [`[${entry.timestamp}] Loaded from updater history`]
+      };
+      state.choices = { ...(entry.choices || {}) };
+      $("extensionCode").value = entry.settings?.extension_code || entry.settings?.extension_id || $("extensionCode").value;
+      $("format").value = entry.settings?.format || $("format").value;
+      renderJob(state.job);
+      setStatus("Loaded history decisions. Change choices and apply when ready.");
+      switchTab("conflicts");
+    }
+
+    function renderConflict(conflict) {
+      return `
+        <div class="conflict" data-base="${escapeAttr(conflict.base_key)}">
+          <h3>${escapeHtml(conflict.base_key)}</h3>
+          <div class="choice-grid">
+            ${conflict.choices.map((card) => renderChoice(conflict, card)).join("")}
+            <label class="choice skip">
+              <input type="radio" name="${escapeAttr(conflict.base_key)}" value="skip">
+              <div class="card-body">
+                <span class="badge">skip</span>
+                <div class="card-title">Leave existing database rows unchanged</div>
+              </div>
+            </label>
+          </div>
+        </div>`;
+    }
+
+    function renderChoice(conflict, card) {
+      const checked = card.ref === conflict.default_ref ? "checked" : "";
+      return `
+        <label class="choice ${escapeAttr(card.source)}">
+          <input type="radio" name="${escapeAttr(conflict.base_key)}" value="${escapeAttr(card.ref)}" ${checked}>
+          <div class="image-frame"><img src="${escapeAttr(card.image)}" alt=""></div>
+          <div class="card-body">
+            <span class="badge">${escapeHtml(card.source)}</span>
+            <div class="card-title">${escapeHtml(card.name || card.key)}</div>
+            <span class="pill">${escapeHtml([card.type, card.uvs_id ? `ID ${card.uvs_id}` : ""].filter(Boolean).join(" / "))}</span>
+            <div class="url">${escapeHtml(card.image || "")}</div>
+          </div>
+        </label>`;
+    }
+
+    function syncChoiceStyles() {
+      document.querySelectorAll(".conflict").forEach((box) => {
+        const base = box.dataset.base;
+        box.querySelectorAll(".choice").forEach((choice) => {
+          const input = choice.querySelector("input");
+          const selected = state.choices[base] === input.value;
+          input.checked = selected;
+          choice.classList.toggle("selected", selected);
+        });
+      });
+    }
+
+    async function scrape() {
+      const s = settings();
+      if (!s.extension_code) {
+        setStatus("Enter an extension number first.");
+        return;
+      }
+      $("scrapeBtn").disabled = true;
+      $("applyBtn").disabled = true;
+      $("previewGrid").innerHTML = "";
+      $("conflictList").innerHTML = "";
+      $("result").textContent = "No update has been applied yet.";
+      state.choices = {};
+      state.historyEntryId = null;
+      setStatus("Scanning...");
+      const res = await fetch("/api/scrape", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(s)
+      });
+      const data = await res.json();
+      state.jobId = data.job_id;
+      poll();
+    }
+
+    async function poll() {
+      if (!state.jobId) return;
+      const res = await fetch(`/api/status?job_id=${encodeURIComponent(state.jobId)}`);
+      const job = await res.json();
+      state.job = job;
+      renderJob(job);
+      if (job.status === "running") {
+        setStatus("Scanning...");
+        setTimeout(poll, 1000);
+      } else if (job.status === "ready") {
+        setStatus("Preview ready.");
+        $("scrapeBtn").disabled = false;
+      } else if (job.status === "error") {
+        setStatus("Error. Check the log.");
+        $("scrapeBtn").disabled = false;
+      }
+    }
+
+    async function applyChoices() {
+      $("applyBtn").disabled = true;
+      setStatus("Writing files...");
+      const endpoint = state.historyEntryId ? "/api/apply-history" : "/api/apply";
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          job_id: state.jobId,
+          history_id: state.historyEntryId,
+          choices: state.choices,
+          target_json: $("targetJson").value.trim(),
+          target_lua: $("targetLua").value.trim(),
+          decisions_json: $("decisionsJson").value.trim(),
+          keep_unselected_as_variants: $("keepVariants").checked
+        })
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        $("result").textContent = data.error || "Update failed.";
+        setStatus("Update failed.");
+        $("applyBtn").disabled = false;
+        return;
+      }
+      $("result").innerHTML = `
+        <b>Done.</b><br>
+        Cards total: ${escapeHtml(data.cards_total)}<br>
+        Added: ${escapeHtml(data.added)}<br>
+        Resolved conflicts: ${escapeHtml(data.replaced_conflicts)}<br>
+        JSON: ${escapeHtml(data.target_json)}<br>
+        Lua: ${escapeHtml(data.target_lua)}<br>
+        Decision log: ${escapeHtml(data.decisions_json)}<br>
+        Backups: ${escapeHtml([data.json_backup, data.lua_backup].filter(Boolean).join(" | ") || "none")}
+      `;
+      setStatus("Files written.");
+      state.historyEntryId = null;
+      await loadHistory();
+    }
+
+    async function publishToTts() {
+      $("publishBtn").disabled = true;
+      setStatus("Publishing to TTS card DB...");
+      const res = await fetch("/api/publish", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source_json: $("targetJson").value.trim(),
+          target_tts_lua: $("targetTtsLua").value.trim()
+        })
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        $("publishResult").textContent = data.error || "Publish failed.";
+        setStatus("Publish failed.");
+        $("publishBtn").disabled = false;
+        return;
+      }
+      $("publishResult").innerHTML = `
+        <b>Published to TTS card DB.</b><br>
+        Cards total: ${escapeHtml(data.cards_total)}<br>
+        Image rows: ${escapeHtml(data.image_rows)}<br>
+        Source JSON: ${escapeHtml(data.source_json)}<br>
+        Target Lua: ${escapeHtml(data.target_tts_lua)}<br>
+        Backup: ${escapeHtml(data.backup || "none")}
+      `;
+      setStatus("TTS card DB published.");
+      $("publishBtn").disabled = false;
+      await loadHistory();
+    }
+
+    async function publishToSave() {
+      $("publishSaveBtn").disabled = true;
+      setStatus("Publishing to selected TTS save...");
+      const res = await fetch("/api/publish-save", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source_json: $("targetJson").value.trim(),
+          target_tts_save: $("targetTtsSave").value
+        })
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        $("publishSaveResult").textContent = data.error || "Save publish failed.";
+        setStatus("Save publish failed.");
+        $("publishSaveBtn").disabled = false;
+        return;
+      }
+      $("publishSaveResult").innerHTML = `
+        <b>Published to selected TTS save.</b><br>
+        Cards total: ${escapeHtml(data.cards_total)}<br>
+        Image rows: ${escapeHtml(data.image_rows)}<br>
+        Updated object: ${escapeHtml([data.updated_nickname, data.updated_guid].filter(Boolean).join(" / "))}<br>
+        Source JSON: ${escapeHtml(data.source_json)}<br>
+        Target Save: ${escapeHtml(data.target_tts_save)}<br>
+        Backup: ${escapeHtml(data.backup || "none")}
+      `;
+      setStatus("Selected save published.");
+      $("publishSaveBtn").disabled = false;
+      await loadHistory();
+    }
+
+    document.querySelector(".tabs").addEventListener("click", (event) => {
+      const btn = event.target.closest("button[data-tab]");
+      if (!btn) return;
+      switchTab(btn.dataset.tab);
+      if (btn.dataset.tab === "history") loadHistory();
+    });
+
+    $("historyList").addEventListener("click", (event) => {
+      const button = event.target.closest(".history-item");
+      if (!button) return;
+      openHistoryEntry(button.dataset.historyId);
+    });
+
+    document.addEventListener("change", (event) => {
+      const input = event.target.closest(".conflict input[type=radio]");
+      if (!input) return;
+      state.choices[input.name] = input.value;
+      syncChoiceStyles();
+    });
+
+    $("scrapeBtn").addEventListener("click", scrape);
+    $("applyBtn").addEventListener("click", applyChoices);
+    $("publishBtn").addEventListener("click", publishToTts);
+    $("publishSaveBtn").addEventListener("click", publishToSave);
+    loadDefaults();
+  </script>
+</body>
+</html>

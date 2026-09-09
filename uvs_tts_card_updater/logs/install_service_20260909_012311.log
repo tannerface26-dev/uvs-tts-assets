@@ -1,0 +1,56 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260909012311
+Username: TJ_GAMING_RIG\tanne
+RunAs User: TJ_GAMING_RIG\tanne
+Configuration Name: 
+Machine: TJ_GAMING_RIG (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater\install_service.ps1
+Process ID: 42820
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Writing log: C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater\logs\install_service_20260909_012311.log
+PowerShell: 5.1.26100.8875
+User: TJ_GAMING_RIG\tanne
+Admin: True
+Working directory: C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater
+
+Service status:
+UVSTTSCardUpdater is not registered.
+
+Port 8787:
+
+cardDB service processes:
+
+Python details:
+
+> python --version
+Python 3.12.10
+ExitCode: 0
+
+> python -c import sys; print(sys.executable)
+C:\Users\tanne\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+ExitCode: 0
+
+>> TerminatingError(python.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Traceback (most recent call last):"
+
+ERROR: Traceback (most recent call last):
+
+Service status:
+UVSTTSCardUpdater is not registered.
+
+Port 8787:
+
+cardDB service processes:
+Log saved: C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater\logs\install_service_20260909_012311.log
+**********************
+Windows PowerShell transcript end
+End time: 20260909012315
+**********************

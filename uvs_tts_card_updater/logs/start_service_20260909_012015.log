@@ -1,0 +1,45 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260909012015
+Username: TJ_GAMING_RIG\tanne
+RunAs User: TJ_GAMING_RIG\tanne
+Configuration Name: 
+Machine: TJ_GAMING_RIG (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater\start_service.ps1
+Process ID: 2316
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Writing log: C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater\logs\start_service_20260909_012015.log
+PowerShell: 5.1.26100.8875
+User: TJ_GAMING_RIG\tanne
+Admin: False
+Working directory: C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater
+
+Service status:
+UVSTTSCardUpdater is not registered.
+
+Port 8787:
+
+cardDB service processes:
+PS>TerminatingError(Start-Service): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Cannot find any service with service name 'UVSTTSCardUpdater'."
+
+ERROR: Cannot find any service with service name 'UVSTTSCardUpdater'.
+
+Service status:
+UVSTTSCardUpdater is not registered.
+
+Port 8787:
+
+cardDB service processes:
+Log saved: C:\Users\tanne\Downloads\TTS UVS\uvs_tts_card_updater\logs\start_service_20260909_012015.log
+**********************
+Windows PowerShell transcript end
+End time: 20260909012019
+**********************
