@@ -37,13 +37,13 @@ Stop with `Ctrl+C` in the terminal.
 - `cardDB_generator.py`: moved generator script used by the UI/server.
 - `cardDB_ui_decisions.json`: latest decision log written by Apply Choices.
 - `history.json`: generated after apply/publish actions; stores update history.
-- `guidelines.md`: lessons learned and project rules.
+- `docs\guidelines.md`: lessons learned and project rules.
+- `docs\session_updater.md`: startup checklist for future development sessions.
 
 Parent workspace outputs:
 
 - `..\cardDB_fresh.json`
 - `..\cardDB_fresh.lua`
-- `..\.tts\bundled\card_db.664c59.lua`
 
 TTS save folder:
 
@@ -81,24 +81,21 @@ TTS save folder:
 
 ## Publishing Notes
 
-- Publishing to `..\.tts\bundled\card_db.664c59.lua` alone does not update an
-  already-created TTS save.
 - Existing TTS saves embed the `LuaScript` for the `card_db` object.
 - `Publish to Save` finds object GUID `664c59` or Nickname `card_db` and replaces
   only the generated `cardDbImages` and `cardDbMeta` sections.
-- A backup is written before publishing to a save or Lua file.
+- A backup is written before publishing to a save.
 
 ## History Feature
 
 The History tab now records:
 
 - applied choice runs
-- TTS Lua publishes
 - selected-save publishes
 
-Applied choice history includes the scan analysis and choices so it can be
-loaded later without running a new scan. Publishing history records target path,
-backup path, card totals, and timestamp.
+Applied choice history includes the full scan analysis, all conflict options,
+and the selected choices so it can be loaded later without running a new scan.
+Publishing history records target path, backup path, card totals, and timestamp.
 
 History starts filling from actions performed after the history feature was
 added.

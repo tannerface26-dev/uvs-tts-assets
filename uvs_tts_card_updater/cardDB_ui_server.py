@@ -26,7 +26,6 @@ DEFAULT_JSON = WORKSPACE_DIR / "cardDB_fresh.json"
 DEFAULT_LUA = WORKSPACE_DIR / "cardDB_fresh.lua"
 DEFAULT_COLLISIONS = APP_DIR / "cardDB_ui_decisions.json"
 DEFAULT_HISTORY = APP_DIR / "history.json"
-DEFAULT_TTS_LUA = WORKSPACE_DIR / ".tts" / "bundled" / "card_db.664c59.lua"
 DEFAULT_TTS_SAVE = (
     Path.home()
     / "OneDrive"
@@ -113,7 +112,6 @@ def summarize_history_entry(entry: dict[str, Any]) -> dict[str, Any]:
     settings = entry.get("settings") or {}
     target = (
         result.get("target_tts_save")
-        or result.get("target_tts_lua")
         or result.get("target_json")
         or settings.get("target_json")
         or ""
@@ -234,7 +232,7 @@ def scrape_cards(settings: dict[str, Any], job: dict[str, Any]) -> list[dict[str
     search_format = settings.get("format") or "legacy"
     set_filter = (settings.get("extension_code") or settings.get("extension_id") or "").strip().lower()
     extension_code = "" if set_filter.isdigit() else set_filter
-    max_pages = int(settings.get("max_pages") or 300)
+    max_pages = int(settings.get("max_pages") or 1)
     stop_empty_pages = int(settings.get("stop_empty_pages") or 2)
     sleep_listing = float(settings.get("sleep_listing") or 0.15)
     sleep_showcard = float(settings.get("sleep_showcard") or 0.03)
@@ -286,10 +284,10 @@ def scrape_cards(settings: dict[str, Any], job: dict[str, Any]) -> list[dict[str
         elif gen.row_matches_extension(row, extension_code):
             cards.append(incoming_entry(parsed["name"], row))
         if idx % 100 == 0 or idx == total:
-            job_log(job, f"Parsed {idx}/{total}; matched {len(cards)}")
+            job_log(job, f"Parsed {idx}/{total}; kept {len(cards)} for this extension")
         time.sleep(sleep_showcard)
 
-    job_log(job, f"Matched {len(cards)} cards for extension {set_filter}")
+    job_log(job, f"Parsed {len(cards)} cards for extension {set_filter}")
     return cards
 
 
@@ -425,54 +423,25 @@ def replace_between(text: str, start_marker: str, end_marker: str, replacement: 
 def rebuild_carddb_lua_text(text: str, carddb: dict[str, dict[str, Any]]) -> str:
     image_lines = build_image_lines(carddb)
     meta_block = build_meta_lines(carddb)
+    meta_rows = "\n".join(meta_block.splitlines()[1:-1])
+    image_end_marker = (
+        "\nlocal cardDbErrata = {}"
+        if "\nlocal cardDbErrata = {}" in text
+        else "\n-- Card metadata table generated"
+    )
     text = replace_between(
         text,
         "local cardDbImages = {}\n",
-        "\n-- Card metadata table generated",
+        image_end_marker,
         image_lines,
     )
     text = replace_between(
         text,
         "local cardDbMeta = {\n",
         "\n}\n\n-- Resolve normalized key used across image/meta/errata lookups.",
-        meta_block[len("local cardDbMeta = {\n") :],
+        meta_rows,
     )
     return text
-
-
-def publish_to_tts(payload: dict[str, Any]) -> dict[str, Any]:
-    source_json = resolve_path(payload.get("source_json"), DEFAULT_JSON)
-    target_lua = resolve_path(payload.get("target_tts_lua"), DEFAULT_TTS_LUA)
-    carddb = load_json_db(source_json)
-    if not carddb:
-        raise ValueError(f"No cards found in {source_json}")
-    if not target_lua.exists():
-        raise FileNotFoundError(f"TTS card DB Lua not found: {target_lua}")
-
-    text = target_lua.read_text(encoding="utf-8")
-    text = rebuild_carddb_lua_text(text, carddb)
-    target_lua.parent.mkdir(parents=True, exist_ok=True)
-    backup_path = backup(target_lua)
-    target_lua.write_text(text, encoding="utf-8", newline="\n")
-    result = {
-        "source_json": str(source_json),
-        "target_tts_lua": str(target_lua),
-        "backup": str(backup_path) if backup_path else "",
-        "cards_total": len(carddb),
-        "image_rows": sum(1 for row in carddb.values() if row.get("image")),
-    }
-    add_history_entry(
-        {
-            "type": "publish_tts_lua",
-            "label": target_lua.name,
-            "settings": {
-                "source_json": str(source_json),
-                "target_tts_lua": str(target_lua),
-            },
-            "result": result,
-        }
-    )
-    return result
 
 
 def iter_tts_objects(root: Any) -> Any:
@@ -540,10 +509,6 @@ def publish_to_save(payload: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
-def make_variant_key(base_key: str, row: dict[str, Any], used_keys: set[str]) -> str:
-    return gen.make_variant_key(base_key, row, used_keys)
-
-
 def apply_choices(job: dict[str, Any], payload: dict[str, Any]) -> dict[str, Any]:
     settings = job["settings"]
     analysis = job["result"]
@@ -551,8 +516,6 @@ def apply_choices(job: dict[str, Any], payload: dict[str, Any]) -> dict[str, Any
     target_lua = resolve_path(payload.get("target_lua") or settings.get("target_lua"), DEFAULT_LUA)
     decisions_path = resolve_path(payload.get("decisions_json"), DEFAULT_COLLISIONS)
     choices = payload.get("choices") or {}
-    keep_unselected_as_variants = bool(payload.get("keep_unselected_as_variants"))
-
     existing = load_json_db(target_json)
     merged = {key: dict(value) for key, value in existing.items()}
     incoming_full = analysis["incoming_full"]
@@ -609,19 +572,6 @@ def apply_choices(job: dict[str, Any], payload: dict[str, Any]) -> dict[str, Any
             }
         )
 
-        if keep_unselected_as_variants:
-            used = set(merged.keys())
-            for option in conflict["choices"]:
-                if option["ref"] == selected_ref:
-                    continue
-                source = incoming_by_ref.get(option["ref"]) or existing_by_ref.get(option["ref"])
-                if not source:
-                    continue
-                variant_key = make_variant_key(base_key, source["row"], used)
-                merged[variant_key] = source["row"]
-                used.add(variant_key)
-                added += 1
-
     target_json.parent.mkdir(parents=True, exist_ok=True)
     target_lua.parent.mkdir(parents=True, exist_ok=True)
     decisions_path.parent.mkdir(parents=True, exist_ok=True)
@@ -651,7 +601,6 @@ def apply_choices(job: dict[str, Any], payload: dict[str, Any]) -> dict[str, Any
             "settings": dict(settings),
             "analysis": analysis,
             "choices": choices,
-            "keep_unselected_as_variants": keep_unselected_as_variants,
             "decision_rows": decision_rows,
             "source_history_id": payload.get("history_id") or "",
             "result": result,
@@ -690,7 +639,7 @@ def start_job(settings: dict[str, Any]) -> str:
 
 
 class CardDBHTTPServer(ThreadingHTTPServer):
-    allow_reuse_address = True
+    allow_reuse_address = False
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -715,7 +664,6 @@ class Handler(SimpleHTTPRequestHandler):
                     "target_json": str(DEFAULT_JSON),
                     "target_lua": str(DEFAULT_LUA),
                     "decisions_json": str(DEFAULT_COLLISIONS),
-                    "target_tts_lua": str(DEFAULT_TTS_LUA),
                     "target_tts_save": saves[0]["path"] if saves else "",
                 }
             )
@@ -765,12 +713,6 @@ class Handler(SimpleHTTPRequestHandler):
             }
             try:
                 self.send_json(apply_choices(job, payload))
-            except Exception as exc:
-                self.send_json({"error": str(exc), "traceback": traceback.format_exc()}, status=500)
-            return
-        if parsed.path == "/api/publish":
-            try:
-                self.send_json(publish_to_tts(payload))
             except Exception as exc:
                 self.send_json({"error": str(exc), "traceback": traceback.format_exc()}, status=500)
             return

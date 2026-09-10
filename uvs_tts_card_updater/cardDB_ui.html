@@ -92,6 +92,12 @@
       width: auto;
       margin: 0;
     }
+    .button-help {
+      margin: -5px 0 3px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
     button {
       border: 1px solid transparent;
       background: var(--panel-2);
@@ -349,7 +355,7 @@
       <div class="row">
         <div>
           <label for="maxPages">Max pages</label>
-          <input id="maxPages" type="number" min="1" value="300">
+          <input id="maxPages" type="number" min="1" value="1">
         </div>
         <div>
           <label for="emptyPages">Stop empty</label>
@@ -366,20 +372,16 @@
       <label for="decisionsJson">Decision log</label>
       <input id="decisionsJson">
 
-      <label for="targetTtsLua">TTS Card DB Lua</label>
-      <input id="targetTtsLua">
-
       <label for="targetTtsSave">TTS Save</label>
       <select id="targetTtsSave"></select>
 
-      <label class="checks"><input id="insecure" type="checkbox"> Disable TLS verification</label>
-      <label class="checks"><input id="keepVariants" type="checkbox"> Keep unselected choices as variants</label>
+      <label class="checks"><input id="insecure" type="checkbox" checked> Disable TLS verification</label>
 
       <div class="actions">
         <button id="scrapeBtn" class="primary">Scan Set</button>
         <button id="applyBtn" class="warn" disabled>Apply Choices</button>
-        <button id="publishBtn">Publish to TTS</button>
         <button id="publishSaveBtn">Publish to Save</button>
+        <div class="button-help">Updates the embedded card_db notecard inside the selected Tabletop Simulator save. This is the normal publish step for table updates.</div>
       </div>
 
       <div id="status" class="status">Idle</div>
@@ -396,7 +398,7 @@
 
       <div class="metrics">
         <div class="metric"><b id="mExisting">0</b><span class="subtle">Existing</span></div>
-        <div class="metric"><b id="mIncoming">0</b><span class="subtle">Matched</span></div>
+        <div class="metric"><b id="mIncoming">0</b><span class="subtle">Scanned</span></div>
         <div class="metric"><b id="mNew">0</b><span class="subtle">New</span></div>
         <div class="metric"><b id="mConflicts">0</b><span class="subtle">Conflicts</span></div>
         <div class="metric"><b id="mSkipped">0</b><span class="subtle">Same image</span></div>
@@ -423,7 +425,6 @@
       <section id="output">
         <h2>Update Result</h2>
         <div id="result" class="result">No update has been applied yet.</div>
-        <div id="publishResult" class="result">No TTS publish has been run yet.</div>
         <div id="publishSaveResult" class="result">No save publish has been run yet.</div>
       </section>
     </main>
@@ -441,7 +442,7 @@
       return {
         extension_code: $("extensionCode").value.trim(),
         format: $("format").value,
-        max_pages: Number($("maxPages").value || 300),
+        max_pages: Number($("maxPages").value || 1),
         stop_empty_pages: Number($("emptyPages").value || 2),
         target_json: $("targetJson").value.trim(),
         target_lua: $("targetLua").value.trim(),
@@ -455,7 +456,6 @@
       $("targetJson").value = data.target_json;
       $("targetLua").value = data.target_lua;
       $("decisionsJson").value = data.decisions_json;
-      $("targetTtsLua").value = data.target_tts_lua;
       await loadSaves(data.target_tts_save);
       await loadHistory();
     }
@@ -507,9 +507,15 @@
       $("mConflicts").textContent = r.conflict_count;
       $("mSkipped").textContent = r.skipped_same_image;
 
+      let previewEmpty = "No new non-conflicting cards found.";
+      if (r.incoming_count && r.skipped_same_image === r.incoming_count && !r.conflict_count) {
+        previewEmpty = `All ${escapeHtml(r.incoming_count)} scanned cards already exist in the target JSON with the same images.`;
+      } else if (r.incoming_count && r.conflict_count && !r.new_count) {
+        previewEmpty = "All scanned cards are already present or need conflict review.";
+      }
       $("previewGrid").innerHTML = r.new_cards.length
         ? r.new_cards.map(cardMarkup).join("")
-        : `<div class="empty">No new non-conflicting cards found.</div>`;
+        : `<div class="empty">${previewEmpty}</div>`;
 
       $("conflictList").innerHTML = r.conflicts.length
         ? r.conflicts.map(renderConflict).join("")
@@ -530,7 +536,6 @@
     function historyTypeLabel(type) {
       return ({
         apply_choices: "Applied choices",
-        publish_tts_lua: "Published TTS Lua",
         publish_save: "Published save"
       })[type] || type || "History";
     }
@@ -583,7 +588,7 @@
         ["Resolved conflicts", result.replaced_conflicts ?? ""],
         ["Source JSON", result.source_json || ""],
         ["Target JSON", result.target_json || ""],
-        ["Target Lua", result.target_lua || result.target_tts_lua || ""],
+        ["Target Lua", result.target_lua || ""],
         ["Target Save", result.target_tts_save || ""],
         ["Backup", result.backup || [result.json_backup, result.lua_backup].filter(Boolean).join(" | ")]
       ].filter((row) => row[1] !== "");
@@ -733,8 +738,7 @@
           choices: state.choices,
           target_json: $("targetJson").value.trim(),
           target_lua: $("targetLua").value.trim(),
-          decisions_json: $("decisionsJson").value.trim(),
-          keep_unselected_as_variants: $("keepVariants").checked
+          decisions_json: $("decisionsJson").value.trim()
         })
       });
       const data = await res.json();
@@ -756,37 +760,6 @@
       `;
       setStatus("Files written.");
       state.historyEntryId = null;
-      await loadHistory();
-    }
-
-    async function publishToTts() {
-      $("publishBtn").disabled = true;
-      setStatus("Publishing to TTS card DB...");
-      const res = await fetch("/api/publish", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          source_json: $("targetJson").value.trim(),
-          target_tts_lua: $("targetTtsLua").value.trim()
-        })
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        $("publishResult").textContent = data.error || "Publish failed.";
-        setStatus("Publish failed.");
-        $("publishBtn").disabled = false;
-        return;
-      }
-      $("publishResult").innerHTML = `
-        <b>Published to TTS card DB.</b><br>
-        Cards total: ${escapeHtml(data.cards_total)}<br>
-        Image rows: ${escapeHtml(data.image_rows)}<br>
-        Source JSON: ${escapeHtml(data.source_json)}<br>
-        Target Lua: ${escapeHtml(data.target_tts_lua)}<br>
-        Backup: ${escapeHtml(data.backup || "none")}
-      `;
-      setStatus("TTS card DB published.");
-      $("publishBtn").disabled = false;
       await loadHistory();
     }
 
@@ -844,7 +817,6 @@
 
     $("scrapeBtn").addEventListener("click", scrape);
     $("applyBtn").addEventListener("click", applyChoices);
-    $("publishBtn").addEventListener("click", publishToTts);
     $("publishSaveBtn").addEventListener("click", publishToSave);
     loadDefaults();
   </script>
