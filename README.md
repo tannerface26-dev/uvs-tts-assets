@@ -10,6 +10,8 @@ https://tannerface26-dev.github.io/uvs-tts-assets/new-table-zones-template.png
 https://tannerface26-dev.github.io/uvs-tts-assets/godzilla-reign-of-kaiju-base-playmat.jpg
 https://tannerface26-dev.github.io/uvs-tts-assets/default_playmat_Armored_All_Might_Vs._All_For_One.jpg
 https://tannerface26-dev.github.io/uvs-tts-assets/default_playmat_tk08.jpg
+https://tannerface26-dev.github.io/uvs-tts-assets/default_playmat_blue_sf62x.jpg
+https://tannerface26-dev.github.io/uvs-tts-assets/default_playmat_red_sf62x.png
 https://tannerface26-dev.github.io/uvs-tts-assets/MHA09-Website-Keyart-Mobile-828x828-1.jpg
 https://tannerface26-dev.github.io/uvs-tts-assets/MHA09-Website-Keyart-SocialShare-3200x1480.png
 ```
