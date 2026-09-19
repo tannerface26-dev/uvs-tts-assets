@@ -23,6 +23,11 @@ Each runtime card includes its canonical UVS Ultra `original` image identity.
 `exclusions.json` removes reviewed false positives, such as gallery records
 whose images are not distinct alternate art.
 
+Transforming cards with reviewed art on both faces store the paired back face
+under `transformBack`. The transformed face is not emitted as a separate
+runtime card. Consumers must keep both URLs associated with the front-face
+qualifier for preview and gameplay.
+
 Regenerate the files with:
 
 ```powershell

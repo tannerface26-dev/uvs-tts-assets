@@ -56,6 +56,18 @@ def load_card_db(path: Path) -> dict[str, list[dict[str, str]]]:
     return {key: list(rows.values()) for key, rows in candidates.items()}
 
 
+def load_transform_pairs(path: Path) -> list[tuple[str, str]]:
+    pairs = []
+
+    for line in path.read_text(encoding="utf-8").splitlines():
+        front = re.search(r"uvs_id=(\d+).*?transform_face=\"front\"", line)
+        back = re.search(r"transforms_to=(\d+)", line)
+        if front and back:
+            pairs.append((front.group(1), back.group(1)))
+
+    return pairs
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--card-db", required=True, type=Path)
@@ -85,6 +97,7 @@ def main() -> None:
     exclusions = json.loads(args.exclusions.read_text(encoding="utf-8"))
     excluded_card_ids = set(exclusions["uvsUltraCardIds"])
     card_db = load_card_db(args.card_db)
+    transform_pairs = load_transform_pairs(args.card_db)
     cards: dict[str, dict[str, object]] = {}
     unresolved: list[dict[str, object]] = []
 
@@ -157,8 +170,34 @@ def main() -> None:
             }
         )
 
+    paired_back_ids = set()
+    for front_id, back_id in transform_pairs:
+        front = cards.get(front_id)
+        back = cards.get(back_id)
+        if not front or not back:
+            continue
+        if len(front["variants"]) != len(back["variants"]):
+            continue
+
+        for front_variant, back_variant in zip(front["variants"], back["variants"]):
+            front_variant["transformBack"] = {
+                "uvsUltraCardId": back_id,
+                "cardName": back["cardName"],
+                "qualifier": back_variant["qualifier"],
+                "officialGalleryId": back_variant["officialGalleryId"],
+                "sourcePath": back_variant["sourcePath"],
+                "previewPath": back_variant["previewPath"],
+                "microPath": back_variant["microPath"],
+            }
+
+        front["transformBackOriginal"] = back["original"]
+        paired_back_ids.add(back_id)
+
+    for back_id in paired_back_ids:
+        del cards[back_id]
+
     catalog = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "identityFormat": "repo/{uvsUltraCardId}-{officialGalleryId}",
         "matchingPolicy": "exact_unique_normalized_name",
         "cards": sorted(cards.values(), key=lambda card: int(card["uvsUltraCardId"])),
@@ -169,13 +208,19 @@ def main() -> None:
     }
 
     variants = [variant for card in cards.values() for variant in card["variants"]]
-    qualifiers = [variant["qualifier"] for variant in variants]
+    back_variants = [
+        variant["transformBack"]
+        for variant in variants
+        if "transformBack" in variant
+    ]
+    all_faces = variants + back_variants
+    qualifiers = [variant["qualifier"] for variant in all_faces]
     if len(qualifiers) != len(set(qualifiers)):
         raise RuntimeError("Generated qualifiers are not unique")
 
     missing_files = [
         variant["sourcePath"]
-        for variant in variants
+        for variant in all_faces
         if not (args.output.parent / variant["sourcePath"]).resolve().is_file()
     ]
     if missing_files:

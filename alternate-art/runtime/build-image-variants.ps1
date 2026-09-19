@@ -62,25 +62,32 @@ $count = 0
 
 foreach ($card in $catalog.cards) {
     foreach ($variant in $card.variants) {
-        $sourcePath = [System.IO.Path]::GetFullPath(
-            (Join-Path $manifestDirectory $variant.sourcePath)
-        )
-        $previewPath = [System.IO.Path]::GetFullPath(
-            (Join-Path $manifestDirectory $variant.previewPath)
-        )
-        $microPath = [System.IO.Path]::GetFullPath(
-            (Join-Path $manifestDirectory $variant.microPath)
-        )
-        $source = [System.Drawing.Image]::FromFile($sourcePath)
-
-        try {
-            Export-JpegVariant $source $previewPath 358 500 88
-            Export-JpegVariant $source $microPath 20 20 85
-        } finally {
-            $source.Dispose()
+        $faces = @($variant)
+        if ($null -ne $variant.transformBack) {
+            $faces += $variant.transformBack
         }
 
-        $count++
+        foreach ($face in $faces) {
+            $sourcePath = [System.IO.Path]::GetFullPath(
+                (Join-Path $manifestDirectory $face.sourcePath)
+            )
+            $previewPath = [System.IO.Path]::GetFullPath(
+                (Join-Path $manifestDirectory $face.previewPath)
+            )
+            $microPath = [System.IO.Path]::GetFullPath(
+                (Join-Path $manifestDirectory $face.microPath)
+            )
+            $source = [System.Drawing.Image]::FromFile($sourcePath)
+
+            try {
+                Export-JpegVariant $source $previewPath 358 500 88
+                Export-JpegVariant $source $microPath 20 20 85
+            } finally {
+                $source.Dispose()
+            }
+
+            $count++
+        }
     }
 }
 

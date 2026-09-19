@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "identityFormat": "repo/{uvsUltraCardId}-{officialGalleryId}",
   "matchingPolicy": "exact_unique_normalized_name",
   "cards": [
@@ -1243,31 +1243,22 @@
           "sourcePath": "../official-gallery/images/2727 - Eren Yeager, Promising Scout.png",
           "previewPath": "../runtime-images/10964-2727-preview.jpg",
           "microPath": "../runtime-images/10964-2727-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-003-ErenYeagerPromisingScout-CH-ALT.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-003-ErenYeagerPromisingScout-CH-ALT.png",
+          "transformBack": {
+            "uvsUltraCardId": "10965",
+            "cardName": "Attack Titan, Ferocious Challenger",
+            "qualifier": "repo/10965-2799",
+            "officialGalleryId": "2799",
+            "sourcePath": "../official-gallery/images/2799 - Attack Titan, Ferocious Challenger.png",
+            "previewPath": "../runtime-images/10965-2799-preview.jpg",
+            "microPath": "../runtime-images/10965-2799-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "10965",
-      "cardName": "Attack Titan, Ferocious Challenger",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot01",
         "cardNumber": "331B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (2799)",
-          "qualifier": "repo/10965-2799",
-          "officialGalleryId": "2799",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/2799 - Attack Titan, Ferocious Challenger.png",
-          "previewPath": "../runtime-images/10965-2799-preview.jpg",
-          "microPath": "../runtime-images/10965-2799-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-004-AttackTitanFerociousChallenger-CH-ALT.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "10966",
@@ -2079,31 +2070,22 @@
           "sourcePath": "../official-gallery/images/2709 - Izuku Midoriya, On The Move.png",
           "previewPath": "../runtime-images/11226-2709-preview.jpg",
           "microPath": "../runtime-images/11226-2709-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-001a-IzukuMidoriyaOnTheMove-CH-ALT.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-001a-IzukuMidoriyaOnTheMove-CH-ALT.png",
+          "transformBack": {
+            "uvsUltraCardId": "11227",
+            "cardName": "Izuku Midoriya, Quirks Unleashed",
+            "qualifier": "repo/11227-2705",
+            "officialGalleryId": "2705",
+            "sourcePath": "../official-gallery/images/2705 - Izuku Midoriya, Quirks Unleashed.png",
+            "previewPath": "../runtime-images/11227-2705-preview.jpg",
+            "microPath": "../runtime-images/11227-2705-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11227",
-      "cardName": "Izuku Midoriya, Quirks Unleashed",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "mha08",
         "cardNumber": "001B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (2705)",
-          "qualifier": "repo/11227-2705",
-          "officialGalleryId": "2705",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/2705 - Izuku Midoriya, Quirks Unleashed.png",
-          "previewPath": "../runtime-images/11227-2705-preview.jpg",
-          "microPath": "../runtime-images/11227-2705-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-001b-IzukuMidoriyaQuirksUnleashed-CH-ALT.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11228",
@@ -4565,31 +4547,22 @@
           "sourcePath": "../official-gallery/images/1180 - The Founding Titan’s Power.png",
           "previewPath": "../runtime-images/11816-1180-preview.jpg",
           "microPath": "../runtime-images/11816-1180-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-104a-SR-ALT-TheFoundingTitansPower.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-104a-SR-ALT-TheFoundingTitansPower.png",
+          "transformBack": {
+            "uvsUltraCardId": "11817",
+            "cardName": "Ymir Fritz",
+            "qualifier": "repo/11817-1178",
+            "officialGalleryId": "1178",
+            "sourcePath": "../official-gallery/images/1178 - Ymir Fritz.png",
+            "previewPath": "../runtime-images/11817-1178-preview.jpg",
+            "microPath": "../runtime-images/11817-1178-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11817",
-      "cardName": "Ymir Fritz",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "104B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1178)",
-          "qualifier": "repo/11817-1178",
-          "officialGalleryId": "1178",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/1178 - Ymir Fritz.png",
-          "previewPath": "../runtime-images/11817-1178-preview.jpg",
-          "microPath": "../runtime-images/11817-1178-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-104b-SR-ALT-YmirFritz.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11821",
@@ -4609,31 +4582,22 @@
           "sourcePath": "../official-gallery/images/1248 - Armin Arlert, Power of the Colossus.png",
           "previewPath": "../runtime-images/11821-1248-preview.jpg",
           "microPath": "../runtime-images/11821-1248-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-002a-CH-ALT-ArminArlertPoweroftheColossus.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-002a-CH-ALT-ArminArlertPoweroftheColossus.png",
+          "transformBack": {
+            "uvsUltraCardId": "11822",
+            "cardName": "Colossus Titan, Finale",
+            "qualifier": "repo/11822-1246",
+            "officialGalleryId": "1246",
+            "sourcePath": "../official-gallery/images/1246 - Colossus Titan, Finale.png",
+            "previewPath": "../runtime-images/11822-1246-preview.jpg",
+            "microPath": "../runtime-images/11822-1246-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11822",
-      "cardName": "Colossus Titan, Finale",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "002B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1246)",
-          "qualifier": "repo/11822-1246",
-          "officialGalleryId": "1246",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1246 - Colossus Titan, Finale.png",
-          "previewPath": "../runtime-images/11822-1246-preview.jpg",
-          "microPath": "../runtime-images/11822-1246-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-002b-CH-ALT-ColossusTitanFinale.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11825",
@@ -4653,31 +4617,22 @@
           "sourcePath": "../official-gallery/images/1218 - Reiner Braun, Marley’s Shield.png",
           "previewPath": "../runtime-images/11825-1218-preview.jpg",
           "microPath": "../runtime-images/11825-1218-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-013a-CH-ALT-ReinerBraunMarleysShield.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-013a-CH-ALT-ReinerBraunMarleysShield.png",
+          "transformBack": {
+            "uvsUltraCardId": "11826",
+            "cardName": "Armored Titan, Finale",
+            "qualifier": "repo/11826-1216",
+            "officialGalleryId": "1216",
+            "sourcePath": "../official-gallery/images/1216 - Armored Titan, Finale.png",
+            "previewPath": "../runtime-images/11826-1216-preview.jpg",
+            "microPath": "../runtime-images/11826-1216-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11826",
-      "cardName": "Armored Titan, Finale",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "013B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1216)",
-          "qualifier": "repo/11826-1216",
-          "officialGalleryId": "1216",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1216 - Armored Titan, Finale.png",
-          "previewPath": "../runtime-images/11826-1216-preview.jpg",
-          "microPath": "../runtime-images/11826-1216-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-013b-CH-ALT-ArmoredTitanFinale.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11829",
@@ -4697,31 +4652,22 @@
           "sourcePath": "../official-gallery/images/1242 - Eren Yeager, Usurper.png",
           "previewPath": "../runtime-images/11829-1242-preview.jpg",
           "microPath": "../runtime-images/11829-1242-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-004a-CH-ALT-ErenYeagerUsurper.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-004a-CH-ALT-ErenYeagerUsurper.png",
+          "transformBack": {
+            "uvsUltraCardId": "11830",
+            "cardName": "Attack Titan, Finale",
+            "qualifier": "repo/11830-1240",
+            "officialGalleryId": "1240",
+            "sourcePath": "../official-gallery/images/1240 - Attack Titan, Finale.png",
+            "previewPath": "../runtime-images/11830-1240-preview.jpg",
+            "microPath": "../runtime-images/11830-1240-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11830",
-      "cardName": "Attack Titan, Finale",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "004B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1240)",
-          "qualifier": "repo/11830-1240",
-          "officialGalleryId": "1240",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1240 - Attack Titan, Finale.png",
-          "previewPath": "../runtime-images/11830-1240-preview.jpg",
-          "microPath": "../runtime-images/11830-1240-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-004b-CH-ALT-AttackTitanFinale.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11831",
@@ -4763,31 +4709,22 @@
           "sourcePath": "../official-gallery/images/1212 - Zeke Yeager, Warchief.png",
           "previewPath": "../runtime-images/11832-1212-preview.jpg",
           "microPath": "../runtime-images/11832-1212-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-015a-CH-ALT-ZekeYeagerWarchief.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-015a-CH-ALT-ZekeYeagerWarchief.png",
+          "transformBack": {
+            "uvsUltraCardId": "11833",
+            "cardName": "Beast Titan, Finale",
+            "qualifier": "repo/11833-1210",
+            "officialGalleryId": "1210",
+            "sourcePath": "../official-gallery/images/1210 - Beast Titan, Finale.png",
+            "previewPath": "../runtime-images/11833-1210-preview.jpg",
+            "microPath": "../runtime-images/11833-1210-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11833",
-      "cardName": "Beast Titan, Finale",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "015B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1210)",
-          "qualifier": "repo/11833-1210",
-          "officialGalleryId": "1210",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1210 - Beast Titan, Finale.png",
-          "previewPath": "../runtime-images/11833-1210-preview.jpg",
-          "microPath": "../runtime-images/11833-1210-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-015b-CH-ALT-BeastTitanFinale.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11840",
@@ -4807,31 +4744,22 @@
           "sourcePath": "../official-gallery/images/1238 - Falco Grice.png",
           "previewPath": "../runtime-images/11840-1238-preview.jpg",
           "microPath": "../runtime-images/11840-1238-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-005a-CH-ALT-FalcoGrice.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-005a-CH-ALT-FalcoGrice.png",
+          "transformBack": {
+            "uvsUltraCardId": "11841",
+            "cardName": "Jaw Titan, Flying Form",
+            "qualifier": "repo/11841-1236",
+            "officialGalleryId": "1236",
+            "sourcePath": "../official-gallery/images/1236 - Jaw Titan, Flying Form.png",
+            "previewPath": "../runtime-images/11841-1236-preview.jpg",
+            "microPath": "../runtime-images/11841-1236-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11841",
-      "cardName": "Jaw Titan, Flying Form",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "005B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1236)",
-          "qualifier": "repo/11841-1236",
-          "officialGalleryId": "1236",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1236 - Jaw Titan, Flying Form.png",
-          "previewPath": "../runtime-images/11841-1236-preview.jpg",
-          "microPath": "../runtime-images/11841-1236-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-005b-CH-ALT-JawTitanFlyingForm.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11844",
@@ -4873,31 +4801,22 @@
           "sourcePath": "../official-gallery/images/1224 - Pieck Finger, Panzer Unit Cartman.png",
           "previewPath": "../runtime-images/11845-1224-preview.jpg",
           "microPath": "../runtime-images/11845-1224-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-011a-CH-ALT-PieckFingerPanzerUnitCartman.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-011a-CH-ALT-PieckFingerPanzerUnitCartman.png",
+          "transformBack": {
+            "uvsUltraCardId": "11846",
+            "cardName": "Cart Titan, Finale",
+            "qualifier": "repo/11846-1222",
+            "officialGalleryId": "1222",
+            "sourcePath": "../official-gallery/images/1222 - Cart Titan, Finale.png",
+            "previewPath": "../runtime-images/11846-1222-preview.jpg",
+            "microPath": "../runtime-images/11846-1222-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11846",
-      "cardName": "Cart Titan, Finale",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "011B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1222)",
-          "qualifier": "repo/11846-1222",
-          "officialGalleryId": "1222",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1222 - Cart Titan, Finale.png",
-          "previewPath": "../runtime-images/11846-1222-preview.jpg",
-          "microPath": "../runtime-images/11846-1222-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-011b-CH-ALT-CartTitanFinale.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11853",
@@ -4917,31 +4836,22 @@
           "sourcePath": "../official-gallery/images/1252 - Annie Leonhart, Awakened.png",
           "previewPath": "../runtime-images/11853-1252-preview.jpg",
           "microPath": "../runtime-images/11853-1252-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-001a-CH-ALT-AnnieLeonhartAwakened.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-001a-CH-ALT-AnnieLeonhartAwakened.png",
+          "transformBack": {
+            "uvsUltraCardId": "11854",
+            "cardName": "Female Titan, Finale",
+            "qualifier": "repo/11854-1250",
+            "officialGalleryId": "1250",
+            "sourcePath": "../official-gallery/images/1250 - Female Titan, Finale.png",
+            "previewPath": "../runtime-images/11854-1250-preview.jpg",
+            "microPath": "../runtime-images/11854-1250-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11854",
-      "cardName": "Female Titan, Finale",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "001B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1250)",
-          "qualifier": "repo/11854-1250",
-          "officialGalleryId": "1250",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1250 - Female Titan, Finale.png",
-          "previewPath": "../runtime-images/11854-1250-preview.jpg",
-          "microPath": "../runtime-images/11854-1250-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-001b-CH-ALT-FemaleTitanFinale.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11855",
@@ -4983,31 +4893,22 @@
           "sourcePath": "../official-gallery/images/1220 - Porco Galliard.png",
           "previewPath": "../runtime-images/11857-1220-preview.jpg",
           "microPath": "../runtime-images/11857-1220-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-012a-CH-ALT-PorcoGalliard.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-012a-CH-ALT-PorcoGalliard.png",
+          "transformBack": {
+            "uvsUltraCardId": "11858",
+            "cardName": "Jaw Titan, Crushing Biter",
+            "qualifier": "repo/11858-1154",
+            "officialGalleryId": "1154",
+            "sourcePath": "../official-gallery/images/1154 - Jaw Titan, Crushing Biter.png",
+            "previewPath": "../runtime-images/11858-1154-preview.jpg",
+            "microPath": "../runtime-images/11858-1154-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11858",
-      "cardName": "Jaw Titan, Crushing Biter",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "012B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1154)",
-          "qualifier": "repo/11858-1154",
-          "officialGalleryId": "1154",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "character-alt-art",
-          "sourcePath": "../official-gallery/images/1154 - Jaw Titan, Crushing Biter.png",
-          "previewPath": "../runtime-images/11858-1154-preview.jpg",
-          "microPath": "../runtime-images/11858-1154-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-012b-CH-ALT-JawTitanCrushingBiter.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11868",
@@ -5181,31 +5082,22 @@
           "sourcePath": "../official-gallery/images/1186 - War Hammer Titan Attacks!.png",
           "previewPath": "../runtime-images/11931-1186-preview.jpg",
           "microPath": "../runtime-images/11931-1186-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-081a-SR-ALT-WarHammerTitanAttacks.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-081a-SR-ALT-WarHammerTitanAttacks.png",
+          "transformBack": {
+            "uvsUltraCardId": "11932",
+            "cardName": "The War Hammer Titan",
+            "qualifier": "repo/11932-1184",
+            "officialGalleryId": "1184",
+            "sourcePath": "../official-gallery/images/1184 - The War Hammer Titan.png",
+            "previewPath": "../runtime-images/11932-1184-preview.jpg",
+            "microPath": "../runtime-images/11932-1184-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11932",
-      "cardName": "The War Hammer Titan",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "081B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1184)",
-          "qualifier": "repo/11932-1184",
-          "officialGalleryId": "1184",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/1184 - The War Hammer Titan.png",
-          "previewPath": "../runtime-images/11932-1184-preview.jpg",
-          "microPath": "../runtime-images/11932-1184-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-081b-SR-ALT-TheWarHammerTitan.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11933",
@@ -5225,31 +5117,22 @@
           "sourcePath": "../official-gallery/images/1164 - Colossal Confrontation.png",
           "previewPath": "../runtime-images/11933-1164-preview.jpg",
           "microPath": "../runtime-images/11933-1164-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-153a-SR-ALT-ColossalConfrontation.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-153a-SR-ALT-ColossalConfrontation.png",
+          "transformBack": {
+            "uvsUltraCardId": "11934",
+            "cardName": "Seeking Relief",
+            "qualifier": "repo/11934-1162",
+            "officialGalleryId": "1162",
+            "sourcePath": "../official-gallery/images/1162 - Seeking Relief.png",
+            "previewPath": "../runtime-images/11934-1162-preview.jpg",
+            "microPath": "../runtime-images/11934-1162-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11934",
-      "cardName": "Seeking Relief",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "153B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1162)",
-          "qualifier": "repo/11934-1162",
-          "officialGalleryId": "1162",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/1162 - Seeking Relief.png",
-          "previewPath": "../runtime-images/11934-1162-preview.jpg",
-          "microPath": "../runtime-images/11934-1162-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-153b-SR-ALT-SeekingRelief.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11936",
@@ -5269,31 +5152,22 @@
           "sourcePath": "../official-gallery/images/1206 - Falco’s Jaw Titan Attacks!.png",
           "previewPath": "../runtime-images/11936-1206-preview.jpg",
           "microPath": "../runtime-images/11936-1206-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-023a-SR-ALT-FalcosJawTitanAttacks.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-023a-SR-ALT-FalcosJawTitanAttacks.png",
+          "transformBack": {
+            "uvsUltraCardId": "11937",
+            "cardName": "Falco’s Jaw Titan",
+            "qualifier": "repo/11937-1204",
+            "officialGalleryId": "1204",
+            "sourcePath": "../official-gallery/images/1204 - Falco’s Jaw Titan.png",
+            "previewPath": "../runtime-images/11937-1204-preview.jpg",
+            "microPath": "../runtime-images/11937-1204-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11937",
-      "cardName": "Falco’s Jaw Titan",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "023B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1204)",
-          "qualifier": "repo/11937-1204",
-          "officialGalleryId": "1204",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/1204 - Falco’s Jaw Titan.png",
-          "previewPath": "../runtime-images/11937-1204-preview.jpg",
-          "microPath": "../runtime-images/11937-1204-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-023b-SR-ALT-FalcosJawTitan.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11938",
@@ -5335,31 +5209,22 @@
           "sourcePath": "../official-gallery/images/1196 - Female Titan’s Roundhouse Kick.png",
           "previewPath": "../runtime-images/11947-1196-preview.jpg",
           "microPath": "../runtime-images/11947-1196-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-047a-SR-ALT-FemaleTitansRoundhouseKick.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-047a-SR-ALT-FemaleTitansRoundhouseKick.png",
+          "transformBack": {
+            "uvsUltraCardId": "11948",
+            "cardName": "Annie’s Contemplations",
+            "qualifier": "repo/11948-1194",
+            "officialGalleryId": "1194",
+            "sourcePath": "../official-gallery/images/1194 - Annie’s Contemplations.png",
+            "previewPath": "../runtime-images/11948-1194-preview.jpg",
+            "microPath": "../runtime-images/11948-1194-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11948",
-      "cardName": "Annie’s Contemplations",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "047B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1194)",
-          "qualifier": "repo/11948-1194",
-          "officialGalleryId": "1194",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/1194 - Annie’s Contemplations.png",
-          "previewPath": "../runtime-images/11948-1194-preview.jpg",
-          "microPath": "../runtime-images/11948-1194-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-047b-SR-ALT-AnniesContemplations.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11956",
@@ -5489,31 +5354,22 @@
           "sourcePath": "../official-gallery/images/1172 - Falling Titans.png",
           "previewPath": "../runtime-images/11973-1172-preview.jpg",
           "microPath": "../runtime-images/11973-1172-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-127a-SR-ALT-FallingTitans.png"
+          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-127a-SR-ALT-FallingTitans.png",
+          "transformBack": {
+            "uvsUltraCardId": "11974",
+            "cardName": "Zeke’s Dream Becoming Real",
+            "qualifier": "repo/11974-1170",
+            "officialGalleryId": "1170",
+            "sourcePath": "../official-gallery/images/1170 - Zeke’s Dream Becoming Real.png",
+            "previewPath": "../runtime-images/11974-1170-preview.jpg",
+            "microPath": "../runtime-images/11974-1170-ci-micro.jpg"
+          }
         }
-      ]
-    },
-    {
-      "uvsUltraCardId": "11974",
-      "cardName": "Zeke’s Dream Becoming Real",
-      "original": {
+      ],
+      "transformBackOriginal": {
         "setId": "aot03",
         "cardNumber": "127B"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (1170)",
-          "qualifier": "repo/11974-1170",
-          "officialGalleryId": "1170",
-          "officialSetCode": null,
-          "officialCardNumber": null,
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/1170 - Zeke’s Dream Becoming Real.png",
-          "previewPath": "../runtime-images/11974-1170-preview.jpg",
-          "microPath": "../runtime-images/11974-1170-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-127b-SR-ALT-ZekesDreamBecomingReal.png"
-        }
-      ]
+      }
     },
     {
       "uvsUltraCardId": "11976",
