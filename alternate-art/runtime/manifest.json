@@ -19,6 +19,8 @@
           "officialCardNumber": "199",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/15361 - Yoshimitsu.png",
+          "previewPath": "../runtime-images/4587-15361-preview.jpg",
+          "microPath": "../runtime-images/4587-15361-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/06/TK802-199-CH-R-ALT-Yoshimitsu.png"
         }
       ]
@@ -39,6 +41,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/4100 - Kyoka Jiro.png",
+          "previewPath": "../runtime-images/9242-4100-preview.jpg",
+          "microPath": "../runtime-images/9242-4100-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-019-KyokaJiro-CH.png"
         }
       ]
@@ -59,6 +63,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/4012 - Momo Yaoyorozu.png",
+          "previewPath": "../runtime-images/9260-4012-preview.jpg",
+          "microPath": "../runtime-images/9260-4012-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-055-MomoYaoyorozu-CH.png"
         }
       ]
@@ -79,6 +85,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3970 - Ochaco Uraraka.png",
+          "previewPath": "../runtime-images/9278-3970-preview.jpg",
+          "microPath": "../runtime-images/9278-3970-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-073-OchacoUraraka-CH.png"
         }
       ]
@@ -99,6 +107,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3884 - Tsuyu Asui.png",
+          "previewPath": "../runtime-images/9314-3884-preview.jpg",
+          "microPath": "../runtime-images/9314-3884-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-106-TsuyuAsui-CH.png"
         }
       ]
@@ -119,6 +129,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/4056 - Mina Ashido.png",
+          "previewPath": "../runtime-images/9343-4056-preview.jpg",
+          "microPath": "../runtime-images/9343-4056-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-037-MinaAshido-CH.png"
         }
       ]
@@ -139,6 +151,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3926 - Midnight.png",
+          "previewPath": "../runtime-images/9386-3926-preview.jpg",
+          "microPath": "../runtime-images/9386-3926-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-090-Midnight-CH.png"
         }
       ]
@@ -159,6 +173,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3936 - Mei Hatsume.png",
+          "previewPath": "../runtime-images/9414-3936-preview.jpg",
+          "microPath": "../runtime-images/9414-3936-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-086-MeiHatsume-CH.png"
         }
       ]
@@ -179,6 +195,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/4142 - Himiko Toga.png",
+          "previewPath": "../runtime-images/9418-4142-preview.jpg",
+          "microPath": "../runtime-images/9418-4142-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-001-HimikoToga-CH.png"
         }
       ]
@@ -199,6 +217,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4792 - Mirio Togata.png",
+          "previewPath": "../runtime-images/9956-4792-preview.jpg",
+          "microPath": "../runtime-images/9956-4792-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S6-168_MirioTogata_CH-ALT.png"
         }
       ]
@@ -219,6 +239,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3914 - Nejire Hado.png",
+          "previewPath": "../runtime-images/9958-3914-preview.jpg",
+          "microPath": "../runtime-images/9958-3914-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-094-NejireHado-CH.png"
         },
         {
@@ -229,6 +251,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4788 - Nejire Hado.png",
+          "previewPath": "../runtime-images/9958-4788-preview.jpg",
+          "microPath": "../runtime-images/9958-4788-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S6-170_NejireHado_CH-ALT.png"
         }
       ]
@@ -249,6 +273,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4782 - Tamaki Amajiki.png",
+          "previewPath": "../runtime-images/9959-4782-preview.jpg",
+          "microPath": "../runtime-images/9959-4782-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S6-173_TamakiAmajiki_CH-ALT.png"
         }
       ]
@@ -269,6 +295,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3894 - Ryukyu.png",
+          "previewPath": "../runtime-images/10262-3894-preview.jpg",
+          "microPath": "../runtime-images/10262-3894-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-102-Ryukyu-CH.png"
         }
       ]
@@ -289,6 +317,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/4034 - Mirko.png",
+          "previewPath": "../runtime-images/10337-4034-preview.jpg",
+          "microPath": "../runtime-images/10337-4034-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-046-Mirko-CH.png"
         }
       ]
@@ -309,6 +339,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4462 - Keiko’s Support.png",
+          "previewPath": "../runtime-images/10396-4462-preview.jpg",
+          "microPath": "../runtime-images/10396-4462-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/YYH-DT-142-KeikosSupport-UC-ALT.png"
         }
       ]
@@ -329,6 +361,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4464 - Urameshi Perseverance.png",
+          "previewPath": "../runtime-images/10404-4464-preview.jpg",
+          "microPath": "../runtime-images/10404-4464-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/YYH-DT-154-UrameshiPerserverance-UR-ALT.png"
         }
       ]
@@ -349,6 +383,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4402 - Dragon of the Darkness Flame.png",
+          "previewPath": "../runtime-images/10452-4402-preview.jpg",
+          "microPath": "../runtime-images/10452-4402-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/YYH-DT-040-DragonoftheDarknessFlame-UR-ALT.png"
         }
       ]
@@ -369,6 +405,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4404 - Rose Whip Barrage.png",
+          "previewPath": "../runtime-images/10479-4404-preview.jpg",
+          "microPath": "../runtime-images/10479-4404-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/YYH-DT-067-RoseWhipBarrage-UR-ALT.png"
         }
       ]
@@ -389,6 +427,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4406 - Dimension Sword.png",
+          "previewPath": "../runtime-images/10499-4406-preview.jpg",
+          "microPath": "../runtime-images/10499-4406-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/YYH-DT-085-DimensionSword-UR-ALT.png"
         }
       ]
@@ -409,6 +449,8 @@
           "officialCardNumber": null,
           "rarity": "alt-art",
           "sourcePath": "../official-gallery/images/4408 - Double Spirit Blast.png",
+          "previewPath": "../runtime-images/10549-4408-preview.jpg",
+          "microPath": "../runtime-images/10549-4408-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/YYH-DT-137-DoubleSpiritBlast-UR-ALT.png"
         }
       ]
@@ -429,6 +471,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/4136 - Needle Barrage.png",
+          "previewPath": "../runtime-images/10636-4136-preview.jpg",
+          "microPath": "../runtime-images/10636-4136-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-003-NeedleBarrage-UR.png"
         }
       ]
@@ -449,6 +493,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/4120 - Itsuka Kendo.png",
+          "previewPath": "../runtime-images/10643-4120-preview.jpg",
+          "microPath": "../runtime-images/10643-4120-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-010-ItsukaKendo-CH.png"
         }
       ]
@@ -469,6 +515,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/4110 - Double Jumbo Fist.png",
+          "previewPath": "../runtime-images/10647-4110-preview.jpg",
+          "microPath": "../runtime-images/10647-4110-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-014-DoubleJumboFist-UR.png"
         }
       ]
@@ -489,6 +537,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/4094 - Heartbeat Surround.png",
+          "previewPath": "../runtime-images/10654-4094-preview.jpg",
+          "microPath": "../runtime-images/10654-4094-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-021-HeartbeatSurround-UR.png"
         }
       ]
@@ -509,6 +559,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/4078 - Lady Nagant.png",
+          "previewPath": "../runtime-images/10661-4078-preview.jpg",
+          "microPath": "../runtime-images/10661-4078-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-028-LadyNagant-CH.png"
         }
       ]
@@ -529,6 +581,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/4070 - Sniping Spy.png",
+          "previewPath": "../runtime-images/10664-4070-preview.jpg",
+          "microPath": "../runtime-images/10664-4070-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-031-SnipingSpy-UR.png"
         }
       ]
@@ -549,6 +603,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/4050 - Acid Splash.png",
+          "previewPath": "../runtime-images/10672-4050-preview.jpg",
+          "microPath": "../runtime-images/10672-4050-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-039-AcidSplash-UR.png"
         }
       ]
@@ -569,6 +625,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/4028 - Luna Arc.png",
+          "previewPath": "../runtime-images/10681-4028-preview.jpg",
+          "microPath": "../runtime-images/10681-4028-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-048-LunaArc-UR.png"
         }
       ]
@@ -589,6 +647,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/4008 - Canister Creation Strike.png",
+          "previewPath": "../runtime-images/10689-4008-preview.jpg",
+          "microPath": "../runtime-images/10689-4008-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-056-CanisterCreationStrike-UR.png"
         }
       ]
@@ -609,6 +669,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3932 - Patchwork Baby.png",
+          "previewPath": "../runtime-images/10698-3932-preview.jpg",
+          "microPath": "../runtime-images/10698-3932-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-088-PatchworkBaby-UR.png"
         }
       ]
@@ -629,6 +691,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3982 - Mesa Mallet.png",
+          "previewPath": "../runtime-images/10703-3982-preview.jpg",
+          "microPath": "../runtime-images/10703-3982-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-067-MesaMallet-UR.png"
         }
       ]
@@ -649,6 +713,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3960 - Zero Satellites.png",
+          "previewPath": "../runtime-images/10713-3960-preview.jpg",
+          "microPath": "../runtime-images/10713-3960-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-077-ZeroSatellites-UR.png"
         }
       ]
@@ -669,6 +735,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3948 - Kinoko Komori.png",
+          "previewPath": "../runtime-images/10718-3948-preview.jpg",
+          "microPath": "../runtime-images/10718-3948-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-082-KinokoKomori-CH.png"
         }
       ]
@@ -689,6 +757,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3942 - Splitgill Lung Strike.png",
+          "previewPath": "../runtime-images/10720-3942-preview.jpg",
+          "microPath": "../runtime-images/10720-3942-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-084-SplitgillLungStrike-UR.png"
         }
       ]
@@ -709,6 +779,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3920 - Somnambulist Subdual.png",
+          "previewPath": "../runtime-images/10729-3920-preview.jpg",
+          "microPath": "../runtime-images/10729-3920-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-092-SomnambulistSubdual-UR.png"
         }
       ]
@@ -729,6 +801,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3910 - Nejire Flood.png",
+          "previewPath": "../runtime-images/10732-3910-preview.jpg",
+          "microPath": "../runtime-images/10732-3910-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-095-NejireFlood-UR.png"
         }
       ]
@@ -749,6 +823,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3904 - Pony Tsunotori.png",
+          "previewPath": "../runtime-images/10735-3904-preview.jpg",
+          "microPath": "../runtime-images/10735-3904-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-098-PonyTsunotori-CH.png"
         }
       ]
@@ -769,6 +845,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3880 - Camouflage Counter.png",
+          "previewPath": "../runtime-images/10748-3880-preview.jpg",
+          "microPath": "../runtime-images/10748-3880-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-107-CamouflageCounter-UR.png"
         }
       ]
@@ -789,6 +867,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/3872 - Woman.png",
+          "previewPath": "../runtime-images/10751-3872-preview.jpg",
+          "microPath": "../runtime-images/10751-3872-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-110-Woman-CH.png"
         }
       ]
@@ -809,6 +889,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3866 - Rupture Driver.png",
+          "previewPath": "../runtime-images/10753-3866-preview.jpg",
+          "microPath": "../runtime-images/10753-3866-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-112-RuptureDriver-UR.png"
         }
       ]
@@ -829,6 +911,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3860 - Decay Awakened.png",
+          "previewPath": "../runtime-images/10755-3860-preview.jpg",
+          "microPath": "../runtime-images/10755-3860-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-114-DecayAwakened-UR.png"
         }
       ]
@@ -849,6 +933,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3854 - Black Abyss.png",
+          "previewPath": "../runtime-images/10757-3854-preview.jpg",
+          "microPath": "../runtime-images/10757-3854-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-116-BlackAbyss-UR.png"
         }
       ]
@@ -869,6 +955,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3844 - Blueflame Surge.png",
+          "previewPath": "../runtime-images/10761-3844-preview.jpg",
+          "microPath": "../runtime-images/10761-3844-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-120-BlueflameSurge-UR.png"
         }
       ]
@@ -889,6 +977,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3840 - Cluster Bombs.png",
+          "previewPath": "../runtime-images/10762-3840-preview.jpg",
+          "microPath": "../runtime-images/10762-3840-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-121-ClusterBombs-UR.png"
         }
       ]
@@ -909,6 +999,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3802 - Lightning Rod.png",
+          "previewPath": "../runtime-images/10763-3802-preview.jpg",
+          "microPath": "../runtime-images/10763-3802-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-138-LightningRod-UR.png"
         }
       ]
@@ -929,6 +1021,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3728 - Resistance Training.png",
+          "previewPath": "../runtime-images/10765-3728-preview.jpg",
+          "microPath": "../runtime-images/10765-3728-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-172-ResistanceTraining-UR.png"
         }
       ]
@@ -949,6 +1043,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3790 - Recipro Turbo.png",
+          "previewPath": "../runtime-images/10799-3790-preview.jpg",
+          "microPath": "../runtime-images/10799-3790-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-142-ReciproTurbo-UR.png"
         }
       ]
@@ -969,6 +1065,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3774 - Super Grape Rush.png",
+          "previewPath": "../runtime-images/10806-3774-preview.jpg",
+          "microPath": "../runtime-images/10806-3774-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHACCG-S7-149-SuperGrapeRush-UR.png"
         }
       ]
@@ -989,6 +1087,8 @@
           "officialCardNumber": "002",
           "rarity": "character-ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2733 - Armin Arlert.png",
+          "previewPath": "../runtime-images/10954-2733-preview.jpg",
+          "microPath": "../runtime-images/10954-2733-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-002-ArminArlert-UR-ALT.png"
         }
       ]
@@ -1009,6 +1109,8 @@
           "officialCardNumber": "0011",
           "rarity": "character-ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2737 - Eren, Attack Titan.png",
+          "previewPath": "../runtime-images/10956-2737-preview.jpg",
+          "microPath": "../runtime-images/10956-2737-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-0011-ErenAttackTitan-UR-ALT.png"
         }
       ]
@@ -1029,6 +1131,8 @@
           "officialCardNumber": "014",
           "rarity": "character-ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3481 - Levi Ackerman.png",
+          "previewPath": "../runtime-images/10957-3481-preview.jpg",
+          "microPath": "../runtime-images/10957-3481-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-014-LeviAckerman-UR-ALT.png"
         }
       ]
@@ -1049,6 +1153,8 @@
           "officialCardNumber": "016",
           "rarity": "character-ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3475 - Mikasa Ackerman.png",
+          "previewPath": "../runtime-images/10958-3475-preview.jpg",
+          "microPath": "../runtime-images/10958-3475-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-016-MikasaAckerman-UR-ALT.png"
         }
       ]
@@ -1069,6 +1175,8 @@
           "officialCardNumber": "043",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3420 - Whirling Slash.png",
+          "previewPath": "../runtime-images/10959-3420-preview.jpg",
+          "microPath": "../runtime-images/10959-3420-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-043-WhirlingSlash-SR-ALT.png"
         }
       ]
@@ -1089,6 +1197,8 @@
           "officialCardNumber": "051",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3405 - Get In, Get Out.png",
+          "previewPath": "../runtime-images/10960-3405-preview.jpg",
+          "microPath": "../runtime-images/10960-3405-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-051-GetInGetOut-UR-ALT.png"
         }
       ]
@@ -1109,6 +1219,8 @@
           "officialCardNumber": "251",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/2982 - Pressing the Advantage.png",
+          "previewPath": "../runtime-images/10963-2982-preview.jpg",
+          "microPath": "../runtime-images/10963-2982-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-251-PressingTheAdvantage-SR-ALT.png"
         }
       ]
@@ -1129,6 +1241,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2727 - Eren Yeager, Promising Scout.png",
+          "previewPath": "../runtime-images/10964-2727-preview.jpg",
+          "microPath": "../runtime-images/10964-2727-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-003-ErenYeagerPromisingScout-CH-ALT.png"
         }
       ]
@@ -1149,6 +1263,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2799 - Attack Titan, Ferocious Challenger.png",
+          "previewPath": "../runtime-images/10965-2799-preview.jpg",
+          "microPath": "../runtime-images/10965-2799-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-004-AttackTitanFerociousChallenger-CH-ALT.png"
         }
       ]
@@ -1169,6 +1285,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2795 - Armin Arlert, Scared Strategist.png",
+          "previewPath": "../runtime-images/10966-2795-preview.jpg",
+          "microPath": "../runtime-images/10966-2795-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-002-ArminArlertScaredStrategist-CH-ALT.png"
         }
       ]
@@ -1189,6 +1307,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2791 - Support of Your Friends.png",
+          "previewPath": "../runtime-images/10967-2791-preview.jpg",
+          "microPath": "../runtime-images/10967-2791-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-003-SupportOfYourFriends-UR-ALT.png"
         }
       ]
@@ -1209,6 +1329,8 @@
           "officialCardNumber": null,
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2783 - Clearing the Way.png",
+          "previewPath": "../runtime-images/10968-2783-preview.jpg",
+          "microPath": "../runtime-images/10968-2783-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-005-ClearingTheWay-UR-ALT.png"
         }
       ]
@@ -1229,6 +1351,8 @@
           "officialCardNumber": "241",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3006 - Execute Orders!.png",
+          "previewPath": "../runtime-images/10980-3006-preview.jpg",
+          "microPath": "../runtime-images/10980-3006-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-241-ExecuteOrders-UR-ALT.png"
         }
       ]
@@ -1249,6 +1373,8 @@
           "officialCardNumber": "257",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/2968 - Wall Maria’s Might.png",
+          "previewPath": "../runtime-images/10981-2968-preview.jpg",
+          "microPath": "../runtime-images/10981-2968-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-257-WallMariasMight-SR-ALT.png"
         }
       ]
@@ -1269,6 +1395,8 @@
           "officialCardNumber": "267",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2946 - Fortify Walls.png",
+          "previewPath": "../runtime-images/10983-2946-preview.jpg",
+          "microPath": "../runtime-images/10983-2946-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-267-FortifyWalls-UR-ALT.png"
         }
       ]
@@ -1289,6 +1417,8 @@
           "officialCardNumber": "004",
           "rarity": "character-secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3507 - Beast Titan.png",
+          "previewPath": "../runtime-images/10993-3507-preview.jpg",
+          "microPath": "../runtime-images/10993-3507-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-004-BeastTitan-SR-ALT.png"
         }
       ]
@@ -1309,6 +1439,8 @@
           "officialCardNumber": "087",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3331 - Well-Orchestrated Attack.png",
+          "previewPath": "../runtime-images/10999-3331-preview.jpg",
+          "microPath": "../runtime-images/10999-3331-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-087-WellOrchestratedAttack-SR-ALT.png"
         }
       ]
@@ -1329,6 +1461,8 @@
           "officialCardNumber": "112",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3275 - Coordinated Strike.png",
+          "previewPath": "../runtime-images/11001-3275-preview.jpg",
+          "microPath": "../runtime-images/11001-3275-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-112-CoordinatedStrike-SR-ALT.png"
         }
       ]
@@ -1349,6 +1483,8 @@
           "officialCardNumber": "027",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3451 - High-Speed Dive.png",
+          "previewPath": "../runtime-images/11007-3451-preview.jpg",
+          "microPath": "../runtime-images/11007-3451-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-027-HighSpeedDive-SR-ALT.png"
         }
       ]
@@ -1369,6 +1505,8 @@
           "officialCardNumber": "064",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3381 - Fortitude of the Armored Titan.png",
+          "previewPath": "../runtime-images/11008-3381-preview.jpg",
+          "microPath": "../runtime-images/11008-3381-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-064-FortitudeOfTheArmoredTitan-SR-ALT.png"
         }
       ]
@@ -1389,6 +1527,8 @@
           "officialCardNumber": "121",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3245 - Short Work.png",
+          "previewPath": "../runtime-images/11009-3245-preview.jpg",
+          "microPath": "../runtime-images/11009-3245-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-121-ShortWork-SR-ALT.png"
         }
       ]
@@ -1409,6 +1549,8 @@
           "officialCardNumber": "155",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3188 - Colossus’s Steam Barrier.png",
+          "previewPath": "../runtime-images/11010-3188-preview.jpg",
+          "microPath": "../runtime-images/11010-3188-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-155-ColossussSteamBarrier-SR-ALT.png"
         }
       ]
@@ -1429,6 +1571,8 @@
           "officialCardNumber": "164",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3167 - Intense Heat Blast.png",
+          "previewPath": "../runtime-images/11011-3167-preview.jpg",
+          "microPath": "../runtime-images/11011-3167-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-164-IntenseHeatBlast-SR-ALT.png"
         }
       ]
@@ -1449,6 +1593,8 @@
           "officialCardNumber": "206",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3084 - Midst of Despair.png",
+          "previewPath": "../runtime-images/11012-3084-preview.jpg",
+          "microPath": "../runtime-images/11012-3084-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-206-MidstOfDespair-SR-ALT.png"
         }
       ]
@@ -1469,6 +1615,8 @@
           "officialCardNumber": "212",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/3070 - Stomp of the Female Titan.png",
+          "previewPath": "../runtime-images/11013-3070-preview.jpg",
+          "microPath": "../runtime-images/11013-3070-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-212-StompOfTheFemaleTitan-SR-ALT.png"
         }
       ]
@@ -1489,6 +1637,8 @@
           "officialCardNumber": "023",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3457 - Ascend to Battle.png",
+          "previewPath": "../runtime-images/11015-3457-preview.jpg",
+          "microPath": "../runtime-images/11015-3457-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-023-AscendToBattle-UR-ALT.png"
         }
       ]
@@ -1509,6 +1659,8 @@
           "officialCardNumber": "036",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3435 - Race to the Rescue.png",
+          "previewPath": "../runtime-images/11025-3435-preview.jpg",
+          "microPath": "../runtime-images/11025-3435-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-036-RaceToTheRescue-UR-ALT.png"
         }
       ]
@@ -1529,6 +1681,8 @@
           "officialCardNumber": "073",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3361 - Emerge Victorious.png",
+          "previewPath": "../runtime-images/11053-3361-preview.jpg",
+          "microPath": "../runtime-images/11053-3361-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-073-EmergeVictorious-UR-ALT.png"
         }
       ]
@@ -1549,6 +1703,8 @@
           "officialCardNumber": "083",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3339 - Swarmed by Titans.png",
+          "previewPath": "../runtime-images/11062-3339-preview.jpg",
+          "microPath": "../runtime-images/11062-3339-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-083-SwarmedByTitans-UR-ALT.png"
         }
       ]
@@ -1569,6 +1725,8 @@
           "officialCardNumber": "092",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3319 - Change of Plans.png",
+          "previewPath": "../runtime-images/11069-3319-preview.jpg",
+          "microPath": "../runtime-images/11069-3319-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-092-ChangeOfPlans-UR-ALT.png"
         }
       ]
@@ -1589,6 +1747,8 @@
           "officialCardNumber": "110",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3281 - Attack Titan’s Destructive Power.png",
+          "previewPath": "../runtime-images/11084-3281-preview.jpg",
+          "microPath": "../runtime-images/11084-3281-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-110-AttackTitansDestructivePower-UR-ALT.png"
         }
       ]
@@ -1609,6 +1769,8 @@
           "officialCardNumber": "112",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3269 - Double-Bladed Spin.png",
+          "previewPath": "../runtime-images/11087-3269-preview.jpg",
+          "microPath": "../runtime-images/11087-3269-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-112-Double-BladedSpin-UR-ALT.png"
         }
       ]
@@ -1629,6 +1791,8 @@
           "officialCardNumber": "121",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3253 - Ravages of War.png",
+          "previewPath": "../runtime-images/11094-3253-preview.jpg",
+          "microPath": "../runtime-images/11094-3253-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-121-RavagesOfWar-UR-ALT.png"
         }
       ]
@@ -1649,6 +1813,8 @@
           "officialCardNumber": "145",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3208 - Sins of the Past.png",
+          "previewPath": "../runtime-images/11113-3208-preview.jpg",
+          "microPath": "../runtime-images/11113-3208-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-145-SinsOfThePast-UR-ALT.png"
         }
       ]
@@ -1669,6 +1835,8 @@
           "officialCardNumber": "155",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3171 - Increased Hostility.png",
+          "previewPath": "../runtime-images/11126-3171-preview.jpg",
+          "microPath": "../runtime-images/11126-3171-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-155-IncreasedHostility-UR-ALT.png"
         }
       ]
@@ -1689,6 +1857,8 @@
           "officialCardNumber": "172",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3154 - Violent Betrayal.png",
+          "previewPath": "../runtime-images/11133-3154-preview.jpg",
+          "microPath": "../runtime-images/11133-3154-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-172-ViolentBetrayal-UR-ALT.png"
         }
       ]
@@ -1709,6 +1879,8 @@
           "officialCardNumber": "187",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3125 - Sacrifice for the Cause.png",
+          "previewPath": "../runtime-images/11144-3125-preview.jpg",
+          "microPath": "../runtime-images/11144-3125-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-187-SacrificeForTheCause-UR-ALT.png"
         }
       ]
@@ -1729,6 +1901,8 @@
           "officialCardNumber": "213",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3066 - The Beast Titan’s Call.png",
+          "previewPath": "../runtime-images/11160-3066-preview.jpg",
+          "microPath": "../runtime-images/11160-3066-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-213-TheBeastTitansCall-UR-ALT.png"
         }
       ]
@@ -1749,6 +1923,8 @@
           "officialCardNumber": "233",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/3024 - Uplifting Bond.png",
+          "previewPath": "../runtime-images/11174-3024-preview.jpg",
+          "microPath": "../runtime-images/11174-3024-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-233-UpliftingBond-UR-ALT.png"
         }
       ]
@@ -1769,6 +1945,8 @@
           "officialCardNumber": "246",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2994 - Intimidating Command.png",
+          "previewPath": "../runtime-images/11182-2994-preview.jpg",
+          "microPath": "../runtime-images/11182-2994-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-246-IntimidatingCommand-UR-ALT.png"
         }
       ]
@@ -1789,6 +1967,8 @@
           "officialCardNumber": "293",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2876 - Unexpected Outcomes.png",
+          "previewPath": "../runtime-images/11208-2876-preview.jpg",
+          "microPath": "../runtime-images/11208-2876-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-293-UnexpectedOutcomes-UR-ALT.png"
         }
       ]
@@ -1809,6 +1989,8 @@
           "officialCardNumber": null,
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2787 - Reloadable Swords.png",
+          "previewPath": "../runtime-images/11211-2787-preview.jpg",
+          "microPath": "../runtime-images/11211-2787-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-004-ReloadableSwords-R-ALT.png"
         }
       ]
@@ -1829,6 +2011,8 @@
           "officialCardNumber": null,
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2769 - Battlefield Aid.png",
+          "previewPath": "../runtime-images/11215-2769-preview.jpg",
+          "microPath": "../runtime-images/11215-2769-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-011-BattlefieldAid-R-ALT.png"
         }
       ]
@@ -1849,6 +2033,8 @@
           "officialCardNumber": null,
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2763 - Eren’s Sidestep.png",
+          "previewPath": "../runtime-images/11216-2763-preview.jpg",
+          "microPath": "../runtime-images/11216-2763-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-013-ErensSidestep-R-ALT.png"
         }
       ]
@@ -1869,6 +2055,8 @@
           "officialCardNumber": null,
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2745 - Titan Arm Bar.png",
+          "previewPath": "../runtime-images/11218-2745-preview.jpg",
+          "microPath": "../runtime-images/11218-2745-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT01-CS-021-TitanArmBar-R-ALT.png"
         }
       ]
@@ -1889,6 +2077,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2709 - Izuku Midoriya, On The Move.png",
+          "previewPath": "../runtime-images/11226-2709-preview.jpg",
+          "microPath": "../runtime-images/11226-2709-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-001a-IzukuMidoriyaOnTheMove-CH-ALT.png"
         }
       ]
@@ -1909,6 +2099,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2705 - Izuku Midoriya, Quirks Unleashed.png",
+          "previewPath": "../runtime-images/11227-2705-preview.jpg",
+          "microPath": "../runtime-images/11227-2705-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-001b-IzukuMidoriyaQuirksUnleashed-CH-ALT.png"
         }
       ]
@@ -1929,6 +2121,8 @@
           "officialCardNumber": "002",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2701 - Wielding One For All.png",
+          "previewPath": "../runtime-images/11228-2701-preview.jpg",
+          "microPath": "../runtime-images/11228-2701-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-002-WieldingOneForAll-UR-ALT.png"
         }
       ]
@@ -1949,6 +2143,8 @@
           "officialCardNumber": "003",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2697 - Tattered Costume.png",
+          "previewPath": "../runtime-images/11229-2697-preview.jpg",
+          "microPath": "../runtime-images/11229-2697-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-003-TatteredCostume-R-ALT.png"
         }
       ]
@@ -1969,6 +2165,8 @@
           "officialCardNumber": "004",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2693 - Bullet Kick.png",
+          "previewPath": "../runtime-images/11230-2693-preview.jpg",
+          "microPath": "../runtime-images/11230-2693-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-004-BulletKick-UR-ALT.png"
         }
       ]
@@ -1989,6 +2187,8 @@
           "officialCardNumber": "005",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2689 - Deku’s Swift Takedown.png",
+          "previewPath": "../runtime-images/11231-2689-preview.jpg",
+          "microPath": "../runtime-images/11231-2689-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-005-DekusSwiftTakedown-UC-ALT.png"
         }
       ]
@@ -2009,6 +2209,8 @@
           "officialCardNumber": "006",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2685 - Fa Jin Flurry.png",
+          "previewPath": "../runtime-images/11232-2685-preview.jpg",
+          "microPath": "../runtime-images/11232-2685-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-006-FaJinFlurry-R-ALT.png"
         }
       ]
@@ -2029,6 +2231,8 @@
           "officialCardNumber": "008",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2677 - Pinpoint Focus--Blackwhip Shot.png",
+          "previewPath": "../runtime-images/11234-2677-preview.jpg",
+          "microPath": "../runtime-images/11234-2677-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-008-PinpointFocusBlackwhipShot-C-ALT.png"
         }
       ]
@@ -2049,6 +2253,8 @@
           "officialCardNumber": "009",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2673 - Rapid Rescue.png",
+          "previewPath": "../runtime-images/11235-2673-preview.jpg",
+          "microPath": "../runtime-images/11235-2673-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-009-RapidRescue-C-ALT.png"
         }
       ]
@@ -2069,6 +2275,8 @@
           "officialCardNumber": "010",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2669 - Smokescreen Charge.png",
+          "previewPath": "../runtime-images/11236-2669-preview.jpg",
+          "microPath": "../runtime-images/11236-2669-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-010-SmokescreenCharge-C-ALT.png"
         }
       ]
@@ -2089,6 +2297,8 @@
           "officialCardNumber": "011",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2665 - Creative Counter.png",
+          "previewPath": "../runtime-images/11237-2665-preview.jpg",
+          "microPath": "../runtime-images/11237-2665-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-011-CreativeCounter-C-ALT.png"
         }
       ]
@@ -2109,6 +2319,8 @@
           "officialCardNumber": "012",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2661 - Eighth Wielder.png",
+          "previewPath": "../runtime-images/11238-2661-preview.jpg",
+          "microPath": "../runtime-images/11238-2661-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-012-EighthWielder-C-ALT.png"
         }
       ]
@@ -2129,6 +2341,8 @@
           "officialCardNumber": "013",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2657 - Expression Of Friendship.png",
+          "previewPath": "../runtime-images/11239-2657-preview.jpg",
+          "microPath": "../runtime-images/11239-2657-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-013-ExpressionOfFriendship-C-ALT.png"
         }
       ]
@@ -2149,6 +2363,8 @@
           "officialCardNumber": "014",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2653 - Fifth Wielder- Blackwhip.png",
+          "previewPath": "../runtime-images/11240-2653-preview.jpg",
+          "microPath": "../runtime-images/11240-2653-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-014-FifthWielderBlackwhip-C-ALT.png"
         }
       ]
@@ -2169,6 +2385,8 @@
           "officialCardNumber": "015",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2649 - First Wielder- One for All.png",
+          "previewPath": "../runtime-images/11241-2649-preview.jpg",
+          "microPath": "../runtime-images/11241-2649-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-015-FirstWielderOneForAll-R-ALT.png"
         }
       ]
@@ -2189,6 +2407,8 @@
           "officialCardNumber": "016",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2645 - Fourth Wielder- Danger Sense.png",
+          "previewPath": "../runtime-images/11242-2645-preview.jpg",
+          "microPath": "../runtime-images/11242-2645-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-016-FourthWielderDangerSense-C-ALT.png"
         }
       ]
@@ -2209,6 +2429,8 @@
           "officialCardNumber": "017",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2641 - Second Wielder.png",
+          "previewPath": "../runtime-images/11243-2641-preview.jpg",
+          "microPath": "../runtime-images/11243-2641-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-017-SecondWielder-UC-ALT.png"
         }
       ]
@@ -2229,6 +2451,8 @@
           "officialCardNumber": "018",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2637 - Seventh Wielder- Float.png",
+          "previewPath": "../runtime-images/11244-2637-preview.jpg",
+          "microPath": "../runtime-images/11244-2637-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-018-SeventhWielderFloat-UC-ALT.png"
         }
       ]
@@ -2249,6 +2473,8 @@
           "officialCardNumber": "019",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2633 - Sixth Wielder- Smokescreen.png",
+          "previewPath": "../runtime-images/11245-2633-preview.jpg",
+          "microPath": "../runtime-images/11245-2633-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-019-SixthWielderSmokescreen-C-ALT.png"
         }
       ]
@@ -2269,6 +2495,8 @@
           "officialCardNumber": "020",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2629 - Third Wielder- Fa Jin.png",
+          "previewPath": "../runtime-images/11246-2629-preview.jpg",
+          "microPath": "../runtime-images/11246-2629-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/MHA08-020-ThirdWielderFaJin-UC-ALT.png"
         }
       ]
@@ -2289,6 +2517,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2253 - Beckett Mariner, Chaotic Ensign.png",
+          "previewPath": "../runtime-images/11271-2253-preview.jpg",
+          "microPath": "../runtime-images/11271-2253-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-001-BeckettMarinerChaoticEnsign-CH-ALT.png"
         }
       ]
@@ -2309,6 +2539,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2237 - Brad Boimler, By-the-Book Ensign.png",
+          "previewPath": "../runtime-images/11272-2237-preview.jpg",
+          "microPath": "../runtime-images/11272-2237-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-001-BradBoimlerBy-the-BookEnsign-CH-ALT.png"
         }
       ]
@@ -2329,6 +2561,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2223 - D’Vana Tendi, Eager Science Officer.png",
+          "previewPath": "../runtime-images/11273-2223-preview.jpg",
+          "microPath": "../runtime-images/11273-2223-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-001-DVanaTendiEagerScienceOfficer-CH-ALT.png"
         }
       ]
@@ -2349,6 +2583,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2207 - Sam Rutherford, Resourceful Engineer.png",
+          "previewPath": "../runtime-images/11274-2207-preview.jpg",
+          "microPath": "../runtime-images/11274-2207-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-001-SamRutherfordResourcefulEngineer-CH-ALT.png"
         }
       ]
@@ -2369,6 +2605,8 @@
           "officialCardNumber": "002",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2251 - Beckett Mariner, Adventuring Archeologist.png",
+          "previewPath": "../runtime-images/11488-2251-preview.jpg",
+          "microPath": "../runtime-images/11488-2251-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-002-BeckettMarinerAdventuringArcheologist-CH-ALT.png"
         }
       ]
@@ -2389,6 +2627,8 @@
           "officialCardNumber": "004",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2247 - Beckett’s Bat’leth.png",
+          "previewPath": "../runtime-images/11489-2247-preview.jpg",
+          "microPath": "../runtime-images/11489-2247-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-004-BeckettsBatleth-UR-ALT.png"
         }
       ]
@@ -2409,6 +2649,8 @@
           "officialCardNumber": "008",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2243 - Excited Blows.png",
+          "previewPath": "../runtime-images/11490-2243-preview.jpg",
+          "microPath": "../runtime-images/11490-2243-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-008-ExcitedBlows-R-ALT.png"
         }
       ]
@@ -2429,6 +2671,8 @@
           "officialCardNumber": "011",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2241 - Un-phased.png",
+          "previewPath": "../runtime-images/11491-2241-preview.jpg",
+          "microPath": "../runtime-images/11491-2241-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-011-Un-phased-UR-ALT.png"
         }
       ]
@@ -2449,6 +2693,8 @@
           "officialCardNumber": "002",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2235 - Brad Boimler, Acting Captain.png",
+          "previewPath": "../runtime-images/11494-2235-preview.jpg",
+          "microPath": "../runtime-images/11494-2235-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-002-BradBoimlerActingCaptain-CH-ALT.png"
         }
       ]
@@ -2469,6 +2715,8 @@
           "officialCardNumber": "004",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2231 - Combadge.png",
+          "previewPath": "../runtime-images/11495-2231-preview.jpg",
+          "microPath": "../runtime-images/11495-2231-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-004-Combadge-UR-ALT.png"
         }
       ]
@@ -2489,6 +2737,8 @@
           "officialCardNumber": "012",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2225 - Survey Mission.png",
+          "previewPath": "../runtime-images/11496-2225-preview.jpg",
+          "microPath": "../runtime-images/11496-2225-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-012-SurveyMission-UR-ALT.png"
         }
       ]
@@ -2509,6 +2759,8 @@
           "officialCardNumber": "019",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2205 - Rules Stickler.png",
+          "previewPath": "../runtime-images/11499-2205-preview.jpg",
+          "microPath": "../runtime-images/11499-2205-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-019-RulesStickler-R-ALT.png"
         }
       ]
@@ -2529,6 +2781,8 @@
           "officialCardNumber": "002",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2221 - D’Vana Tendi, Mistress of the Winter Constellations.png",
+          "previewPath": "../runtime-images/11500-2221-preview.jpg",
+          "microPath": "../runtime-images/11500-2221-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-002-DVanaTendiMistressoftheWinterConstellations-CH-ALT.png"
         }
       ]
@@ -2549,6 +2803,8 @@
           "officialCardNumber": "003",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2219 - Emergency Treatment.png",
+          "previewPath": "../runtime-images/11501-2219-preview.jpg",
+          "microPath": "../runtime-images/11501-2219-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-003-EmergencyTreatment-R-ALT.png"
         }
       ]
@@ -2569,6 +2825,8 @@
           "officialCardNumber": "004",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2217 - T88.png",
+          "previewPath": "../runtime-images/11502-2217-preview.jpg",
+          "microPath": "../runtime-images/11502-2217-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-004-T88-UR-ALT.png"
         }
       ]
@@ -2589,6 +2847,8 @@
           "officialCardNumber": "012",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2211 - Syndicate Skills.png",
+          "previewPath": "../runtime-images/11503-2211-preview.jpg",
+          "microPath": "../runtime-images/11503-2211-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-012-SyndicateSkills-UR-ALT.png"
         }
       ]
@@ -2609,6 +2869,8 @@
           "officialCardNumber": "002",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2203 - Sam Rutherford, Devron Racer.png",
+          "previewPath": "../runtime-images/11506-2203-preview.jpg",
+          "microPath": "../runtime-images/11506-2203-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-002-SamRutherfordDevronRacer-CH-ALT.png"
         }
       ]
@@ -2629,6 +2891,8 @@
           "officialCardNumber": "003",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2201 - “Strange Energies”.png",
+          "previewPath": "../runtime-images/11507-2201-preview.jpg",
+          "microPath": "../runtime-images/11507-2201-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-003-StrangeEnergies-R-ALT.png"
         }
       ]
@@ -2649,6 +2913,8 @@
           "officialCardNumber": "004",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2199 - Badgey, Vengeful Pal.png",
+          "previewPath": "../runtime-images/11508-2199-preview.jpg",
+          "microPath": "../runtime-images/11508-2199-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-004-BadgeyVengefulPal-UR-ALT.png"
         }
       ]
@@ -2669,6 +2935,8 @@
           "officialCardNumber": "007",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2195 - Charged Alien Sploof.png",
+          "previewPath": "../runtime-images/11509-2195-preview.jpg",
+          "microPath": "../runtime-images/11509-2195-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-007-ChargedAlienSploof-UR-ALT.png"
         }
       ]
@@ -2689,6 +2957,8 @@
           "officialCardNumber": "003",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2249 - Connecting the Dots.png",
+          "previewPath": "../runtime-images/11513-2249-preview.jpg",
+          "microPath": "../runtime-images/11513-2249-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-003-ConnectingtheDots-R-ALT.png"
         }
       ]
@@ -2709,6 +2979,8 @@
           "officialCardNumber": "017",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2239 - Insubordination.png",
+          "previewPath": "../runtime-images/11522-2239-preview.jpg",
+          "microPath": "../runtime-images/11522-2239-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-017-Insubordination-R-ALT.png"
         }
       ]
@@ -2729,6 +3001,8 @@
           "officialCardNumber": "003",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2233 - Replicator Enthusiast.png",
+          "previewPath": "../runtime-images/11527-2233-preview.jpg",
+          "microPath": "../runtime-images/11527-2233-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-003-ReplicatorEnthusiast-R-ALT.png"
         }
       ]
@@ -2749,6 +3023,8 @@
           "officialCardNumber": "007",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2227 - Inconvenient Duplication.png",
+          "previewPath": "../runtime-images/11529-2227-preview.jpg",
+          "microPath": "../runtime-images/11529-2227-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-007-InconvenientDuplication-R-ALT.png"
         }
       ]
@@ -2769,6 +3045,8 @@
           "officialCardNumber": "008",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2213 - Extreme Methods.png",
+          "previewPath": "../runtime-images/11543-2213-preview.jpg",
+          "microPath": "../runtime-images/11543-2213-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-008-ExtremeMethods-R-ALT.png"
         }
       ]
@@ -2789,6 +3067,8 @@
           "officialCardNumber": "022",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2209 - Unyielding Enthusiasm.png",
+          "previewPath": "../runtime-images/11554-2209-preview.jpg",
+          "microPath": "../runtime-images/11554-2209-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-022-UnyieldingEnthusiasm-R-ALT.png"
         }
       ]
@@ -2809,6 +3089,8 @@
           "officialCardNumber": "011",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2193 - Okey Dokey!.png",
+          "previewPath": "../runtime-images/11558-2193-preview.jpg",
+          "microPath": "../runtime-images/11558-2193-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-011-OkeyDokey-R-ALT.png"
         }
       ]
@@ -2829,6 +3111,8 @@
           "officialCardNumber": "018",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2191 - Other Self.png",
+          "previewPath": "../runtime-images/11565-2191-preview.jpg",
+          "microPath": "../runtime-images/11565-2191-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-018-OtherSelf-R-ALT.png"
         }
       ]
@@ -2849,6 +3133,8 @@
           "officialCardNumber": "192",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1701 - Harness Undeath.png",
+          "previewPath": "../runtime-images/11571-1701-preview.jpg",
+          "microPath": "../runtime-images/11571-1701-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-192-HarnessUndeath-SR-ALT.png"
         }
       ]
@@ -2869,6 +3155,8 @@
           "officialCardNumber": "002",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2172 - Hunter’s Dagger.png",
+          "previewPath": "../runtime-images/11573-2172-preview.jpg",
+          "microPath": "../runtime-images/11573-2172-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-002-HuntersDagger-UR-ALT.png"
         }
       ]
@@ -2889,6 +3177,8 @@
           "officialCardNumber": "003",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2168 - Teleportation Stone.png",
+          "previewPath": "../runtime-images/11574-2168-preview.jpg",
+          "microPath": "../runtime-images/11574-2168-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-003-TeleportationStone-R-ALT.png"
         }
       ]
@@ -2909,6 +3199,8 @@
           "officialCardNumber": "004",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2164 - Clash with the Bloodred.png",
+          "previewPath": "../runtime-images/11575-2164-preview.jpg",
+          "microPath": "../runtime-images/11575-2164-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-004-ClashwiththeBloodred-R-ALT.png"
         }
       ]
@@ -2929,6 +3221,8 @@
           "officialCardNumber": "005",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2160 - Determined Cut.png",
+          "previewPath": "../runtime-images/11576-2160-preview.jpg",
+          "microPath": "../runtime-images/11576-2160-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-005-DeterminedCut-UC-ALT.png"
         }
       ]
@@ -2949,6 +3243,8 @@
           "officialCardNumber": "006",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2156 - Enough of This.png",
+          "previewPath": "../runtime-images/11577-2156-preview.jpg",
+          "microPath": "../runtime-images/11577-2156-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-006-EnoughofThis-UC-ALT.png"
         }
       ]
@@ -2969,6 +3265,8 @@
           "officialCardNumber": "007",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2152 - Grasp for Survival.png",
+          "previewPath": "../runtime-images/11578-2152-preview.jpg",
+          "microPath": "../runtime-images/11578-2152-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-007-GraspforSurvival-UC-ALT.png"
         }
       ]
@@ -2989,6 +3287,8 @@
           "officialCardNumber": "008",
           "rarity": "uncommon-alt-art",
           "sourcePath": "../official-gallery/images/2148 - Killing Intent.png",
+          "previewPath": "../runtime-images/11579-2148-preview.jpg",
+          "microPath": "../runtime-images/11579-2148-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-008-KillingIntent-UC-ALT.png"
         }
       ]
@@ -3009,6 +3309,8 @@
           "officialCardNumber": "009",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/2147 - Venom Fang Dagger.png",
+          "previewPath": "../runtime-images/11580-2147-preview.jpg",
+          "microPath": "../runtime-images/11580-2147-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-009-VenomFangDagger-R.png"
         }
       ]
@@ -3029,6 +3331,8 @@
           "officialCardNumber": "010",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2141 - Wolf Assassin.png",
+          "previewPath": "../runtime-images/11581-2141-preview.jpg",
+          "microPath": "../runtime-images/11581-2141-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-010-WolfAssassin-C-ALT.png"
         }
       ]
@@ -3049,6 +3353,8 @@
           "officialCardNumber": "012",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/2133 - Double Dungeon.png",
+          "previewPath": "../runtime-images/11583-2133-preview.jpg",
+          "microPath": "../runtime-images/11583-2133-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-012-DoubleDungeon-UR-ALT.png"
         }
       ]
@@ -3069,6 +3375,8 @@
           "officialCardNumber": "013",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2129 - Dungeoneering Armor.png",
+          "previewPath": "../runtime-images/11584-2129-preview.jpg",
+          "microPath": "../runtime-images/11584-2129-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-013-DungeoningArmor-C-ALT.png"
         }
       ]
@@ -3089,6 +3397,8 @@
           "officialCardNumber": "014",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2125 - Fateful Decision.png",
+          "previewPath": "../runtime-images/11585-2125-preview.jpg",
+          "microPath": "../runtime-images/11585-2125-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-014-FatefulDecision-C-ALT.png"
         }
       ]
@@ -3109,6 +3419,8 @@
           "officialCardNumber": "015",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2121 - Improving Skills.png",
+          "previewPath": "../runtime-images/11586-2121-preview.jpg",
+          "microPath": "../runtime-images/11586-2121-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-015-ImprovingSkills-C-ALT.png"
         }
       ]
@@ -3129,6 +3441,8 @@
           "officialCardNumber": "016",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2117 - Item Menu.png",
+          "previewPath": "../runtime-images/11587-2117-preview.jpg",
+          "microPath": "../runtime-images/11587-2117-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-016-ItemMenu-C-ALT.png"
         }
       ]
@@ -3149,6 +3463,8 @@
           "officialCardNumber": "017",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2113 - Leveling Strength.png",
+          "previewPath": "../runtime-images/11588-2113-preview.jpg",
+          "microPath": "../runtime-images/11588-2113-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-017-LevelingStrength-C-ALT.png"
         }
       ]
@@ -3169,6 +3485,8 @@
           "officialCardNumber": "018",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2109 - Loot Box.png",
+          "previewPath": "../runtime-images/11589-2109-preview.jpg",
+          "microPath": "../runtime-images/11589-2109-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-018-LootBox-C-ALT.png"
         }
       ]
@@ -3189,6 +3507,8 @@
           "officialCardNumber": "019",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2105 - Serpent Scramble.png",
+          "previewPath": "../runtime-images/11590-2105-preview.jpg",
+          "microPath": "../runtime-images/11590-2105-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-019-SerpentScramble-C-ALT.png"
         }
       ]
@@ -3209,6 +3529,8 @@
           "officialCardNumber": "020",
           "rarity": "common-alt-art",
           "sourcePath": "../official-gallery/images/2101 - Timely Recovery.png",
+          "previewPath": "../runtime-images/11591-2101-preview.jpg",
+          "microPath": "../runtime-images/11591-2101-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-020-TimelyRecovery-C-ALT.png"
         }
       ]
@@ -3229,6 +3551,8 @@
           "officialCardNumber": "003",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/788 - Caduceus Clay, Insightful Caretaker.png",
+          "previewPath": "../runtime-images/11597-788-preview.jpg",
+          "microPath": "../runtime-images/11597-788-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-003-CaduceusClayInsightfulCaretaker-CH-ALT.png"
         }
       ]
@@ -3249,6 +3573,8 @@
           "officialCardNumber": "005",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1022 - Essek Thelyss, Expert Dunamancer.png",
+          "previewPath": "../runtime-images/11604-1022-preview.jpg",
+          "microPath": "../runtime-images/11604-1022-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-005-EssekThelyssExpertDunamancer-CH-ALT.png"
         }
       ]
@@ -3269,6 +3595,8 @@
           "officialCardNumber": "002",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1032 - Beauregard Lionett, Expositor.png",
+          "previewPath": "../runtime-images/11605-1032-preview.jpg",
+          "microPath": "../runtime-images/11605-1032-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-002-BeauregardLionettExpositor-CH-ALT.png"
         }
       ]
@@ -3289,6 +3617,8 @@
           "officialCardNumber": "015",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/996 - Pumat Sol, Magical Proprietor.png",
+          "previewPath": "../runtime-images/11606-996-preview.jpg",
+          "microPath": "../runtime-images/11606-996-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-015-PumatSolMagicalProprietor-CH-ALT.png"
         }
       ]
@@ -3309,6 +3639,8 @@
           "officialCardNumber": "011",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/791 - Mollymauk Tealeaf, Carnival Hooligan.png",
+          "previewPath": "../runtime-images/11607-791-preview.jpg",
+          "microPath": "../runtime-images/11607-791-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-011-MollymaukTealeafCarnivalHooligan-CH-ALT.png"
         }
       ]
@@ -3329,6 +3661,8 @@
           "officialCardNumber": "016",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2041 - Scanlan Shorthalt, Devious Troubadour.png",
+          "previewPath": "../runtime-images/11614-2041-preview.jpg",
+          "microPath": "../runtime-images/11614-2041-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-016-ScanlanShorthaltDeviousTroubadour-CH-ALT.png"
         }
       ]
@@ -3349,6 +3683,8 @@
           "officialCardNumber": "004",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1026 - Caleb Widogast, Fiery Transmuter.png",
+          "previewPath": "../runtime-images/11615-1026-preview.jpg",
+          "microPath": "../runtime-images/11615-1026-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-004-CalebWidogastFieryTransmuter-CH-ALT.png"
         }
       ]
@@ -3369,6 +3705,8 @@
           "officialCardNumber": "013",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/793 - Percival de Rolo III, Vengeful Sharpshooter.png",
+          "previewPath": "../runtime-images/11616-793-preview.jpg",
+          "microPath": "../runtime-images/11616-793-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-013-PercivaldeRoloIIIVengefulSharpshooter-CH-ALT.png"
         }
       ]
@@ -3389,6 +3727,8 @@
           "officialCardNumber": "010",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1008 - Lady Kima of Vord.png",
+          "previewPath": "../runtime-images/11617-1008-preview.jpg",
+          "microPath": "../runtime-images/11617-1008-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-010-LadyKimaofVord-CH-ALT.png"
         }
       ]
@@ -3409,6 +3749,8 @@
           "officialCardNumber": "020",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/980 - Yasha Nydoorin, Orphanmaker.png",
+          "previewPath": "../runtime-images/11618-980-preview.jpg",
+          "microPath": "../runtime-images/11618-980-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-020-YashaNydoorinOrphanmaker-CH-ALT.png"
         }
       ]
@@ -3429,6 +3771,8 @@
           "officialCardNumber": "007",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/789 - Grog Strongjaw, Mighty Half-Giant.png",
+          "previewPath": "../runtime-images/11619-789-preview.jpg",
+          "microPath": "../runtime-images/11619-789-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-007-GrogStrongjawMightyHalf-Giant-CH-ALT.png"
         }
       ]
@@ -3449,6 +3793,8 @@
           "officialCardNumber": "018",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/988 - Vax’ildan, Dagger Master.png",
+          "previewPath": "../runtime-images/11626-988-preview.jpg",
+          "microPath": "../runtime-images/11626-988-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-018-VaxildanDaggerMaster-CH-ALT.png"
         }
       ]
@@ -3469,6 +3815,8 @@
           "officialCardNumber": "019",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/984 - Vex’ahlia, Protector of the Wilds.png",
+          "previewPath": "../runtime-images/11627-984-preview.jpg",
+          "microPath": "../runtime-images/11627-984-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-019-VexahliaProtectoroftheWilds-CH-ALT.png"
         }
       ]
@@ -3489,6 +3837,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/787 - Allura Vysoren, Arcanist of Tal’Dorei.png",
+          "previewPath": "../runtime-images/11628-787-preview.jpg",
+          "microPath": "../runtime-images/11628-787-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-001-AlluraVysorenArcanistofTalDorei-CH-ALT.png"
         }
       ]
@@ -3509,6 +3859,8 @@
           "officialCardNumber": "008",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/790 - Jester Lavorre, Traveler’s Faithful.png",
+          "previewPath": "../runtime-images/11629-790-preview.jpg",
+          "microPath": "../runtime-images/11629-790-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-008-JesterLavorreTravelersFaithful-CH-ALT.png"
         }
       ]
@@ -3529,6 +3881,8 @@
           "officialCardNumber": "009",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1012 - Keyleth of the Air Ashari.png",
+          "previewPath": "../runtime-images/11630-1012-preview.jpg",
+          "microPath": "../runtime-images/11630-1012-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-009-KeylethoftheAirAshari-CH-ALT.png"
         }
       ]
@@ -3549,6 +3903,8 @@
           "officialCardNumber": "012",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1002 - Nott the Brave, Chaotic Meddler.png",
+          "previewPath": "../runtime-images/11631-1002-preview.jpg",
+          "microPath": "../runtime-images/11631-1002-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-012-NotttheBraveChaoticMeddler-CH-ALT.png"
         }
       ]
@@ -3569,6 +3925,8 @@
           "officialCardNumber": "014",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/794 - Pike Trickfoot, Ferocious Priestess.png",
+          "previewPath": "../runtime-images/11632-794-preview.jpg",
+          "microPath": "../runtime-images/11632-794-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-014-PikeTrickfootFerociousPriestess-CH-ALT.png"
         }
       ]
@@ -3589,6 +3947,8 @@
           "officialCardNumber": "199",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1677 - No-Mercy Percy.png",
+          "previewPath": "../runtime-images/11636-1677-preview.jpg",
+          "microPath": "../runtime-images/11636-1677-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-199-No-MercyPercy-UR-ALT.png"
         }
       ]
@@ -3609,6 +3969,8 @@
           "officialCardNumber": "006",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1018 - Fjord, the Sea’s Champion.png",
+          "previewPath": "../runtime-images/11637-1018-preview.jpg",
+          "microPath": "../runtime-images/11637-1018-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-006-FjordtheSeasChampion-CH-ALT.png"
         }
       ]
@@ -3629,6 +3991,8 @@
           "officialCardNumber": "194",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1693 - Hunter’s Ally.png",
+          "previewPath": "../runtime-images/11642-1693-preview.jpg",
+          "microPath": "../runtime-images/11642-1693-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-194-HuntersAlly-UR-ALT.png"
         }
       ]
@@ -3649,6 +4013,8 @@
           "officialCardNumber": "017",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/992 - Taryon Darrington, Naive Creator.png",
+          "previewPath": "../runtime-images/11643-992-preview.jpg",
+          "microPath": "../runtime-images/11643-992-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-017-TaryonDarringtonNaiveCreator-CH-ALT.png"
         }
       ]
@@ -3669,6 +4035,8 @@
           "officialCardNumber": "201",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1669 - Pristine Swordplay.png",
+          "previewPath": "../runtime-images/11646-1669-preview.jpg",
+          "microPath": "../runtime-images/11646-1669-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-201-PristineSwordplay-UR-ALT.png"
         }
       ]
@@ -3689,6 +4057,8 @@
           "officialCardNumber": "174",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1765 - “I Would Like to Rage!”.png",
+          "previewPath": "../runtime-images/11702-1765-preview.jpg",
+          "microPath": "../runtime-images/11702-1765-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-174-IWouldLiketoRage-UR-ALT.png"
         }
       ]
@@ -3709,6 +4079,8 @@
           "officialCardNumber": "182",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1733 - Aerial Goblin Bolt.png",
+          "previewPath": "../runtime-images/11703-1733-preview.jpg",
+          "microPath": "../runtime-images/11703-1733-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-182-AerialGoblinBolt-UR-ALT.png"
         }
       ]
@@ -3729,6 +4101,8 @@
           "officialCardNumber": "184",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1727 - Blessed Mettle.png",
+          "previewPath": "../runtime-images/11704-1727-preview.jpg",
+          "microPath": "../runtime-images/11704-1727-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-184-BlessedMettle-UR-ALT.png"
         }
       ]
@@ -3749,6 +4123,8 @@
           "officialCardNumber": "186",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1721 - Earthbreaker.png",
+          "previewPath": "../runtime-images/11705-1721-preview.jpg",
+          "microPath": "../runtime-images/11705-1721-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-186-Earthbreaker-SR-ALT.png"
         }
       ]
@@ -3769,6 +4145,8 @@
           "officialCardNumber": "198",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1681 - Nature’s Tempest.png",
+          "previewPath": "../runtime-images/11707-1681-preview.jpg",
+          "microPath": "../runtime-images/11707-1681-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-198-NaturesTempest-UR-ALT.png"
         }
       ]
@@ -3789,6 +4167,8 @@
           "officialCardNumber": "200",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1673 - Orphanmaker’s Fury.png",
+          "previewPath": "../runtime-images/11708-1673-preview.jpg",
+          "microPath": "../runtime-images/11708-1673-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-200-OrphanmakersFury-UR-ALT.png"
         }
       ]
@@ -3809,6 +4189,8 @@
           "officialCardNumber": "176",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1757 - Cabal’s Ruin.png",
+          "previewPath": "../runtime-images/11750-1757-preview.jpg",
+          "microPath": "../runtime-images/11750-1757-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-176-CabalsRuin-UR-ALT.png"
         }
       ]
@@ -3829,6 +4211,8 @@
           "officialCardNumber": "178",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1749 - Fenthras.png",
+          "previewPath": "../runtime-images/11752-1749-preview.jpg",
+          "microPath": "../runtime-images/11752-1749-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-178-Fenthras-UR-ALT.png"
         }
       ]
@@ -3849,6 +4233,8 @@
           "officialCardNumber": "179",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1745 - Plate of the Dawnmartyr.png",
+          "previewPath": "../runtime-images/11753-1745-preview.jpg",
+          "microPath": "../runtime-images/11753-1745-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-179-PlateoftheDawnmartyr-UR-ALT.png"
         }
       ]
@@ -3869,6 +4255,8 @@
           "officialCardNumber": "180",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1741 - Spire of Conflux.png",
+          "previewPath": "../runtime-images/11754-1741-preview.jpg",
+          "microPath": "../runtime-images/11754-1741-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-180-SpireofConflux-UR-ALT.png"
         }
       ]
@@ -3889,6 +4277,8 @@
           "officialCardNumber": "181",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1737 - Titanstone Knuckles.png",
+          "previewPath": "../runtime-images/11755-1737-preview.jpg",
+          "microPath": "../runtime-images/11755-1737-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-181-TitanstoneKnuckles-UR-ALT.png"
         }
       ]
@@ -3909,6 +4299,8 @@
           "officialCardNumber": "191",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1705 - Grovekeeper’s Authority.png",
+          "previewPath": "../runtime-images/11757-1705-preview.jpg",
+          "microPath": "../runtime-images/11757-1705-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-191-GrovekeepersAuthority-UR-ALT.png"
         }
       ]
@@ -3929,6 +4321,8 @@
           "officialCardNumber": "193",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1697 - Hooligan’s Mockery.png",
+          "previewPath": "../runtime-images/11758-1697-preview.jpg",
+          "microPath": "../runtime-images/11758-1697-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-193-HooligansMockery-UR-ALT.png"
         }
       ]
@@ -3949,6 +4343,8 @@
           "officialCardNumber": "203",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1663 - Spell Bolt and Sword Swipe.png",
+          "previewPath": "../runtime-images/11760-1663-preview.jpg",
+          "microPath": "../runtime-images/11760-1663-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-203-SpellBoltandSwordSwipe-UR-ALT.png"
         }
       ]
@@ -3969,6 +4365,8 @@
           "officialCardNumber": "206",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1651 - Sweeping Daggers.png",
+          "previewPath": "../runtime-images/11761-1651-preview.jpg",
+          "microPath": "../runtime-images/11761-1651-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-206-SweepingDaggers-UR-ALT.png"
         }
       ]
@@ -3989,6 +4387,8 @@
           "officialCardNumber": "197",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1685 - Mighty Blitz.png",
+          "previewPath": "../runtime-images/11764-1685-preview.jpg",
+          "microPath": "../runtime-images/11764-1685-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-197-MightyBlitz-SR-ALT.png"
         }
       ]
@@ -4009,6 +4409,8 @@
           "officialCardNumber": "204",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1659 - Spellstorm.png",
+          "previewPath": "../runtime-images/11765-1659-preview.jpg",
+          "microPath": "../runtime-images/11765-1659-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-204-Spellstorm-SR-ALT.png"
         }
       ]
@@ -4029,6 +4431,8 @@
           "officialCardNumber": "187",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1717 - Extended Back Roundhouse.png",
+          "previewPath": "../runtime-images/11795-1717-preview.jpg",
+          "microPath": "../runtime-images/11795-1717-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-187-ExtendedBackRoundhouse-UR-ALT.png"
         }
       ]
@@ -4049,6 +4453,8 @@
           "officialCardNumber": "190",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1709 - Grog’s Rage.png",
+          "previewPath": "../runtime-images/11797-1709-preview.jpg",
+          "microPath": "../runtime-images/11797-1709-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-190-GrogsRage-SR-ALT.png"
         }
       ]
@@ -4069,6 +4475,8 @@
           "officialCardNumber": "175",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1761 - Scanlan’s Hand.png",
+          "previewPath": "../runtime-images/11801-1761-preview.jpg",
+          "microPath": "../runtime-images/11801-1761-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-175-ScanlansHand-UR-ALT.png"
         }
       ]
@@ -4089,6 +4497,8 @@
           "officialCardNumber": "205",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1655 - Spirit Unicorns.png",
+          "previewPath": "../runtime-images/11803-1655-preview.jpg",
+          "microPath": "../runtime-images/11803-1655-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-205-SpiritUnicorns-UR-ALT.png"
         }
       ]
@@ -4109,6 +4519,8 @@
           "officialCardNumber": "207",
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1647 - Violent Animus Shot.png",
+          "previewPath": "../runtime-images/11804-1647-preview.jpg",
+          "microPath": "../runtime-images/11804-1647-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/CR02-207-ViolentAnimusShot-SR-ALT.png"
         }
       ]
@@ -4129,6 +4541,8 @@
           "officialCardNumber": "010",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1226 - Mikasa Ackerman, Hizuru’s Hope.png",
+          "previewPath": "../runtime-images/11809-1226-preview.jpg",
+          "microPath": "../runtime-images/11809-1226-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-010-CH-ALT-MikasaAckermanHizurusHope.png"
         }
       ]
@@ -4149,6 +4563,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1180 - The Founding Titan’s Power.png",
+          "previewPath": "../runtime-images/11816-1180-preview.jpg",
+          "microPath": "../runtime-images/11816-1180-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-104a-SR-ALT-TheFoundingTitansPower.png"
         }
       ]
@@ -4169,6 +4585,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1178 - Ymir Fritz.png",
+          "previewPath": "../runtime-images/11817-1178-preview.jpg",
+          "microPath": "../runtime-images/11817-1178-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-104b-SR-ALT-YmirFritz.png"
         }
       ]
@@ -4189,6 +4607,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1248 - Armin Arlert, Power of the Colossus.png",
+          "previewPath": "../runtime-images/11821-1248-preview.jpg",
+          "microPath": "../runtime-images/11821-1248-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-002a-CH-ALT-ArminArlertPoweroftheColossus.png"
         }
       ]
@@ -4209,6 +4629,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1246 - Colossus Titan, Finale.png",
+          "previewPath": "../runtime-images/11822-1246-preview.jpg",
+          "microPath": "../runtime-images/11822-1246-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-002b-CH-ALT-ColossusTitanFinale.png"
         }
       ]
@@ -4229,6 +4651,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1218 - Reiner Braun, Marley’s Shield.png",
+          "previewPath": "../runtime-images/11825-1218-preview.jpg",
+          "microPath": "../runtime-images/11825-1218-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-013a-CH-ALT-ReinerBraunMarleysShield.png"
         }
       ]
@@ -4249,6 +4673,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1216 - Armored Titan, Finale.png",
+          "previewPath": "../runtime-images/11826-1216-preview.jpg",
+          "microPath": "../runtime-images/11826-1216-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-013b-CH-ALT-ArmoredTitanFinale.png"
         }
       ]
@@ -4269,6 +4695,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1242 - Eren Yeager, Usurper.png",
+          "previewPath": "../runtime-images/11829-1242-preview.jpg",
+          "microPath": "../runtime-images/11829-1242-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-004a-CH-ALT-ErenYeagerUsurper.png"
         }
       ]
@@ -4289,6 +4717,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1240 - Attack Titan, Finale.png",
+          "previewPath": "../runtime-images/11830-1240-preview.jpg",
+          "microPath": "../runtime-images/11830-1240-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-004b-CH-ALT-AttackTitanFinale.png"
         }
       ]
@@ -4309,6 +4739,8 @@
           "officialCardNumber": "009",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1228 - Levi Ackerman, Vengeance-Driven.png",
+          "previewPath": "../runtime-images/11831-1228-preview.jpg",
+          "microPath": "../runtime-images/11831-1228-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-009-CH-ALT-LeviAckermanVengeance-Driven.png"
         }
       ]
@@ -4329,6 +4761,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1212 - Zeke Yeager, Warchief.png",
+          "previewPath": "../runtime-images/11832-1212-preview.jpg",
+          "microPath": "../runtime-images/11832-1212-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-015a-CH-ALT-ZekeYeagerWarchief.png"
         }
       ]
@@ -4349,6 +4783,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1210 - Beast Titan, Finale.png",
+          "previewPath": "../runtime-images/11833-1210-preview.jpg",
+          "microPath": "../runtime-images/11833-1210-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-015b-CH-ALT-BeastTitanFinale.png"
         }
       ]
@@ -4369,6 +4805,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1238 - Falco Grice.png",
+          "previewPath": "../runtime-images/11840-1238-preview.jpg",
+          "microPath": "../runtime-images/11840-1238-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-005a-CH-ALT-FalcoGrice.png"
         }
       ]
@@ -4389,6 +4827,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1236 - Jaw Titan, Flying Form.png",
+          "previewPath": "../runtime-images/11841-1236-preview.jpg",
+          "microPath": "../runtime-images/11841-1236-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-005b-CH-ALT-JawTitanFlyingForm.png"
         }
       ]
@@ -4409,6 +4849,8 @@
           "officialCardNumber": "003",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1244 - Connie Springer, Conflicted Heart.png",
+          "previewPath": "../runtime-images/11844-1244-preview.jpg",
+          "microPath": "../runtime-images/11844-1244-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-003-CH-ALT-ConnieSpringerConflictedHeart.png"
         }
       ]
@@ -4429,6 +4871,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1224 - Pieck Finger, Panzer Unit Cartman.png",
+          "previewPath": "../runtime-images/11845-1224-preview.jpg",
+          "microPath": "../runtime-images/11845-1224-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-011a-CH-ALT-PieckFingerPanzerUnitCartman.png"
         }
       ]
@@ -4449,6 +4893,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1222 - Cart Titan, Finale.png",
+          "previewPath": "../runtime-images/11846-1222-preview.jpg",
+          "microPath": "../runtime-images/11846-1222-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-011b-CH-ALT-CartTitanFinale.png"
         }
       ]
@@ -4469,6 +4915,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1252 - Annie Leonhart, Awakened.png",
+          "previewPath": "../runtime-images/11853-1252-preview.jpg",
+          "microPath": "../runtime-images/11853-1252-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-001a-CH-ALT-AnnieLeonhartAwakened.png"
         }
       ]
@@ -4489,6 +4937,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1250 - Female Titan, Finale.png",
+          "previewPath": "../runtime-images/11854-1250-preview.jpg",
+          "microPath": "../runtime-images/11854-1250-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-001b-CH-ALT-FemaleTitanFinale.png"
         }
       ]
@@ -4509,6 +4959,8 @@
           "officialCardNumber": "006",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1234 - Floch Forster, Yeagerist Leader.png",
+          "previewPath": "../runtime-images/11855-1234-preview.jpg",
+          "microPath": "../runtime-images/11855-1234-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-006-CH-ALT-FlochForsterYeageristLeader.png"
         }
       ]
@@ -4529,6 +4981,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1220 - Porco Galliard.png",
+          "previewPath": "../runtime-images/11857-1220-preview.jpg",
+          "microPath": "../runtime-images/11857-1220-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-012a-CH-ALT-PorcoGalliard.png"
         }
       ]
@@ -4549,6 +5003,8 @@
           "officialCardNumber": null,
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1154 - Jaw Titan, Crushing Biter.png",
+          "previewPath": "../runtime-images/11858-1154-preview.jpg",
+          "microPath": "../runtime-images/11858-1154-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-012b-CH-ALT-JawTitanCrushingBiter.png"
         }
       ]
@@ -4569,6 +5025,8 @@
           "officialCardNumber": "008",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1230 - Jean Kirstein, Hardened Soldier.png",
+          "previewPath": "../runtime-images/11868-1230-preview.jpg",
+          "microPath": "../runtime-images/11868-1230-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-008-CH-ALT-JeanKirsteinHardenedSoldier.png"
         }
       ]
@@ -4589,6 +5047,8 @@
           "officialCardNumber": "014",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/1214 - War Hammer Titan.png",
+          "previewPath": "../runtime-images/11882-1214-preview.jpg",
+          "microPath": "../runtime-images/11882-1214-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-014-CH-ALT-WarHammerTitan.png"
         }
       ]
@@ -4609,6 +5069,8 @@
           "officialCardNumber": "206",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1208 - Aerial Reinforcement.png",
+          "previewPath": "../runtime-images/11887-1208-preview.jpg",
+          "microPath": "../runtime-images/11887-1208-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-206-UR-ALT-AerialReinforcement.png"
         }
       ]
@@ -4629,6 +5091,8 @@
           "officialCardNumber": "209",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1200 - Timely Counterattack.png",
+          "previewPath": "../runtime-images/11890-1200-preview.jpg",
+          "microPath": "../runtime-images/11890-1200-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-209-UR-ALT-TimelyCounterattack.png"
         }
       ]
@@ -4649,6 +5113,8 @@
           "officialCardNumber": "210",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1198 - Support from the Female Titan.png",
+          "previewPath": "../runtime-images/11896-1198-preview.jpg",
+          "microPath": "../runtime-images/11896-1198-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-210-UR-ALT-SupportfromtheFemaleTitan.png"
         }
       ]
@@ -4669,6 +5135,8 @@
           "officialCardNumber": "221",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1168 - Political Strife.png",
+          "previewPath": "../runtime-images/11919-1168-preview.jpg",
+          "microPath": "../runtime-images/11919-1168-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-221-UR-ALT-PoliticalStrife.png"
         }
       ]
@@ -4689,6 +5157,8 @@
           "officialCardNumber": "224",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1160 - Hange’s Last Stand.png",
+          "previewPath": "../runtime-images/11924-1160-preview.jpg",
+          "microPath": "../runtime-images/11924-1160-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-224-UR-ALT-HangesLastStand.png"
         }
       ]
@@ -4709,6 +5179,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1186 - War Hammer Titan Attacks!.png",
+          "previewPath": "../runtime-images/11931-1186-preview.jpg",
+          "microPath": "../runtime-images/11931-1186-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-081a-SR-ALT-WarHammerTitanAttacks.png"
         }
       ]
@@ -4729,6 +5201,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1184 - The War Hammer Titan.png",
+          "previewPath": "../runtime-images/11932-1184-preview.jpg",
+          "microPath": "../runtime-images/11932-1184-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-081b-SR-ALT-TheWarHammerTitan.png"
         }
       ]
@@ -4749,6 +5223,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1164 - Colossal Confrontation.png",
+          "previewPath": "../runtime-images/11933-1164-preview.jpg",
+          "microPath": "../runtime-images/11933-1164-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-153a-SR-ALT-ColossalConfrontation.png"
         }
       ]
@@ -4769,6 +5245,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1162 - Seeking Relief.png",
+          "previewPath": "../runtime-images/11934-1162-preview.jpg",
+          "microPath": "../runtime-images/11934-1162-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-153b-SR-ALT-SeekingRelief.png"
         }
       ]
@@ -4789,6 +5267,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1206 - Falco’s Jaw Titan Attacks!.png",
+          "previewPath": "../runtime-images/11936-1206-preview.jpg",
+          "microPath": "../runtime-images/11936-1206-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-023a-SR-ALT-FalcosJawTitanAttacks.png"
         }
       ]
@@ -4809,6 +5289,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1204 - Falco’s Jaw Titan.png",
+          "previewPath": "../runtime-images/11937-1204-preview.jpg",
+          "microPath": "../runtime-images/11937-1204-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-023b-SR-ALT-FalcosJawTitan.png"
         }
       ]
@@ -4829,6 +5311,8 @@
           "officialCardNumber": "208",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1202 - The Ackermans Team Up.png",
+          "previewPath": "../runtime-images/11938-1202-preview.jpg",
+          "microPath": "../runtime-images/11938-1202-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-208-UR-ALT-TheAckermansTeamUp.png"
         }
       ]
@@ -4849,6 +5333,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1196 - Female Titan’s Roundhouse Kick.png",
+          "previewPath": "../runtime-images/11947-1196-preview.jpg",
+          "microPath": "../runtime-images/11947-1196-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-047a-SR-ALT-FemaleTitansRoundhouseKick.png"
         }
       ]
@@ -4869,6 +5355,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1194 - Annie’s Contemplations.png",
+          "previewPath": "../runtime-images/11948-1194-preview.jpg",
+          "microPath": "../runtime-images/11948-1194-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-047b-SR-ALT-AnniesContemplations.png"
         }
       ]
@@ -4889,6 +5377,8 @@
           "officialCardNumber": "212",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1192 - The Final Slash.png",
+          "previewPath": "../runtime-images/11956-1192-preview.jpg",
+          "microPath": "../runtime-images/11956-1192-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-212-UR-ALT-TheFinalSlash.png"
         }
       ]
@@ -4909,6 +5399,8 @@
           "officialCardNumber": "214",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1188 - The Rumbling.png",
+          "previewPath": "../runtime-images/11957-1188-preview.jpg",
+          "microPath": "../runtime-images/11957-1188-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-214-UR-ALT-TheRumbling.png"
         }
       ]
@@ -4929,6 +5421,8 @@
           "officialCardNumber": "216",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1182 - Devastating Loss.png",
+          "previewPath": "../runtime-images/11959-1182-preview.jpg",
+          "microPath": "../runtime-images/11959-1182-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-216-UR-ALT-DevastatingLoss.png"
         }
       ]
@@ -4949,6 +5443,8 @@
           "officialCardNumber": "218",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1176 - Unrelenting Advance.png",
+          "previewPath": "../runtime-images/11966-1176-preview.jpg",
+          "microPath": "../runtime-images/11966-1176-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-218-UR-ALT-UnrelentingAdvance.png"
         }
       ]
@@ -4969,6 +5465,8 @@
           "officialCardNumber": "219",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1174 - Command of the Founder.png",
+          "previewPath": "../runtime-images/11968-1174-preview.jpg",
+          "microPath": "../runtime-images/11968-1174-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-219-UR-ALT-CommandoftheFounder.png"
         }
       ]
@@ -4989,6 +5487,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1172 - Falling Titans.png",
+          "previewPath": "../runtime-images/11973-1172-preview.jpg",
+          "microPath": "../runtime-images/11973-1172-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-127a-SR-ALT-FallingTitans.png"
         }
       ]
@@ -5009,6 +5509,8 @@
           "officialCardNumber": null,
           "rarity": "secret-rare-alt-art",
           "sourcePath": "../official-gallery/images/1170 - Zeke’s Dream Becoming Real.png",
+          "previewPath": "../runtime-images/11974-1170-preview.jpg",
+          "microPath": "../runtime-images/11974-1170-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-127b-SR-ALT-ZekesDreamBecomingReal.png"
         }
       ]
@@ -5029,6 +5531,8 @@
           "officialCardNumber": "222",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1166 - Resurrected Titans.png",
+          "previewPath": "../runtime-images/11976-1166-preview.jpg",
+          "microPath": "../runtime-images/11976-1166-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-222-UR-ALT-ResurrectedTitans.png"
         }
       ]
@@ -5049,6 +5553,8 @@
           "officialCardNumber": "213",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1190 - The Jaw Titan’s Bite.png",
+          "previewPath": "../runtime-images/11993-1190-preview.jpg",
+          "microPath": "../runtime-images/11993-1190-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-213-UR-ALT-TheJawTitansBite.png"
         }
       ]
@@ -5069,6 +5575,8 @@
           "officialCardNumber": "225",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1158 - Thunder Spear Barrage.png",
+          "previewPath": "../runtime-images/12006-1158-preview.jpg",
+          "microPath": "../runtime-images/12006-1158-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-225-UR-ALT-ThunderSpearBarrage.png"
         }
       ]
@@ -5089,6 +5597,8 @@
           "officialCardNumber": "226",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/1156 - The Nine Titans from throughout the Ages.png",
+          "previewPath": "../runtime-images/12010-1156-preview.jpg",
+          "microPath": "../runtime-images/12010-1156-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/AOT3-226-UR-ALT-TheNineTitansfromthroughouttheAges.png"
         }
       ]
@@ -5109,6 +5619,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/784 - Ryu, World Warrior.png",
+          "previewPath": "../runtime-images/12014-784-preview.jpg",
+          "microPath": "../runtime-images/12014-784-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-001-CH-ALT-RyuWorldWarrior.png"
         }
       ]
@@ -5129,6 +5641,8 @@
           "officialCardNumber": "002",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/782 - Luke Sullivan, Gym Coach.png",
+          "previewPath": "../runtime-images/12015-782-preview.jpg",
+          "microPath": "../runtime-images/12015-782-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-002-CH-ALT-LukeSullivanGymCoach.png"
         }
       ]
@@ -5149,6 +5663,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/755 - Chun-Li, Martial Arts Master.png",
+          "previewPath": "../runtime-images/12018-755-preview.jpg",
+          "microPath": "../runtime-images/12018-755-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-001-CH-ALT-Chun-LiMartialArtsMaster.png"
         }
       ]
@@ -5169,6 +5685,8 @@
           "officialCardNumber": "002",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/753 - Jamie Siu, Peacekeeping Breakdancer.png",
+          "previewPath": "../runtime-images/12019-753-preview.jpg",
+          "microPath": "../runtime-images/12019-753-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-002-CH-ALT-JamieSiuPeacekeepingBreakdancer.png"
         }
       ]
@@ -5189,6 +5707,8 @@
           "officialCardNumber": "004",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/779 - Avenger- Impaler.png",
+          "previewPath": "../runtime-images/12023-779-preview.jpg",
+          "microPath": "../runtime-images/12023-779-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-004-R-ALT-AvengerImpaler.png"
         }
       ]
@@ -5209,6 +5729,8 @@
           "officialCardNumber": "006",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/776 - Hashogeki.png",
+          "previewPath": "../runtime-images/12024-776-preview.jpg",
+          "microPath": "../runtime-images/12024-776-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-006-R-ALT-Hashogeki.png"
         }
       ]
@@ -5229,6 +5751,8 @@
           "officialCardNumber": "008",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/773 - Pale Rider.png",
+          "previewPath": "../runtime-images/12025-773-preview.jpg",
+          "microPath": "../runtime-images/12025-773-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-008-UR-ALT-PaleRider.png"
         }
       ]
@@ -5249,6 +5773,8 @@
           "officialCardNumber": "009",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/771 - Rising Uppercut.png",
+          "previewPath": "../runtime-images/12026-771-preview.jpg",
+          "microPath": "../runtime-images/12026-771-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-009-R-ALT-RisingUppercut.png"
         }
       ]
@@ -5269,6 +5795,8 @@
           "officialCardNumber": "004",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/750 - Aerial Kikosho.png",
+          "previewPath": "../runtime-images/12030-750-preview.jpg",
+          "microPath": "../runtime-images/12030-750-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-004-UR-ALT-AerialKikosho.png"
         }
       ]
@@ -5289,6 +5817,8 @@
           "officialCardNumber": "005",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/748 - Arrow Kick.png",
+          "previewPath": "../runtime-images/12031-748-preview.jpg",
+          "microPath": "../runtime-images/12031-748-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-005-R-ALT-ArrowKick.png"
         }
       ]
@@ -5309,6 +5839,8 @@
           "officialCardNumber": "011",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/768 - Shin Hashogeki.png",
+          "previewPath": "../runtime-images/12036-768-preview.jpg",
+          "microPath": "../runtime-images/12036-768-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-011-UR-ALT-ShinHashogeki.png"
         }
       ]
@@ -5329,6 +5861,8 @@
           "officialCardNumber": "007",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/745 - Breakin’.png",
+          "previewPath": "../runtime-images/12037-745-preview.jpg",
+          "microPath": "../runtime-images/12037-745-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-007-UR-ALT-Breakin.png"
         }
       ]
@@ -5349,6 +5883,8 @@
           "officialCardNumber": "010",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/740 - Phantom Sway.png",
+          "previewPath": "../runtime-images/12049-740-preview.jpg",
+          "microPath": "../runtime-images/12049-740-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-010-R-ALT-PhantomSway.png"
         }
       ]
@@ -5369,6 +5905,8 @@
           "officialCardNumber": "009",
           "rarity": "rare-alt-art",
           "sourcePath": "../official-gallery/images/742 - Hundred Lightning Kicks.png",
+          "previewPath": "../runtime-images/12054-742-preview.jpg",
+          "microPath": "../runtime-images/12054-742-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-009-R-ALT-HundredLightningKicks.png"
         }
       ]
@@ -5389,6 +5927,8 @@
           "officialCardNumber": "020",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/758 - The Unending Path.png",
+          "previewPath": "../runtime-images/12063-758-preview.jpg",
+          "microPath": "../runtime-images/12063-758-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF601-020-UR-ALT-TheUnendingPath.png"
         }
       ]
@@ -5409,6 +5949,8 @@
           "officialCardNumber": "014",
           "rarity": "ultra-rare-alt-art",
           "sourcePath": "../official-gallery/images/735 - Dance of the Phoenix.png",
+          "previewPath": "../runtime-images/12064-735-preview.jpg",
+          "microPath": "../runtime-images/12064-735-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SF602-014-UR-ALT-DanceofthePhoenix.png"
         }
       ]
@@ -5429,6 +5971,8 @@
           "officialCardNumber": "001",
           "rarity": "character-alt-art",
           "sourcePath": "../official-gallery/images/2176 - Sung Jinwoo, E Rank Hunter.png",
+          "previewPath": "../runtime-images/12308-2176-preview.jpg",
+          "microPath": "../runtime-images/12308-2176-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/SL01-001-SungJinWoo-CH-ALT.png"
         }
       ]
@@ -5449,6 +5993,8 @@
           "officialCardNumber": "023",
           "rarity": "ch-alt",
           "sourcePath": "../official-gallery/images/11828 - Shun’Ei, Amped-Up Illusionist.png",
+          "previewPath": "../runtime-images/12360-11828-preview.jpg",
+          "microPath": "../runtime-images/12360-11828-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF01-023-CH-ALT-ShunEiAmped-UpIllusionist.png"
         }
       ]
@@ -5469,6 +6015,8 @@
           "officialCardNumber": "024",
           "rarity": "ch-alt",
           "sourcePath": "../official-gallery/images/11830 - Meitenkun, Sleeping Prodigy.png",
+          "previewPath": "../runtime-images/12361-11830-preview.jpg",
+          "microPath": "../runtime-images/12361-11830-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF01-024-CH-ALT-MeitenkunSleepingProdigy.png"
         }
       ]
@@ -5489,6 +6037,8 @@
           "officialCardNumber": "025",
           "rarity": "ch-alt",
           "sourcePath": "../official-gallery/images/11832 - Benimaru, Shooting Star.png",
+          "previewPath": "../runtime-images/12362-11832-preview.jpg",
+          "microPath": "../runtime-images/12362-11832-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF01-025-CH-ALT-BenimaruShootingStar.png"
         }
       ]
@@ -5509,6 +6059,8 @@
           "officialCardNumber": "026",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/11835 - Benimaru Collider.png",
+          "previewPath": "../runtime-images/12364-11835-preview.jpg",
+          "microPath": "../runtime-images/12364-11835-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF01-026-R-ALT-BenimaruCollider.png"
         }
       ]
@@ -5529,6 +6081,8 @@
           "officialCardNumber": "027",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/11837 - Chou Geki Hou.png",
+          "previewPath": "../runtime-images/12365-11837-preview.jpg",
+          "microPath": "../runtime-images/12365-11837-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF01-027-UR-ALT-CHouGekiHou.png"
         }
       ]
@@ -5549,6 +6103,8 @@
           "officialCardNumber": "028",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/11842 - Phantom Singulation.png",
+          "previewPath": "../runtime-images/12369-11842-preview.jpg",
+          "microPath": "../runtime-images/12369-11842-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/02/KF01-028-UR-ALT-PhantomSingulation-1.png"
         }
       ]
@@ -5569,6 +6125,8 @@
           "officialCardNumber": "029",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/11844 - Scarlet Phantom.png",
+          "previewPath": "../runtime-images/12370-11844-preview.jpg",
+          "microPath": "../runtime-images/12370-11844-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF01-029-R-ALT-ScarletPhantom.png"
         }
       ]
@@ -5589,6 +6147,8 @@
           "officialCardNumber": "030",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/11846 - Sen-Siss Hou.png",
+          "previewPath": "../runtime-images/12371-11846-preview.jpg",
+          "microPath": "../runtime-images/12371-11846-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF01-030-R-ALT-Sen-SissHou.png"
         }
       ]
@@ -5609,6 +6169,8 @@
           "officialCardNumber": "031",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/11848 - Upward Rai-Kou Ken.png",
+          "previewPath": "../runtime-images/12372-11848-preview.jpg",
+          "microPath": "../runtime-images/12372-11848-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/02/KF01-031-UR-ALT-UpwardRaikouken-1.png"
         }
       ]
@@ -5629,6 +6191,8 @@
           "officialCardNumber": "023",
           "rarity": "ch-alt",
           "sourcePath": "../official-gallery/images/11859 - Isla, Dreaming Brilliance.png",
+          "previewPath": "../runtime-images/12382-11859-preview.jpg",
+          "microPath": "../runtime-images/12382-11859-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-023-CH-ALT-IslaDreamingBrilliance.png"
         }
       ]
@@ -5649,6 +6213,8 @@
           "officialCardNumber": "024",
           "rarity": "ch-alt",
           "sourcePath": "../official-gallery/images/11861 - Dolores, Hidden Wisdom.png",
+          "previewPath": "../runtime-images/12383-11861-preview.jpg",
+          "microPath": "../runtime-images/12383-11861-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-024-CH-ALT-DoloresHiddenWisdom.png"
         }
       ]
@@ -5669,6 +6235,8 @@
           "officialCardNumber": "025",
           "rarity": "ch-alt",
           "sourcePath": "../official-gallery/images/11863 - Heidern, Hard-Boiled Assassin.png",
+          "previewPath": "../runtime-images/12384-11863-preview.jpg",
+          "microPath": "../runtime-images/12384-11863-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-025-CH-ALT-HeidernHard-BoiledAssassin.png"
         }
       ]
@@ -5689,6 +6257,8 @@
           "officialCardNumber": "026",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/11866 - Assault Saber.png",
+          "previewPath": "../runtime-images/12386-11866-preview.jpg",
+          "microPath": "../runtime-images/12386-11866-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-026-R-ALT-AssaultSaber.png"
         }
       ]
@@ -5709,6 +6279,8 @@
           "officialCardNumber": "027",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/11869 - Hadir.png",
+          "previewPath": "../runtime-images/12388-11869-preview.jpg",
+          "microPath": "../runtime-images/12388-11869-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-027-UR-ALT-Hadir.png"
         }
       ]
@@ -5729,6 +6301,8 @@
           "officialCardNumber": "028",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/11871 - Heidern End.png",
+          "previewPath": "../runtime-images/12389-11871-preview.jpg",
+          "microPath": "../runtime-images/12389-11871-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-028-UR-ALT-HeidernEnd.png"
         }
       ]
@@ -5749,6 +6323,8 @@
           "officialCardNumber": "029",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/11874 - Nesh.png",
+          "previewPath": "../runtime-images/12391-11874-preview.jpg",
+          "microPath": "../runtime-images/12391-11874-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-029-R-ALT-Nesh.png"
         }
       ]
@@ -5769,6 +6345,8 @@
           "officialCardNumber": "030",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/11876 - Scribe.png",
+          "previewPath": "../runtime-images/12392-11876-preview.jpg",
+          "microPath": "../runtime-images/12392-11876-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-030-R-ALT-Scribe.png"
         }
       ]
@@ -5789,6 +6367,8 @@
           "officialCardNumber": "031",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/11879 - Wild Style.png",
+          "previewPath": "../runtime-images/12394-11879-preview.jpg",
+          "microPath": "../runtime-images/12394-11879-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/01/KF02-031-UR-ALT-WildStyle.png"
         }
       ]
@@ -5809,6 +6389,8 @@
           "officialCardNumber": "188",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14219 - Anguirus, Fierce Dragon.png",
+          "previewPath": "../runtime-images/12405-14219-preview.jpg",
+          "microPath": "../runtime-images/12405-14219-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-188-CH-C-ALT-AnguirusFierceDragon.png"
         }
       ]
@@ -5829,6 +6411,8 @@
           "officialCardNumber": "189",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/14220 - Battra, Beast of Destruction.png",
+          "previewPath": "../runtime-images/12406-14220-preview.jpg",
+          "microPath": "../runtime-images/12406-14220-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-189-CH-R-ALT-BattraBeastofDestruction.png"
         }
       ]
@@ -5849,6 +6433,8 @@
           "officialCardNumber": "190",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/14221 - Biollante, Giant Plant Monster.png",
+          "previewPath": "../runtime-images/12407-14221-preview.jpg",
+          "microPath": "../runtime-images/12407-14221-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-190-CH-R-ALT-BiollanteGiantPlantMonster.png"
         }
       ]
@@ -5869,6 +6455,8 @@
           "officialCardNumber": "191",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14222 - Burning Godzilla.png",
+          "previewPath": "../runtime-images/12408-14222-preview.jpg",
+          "microPath": "../runtime-images/12408-14222-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-191-CH-C-ALT-BurningGodzilla.png"
         }
       ]
@@ -5889,6 +6477,8 @@
           "officialCardNumber": "192",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/14223 - Destoroyah, Perfect Lifeform.png",
+          "previewPath": "../runtime-images/12409-14223-preview.jpg",
+          "microPath": "../runtime-images/12409-14223-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-192-CH-R-ALT-DestoroyahPerfectLifeform.png"
         }
       ]
@@ -5909,6 +6499,8 @@
           "officialCardNumber": "193",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14224 - Gigan, Space Monster.png",
+          "previewPath": "../runtime-images/12410-14224-preview.jpg",
+          "microPath": "../runtime-images/12410-14224-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-193-CH-C-ALT-GiganSpaceMonster.png"
         }
       ]
@@ -5929,6 +6521,8 @@
           "officialCardNumber": "194",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14225 - Godzilla, Shin Godzilla.png",
+          "previewPath": "../runtime-images/12411-14225-preview.jpg",
+          "microPath": "../runtime-images/12411-14225-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-194-CH-C-ALT-GodzillaShinGodzilla.png"
         }
       ]
@@ -5949,6 +6543,8 @@
           "officialCardNumber": "195",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/14226 - Godzilla, Titan of Terror.png",
+          "previewPath": "../runtime-images/12412-14226-preview.jpg",
+          "microPath": "../runtime-images/12412-14226-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-195-CH-R-ALT-GodzillaTitanofTerror.png"
         }
       ]
@@ -5969,6 +6565,8 @@
           "officialCardNumber": "196",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14227 - Hedorah, Smog Monster.png",
+          "previewPath": "../runtime-images/12413-14227-preview.jpg",
+          "microPath": "../runtime-images/12413-14227-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-196-CH-C-ALT-HedorahSmogMonster.png"
         }
       ]
@@ -5989,6 +6587,8 @@
           "officialCardNumber": "197",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14228 - Jet Jaguar, Warrior of Justice.png",
+          "previewPath": "../runtime-images/12414-14228-preview.jpg",
+          "microPath": "../runtime-images/12414-14228-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-197-CH-C-ALT-JetJaguarWarriorofJustice.png"
         }
       ]
@@ -6009,6 +6609,8 @@
           "officialCardNumber": "198",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/14229 - King Ghidorah, Three-Headed Monster.png",
+          "previewPath": "../runtime-images/12415-14229-preview.jpg",
+          "microPath": "../runtime-images/12415-14229-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-198-CH-R-ALT-KingGhidorahThree-HeadedMonster.png"
         }
       ]
@@ -6029,6 +6631,8 @@
           "officialCardNumber": "199",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/14230 - Mechagodzilla, Modified Type-3 Kiryu.png",
+          "previewPath": "../runtime-images/12416-14230-preview.jpg",
+          "microPath": "../runtime-images/12416-14230-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-199-CH-R-ALT-MechagodzillaKiryuModified-1.png"
         }
       ]
@@ -6049,6 +6653,8 @@
           "officialCardNumber": "200",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14231 - Mothra, Divine Moth.png",
+          "previewPath": "../runtime-images/12417-14231-preview.jpg",
+          "microPath": "../runtime-images/12417-14231-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-200-CH-C-ALT-MothraDivineMoth.png"
         }
       ]
@@ -6069,6 +6675,8 @@
           "officialCardNumber": "201",
           "rarity": "ch-c-alt",
           "sourcePath": "../official-gallery/images/14232 - Rodan, Fire Rodan.png",
+          "previewPath": "../runtime-images/12418-14232-preview.jpg",
+          "microPath": "../runtime-images/12418-14232-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-201-CH-C-ALT-RodanFireRodan.png"
         }
       ]
@@ -6089,6 +6697,8 @@
           "officialCardNumber": "211",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14242 - Burning Fury.png",
+          "previewPath": "../runtime-images/12445-14242-preview.jpg",
+          "microPath": "../runtime-images/12445-14242-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-211-UR-ALT-BurningFury.png"
         }
       ]
@@ -6109,6 +6719,8 @@
           "officialCardNumber": "202",
           "rarity": "ch-r-alt",
           "sourcePath": "../official-gallery/images/14233 - SpaceGodzilla, Bio-Quartz Monster.png",
+          "previewPath": "../runtime-images/12461-14233-preview.jpg",
+          "microPath": "../runtime-images/12461-14233-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-202-CH-R-ALT-SpaceGodzillaBio-QuartzMonster.png"
         }
       ]
@@ -6129,6 +6741,8 @@
           "officialCardNumber": "204",
           "rarity": "sr-alt",
           "sourcePath": "../official-gallery/images/14235 - Power of the Monsters.png",
+          "previewPath": "../runtime-images/12464-14235-preview.jpg",
+          "microPath": "../runtime-images/12464-14235-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-204-SR-ALT-PoweroftheMonsters.png"
         }
       ]
@@ -6149,6 +6763,8 @@
           "officialCardNumber": "222",
           "rarity": "sr-alt",
           "sourcePath": "../official-gallery/images/14253 - Mechanical Monster.png",
+          "previewPath": "../runtime-images/12466-14253-preview.jpg",
+          "microPath": "../runtime-images/12466-14253-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-222-SR-ALT-MechanicalMonster.png"
         }
       ]
@@ -6169,6 +6785,8 @@
           "officialCardNumber": "205",
           "rarity": "sr-alt",
           "sourcePath": "../official-gallery/images/14236 - Sacred Guardian.png",
+          "previewPath": "../runtime-images/12470-14236-preview.jpg",
+          "microPath": "../runtime-images/12470-14236-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-205-SR-ALT-SacredGuardian.png"
         }
       ]
@@ -6189,6 +6807,8 @@
           "officialCardNumber": "206",
           "rarity": "sr-alt",
           "sourcePath": "../official-gallery/images/14237 - Total Destruction.png",
+          "previewPath": "../runtime-images/12483-14237-preview.jpg",
+          "microPath": "../runtime-images/12483-14237-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-206-SR-ALT-TotalDestruction.png"
         }
       ]
@@ -6209,6 +6829,8 @@
           "officialCardNumber": "212",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14243 - Corona Beam.png",
+          "previewPath": "../runtime-images/12486-14243-preview.jpg",
+          "microPath": "../runtime-images/12486-14243-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-212-UR-ALT-CoronaBeam.png"
         }
       ]
@@ -6229,6 +6851,8 @@
           "officialCardNumber": "217",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14248 - Fully-Charged Blast.png",
+          "previewPath": "../runtime-images/12487-14248-preview.jpg",
+          "microPath": "../runtime-images/12487-14248-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-217-UR-ALT-Fully-ChargedBlast.png"
         }
       ]
@@ -6249,6 +6873,8 @@
           "officialCardNumber": "220",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14251 - Jet Uppercut.png",
+          "previewPath": "../runtime-images/12490-14251-preview.jpg",
+          "microPath": "../runtime-images/12490-14251-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-220-UR-ALT-JetUppercut.png"
         }
       ]
@@ -6269,6 +6895,8 @@
           "officialCardNumber": "224",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14255 - Queen of the Monsters.png",
+          "previewPath": "../runtime-images/12493-14255-preview.jpg",
+          "microPath": "../runtime-images/12493-14255-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-224-UR-ALT-QueenoftheMonsters.png"
         }
       ]
@@ -6289,6 +6917,8 @@
           "officialCardNumber": "175",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/14262 - Godzilla vs Mechagodzilla.png",
+          "previewPath": "../runtime-images/12496-14262-preview.jpg",
+          "microPath": "../runtime-images/12496-14262-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-175-R-GodzillavsMechagodzilla.png"
         }
       ]
@@ -6309,6 +6939,8 @@
           "officialCardNumber": "203",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14234 - Humanity Fights On.png",
+          "previewPath": "../runtime-images/12508-14234-preview.jpg",
+          "microPath": "../runtime-images/12508-14234-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-203-UR-ALT-HumanityFightsOn.png"
         }
       ]
@@ -6329,6 +6961,8 @@
           "officialCardNumber": "209",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14240 - Bladed Uppercut.png",
+          "previewPath": "../runtime-images/12518-14240-preview.jpg",
+          "microPath": "../runtime-images/12518-14240-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-209-UR-ALT-BladedUppercut.png"
         }
       ]
@@ -6349,6 +6983,8 @@
           "officialCardNumber": "225",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14256 - Thermal Flame.png",
+          "previewPath": "../runtime-images/12523-14256-preview.jpg",
+          "microPath": "../runtime-images/12523-14256-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-225-UR-ALT-ThermalFlame.png"
         }
       ]
@@ -6369,6 +7005,8 @@
           "officialCardNumber": "227",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14258 - Immense Showdown.png",
+          "previewPath": "../runtime-images/12528-14258-preview.jpg",
+          "microPath": "../runtime-images/12528-14258-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-227-UR-ALT-ImmenseShowdown.png"
         }
       ]
@@ -6389,6 +7027,8 @@
           "officialCardNumber": "207",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14238 - Acidic Sludge.png",
+          "previewPath": "../runtime-images/12535-14238-preview.jpg",
+          "microPath": "../runtime-images/12535-14238-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-207-UR-ALT-AcidicSludge.png"
         }
       ]
@@ -6409,6 +7049,8 @@
           "officialCardNumber": "210",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14241 - Blasting Off.png",
+          "previewPath": "../runtime-images/12536-14241-preview.jpg",
+          "microPath": "../runtime-images/12536-14241-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-210-UR-ALT-BlastingOff.png"
         }
       ]
@@ -6429,6 +7071,8 @@
           "officialCardNumber": "221",
           "rarity": "sr-alt",
           "sourcePath": "../official-gallery/images/14252 - King Ghidorah Unleashed.png",
+          "previewPath": "../runtime-images/12537-14252-preview.jpg",
+          "microPath": "../runtime-images/12537-14252-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-221-SR-ALT-KingGhidorahUnleashed.png"
         }
       ]
@@ -6449,6 +7093,8 @@
           "officialCardNumber": "208",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14239 - Anguirus Ball.png",
+          "previewPath": "../runtime-images/12561-14239-preview.jpg",
+          "microPath": "../runtime-images/12561-14239-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-208-UR-ALT-AnguirusBall.png"
         }
       ]
@@ -6469,6 +7115,8 @@
           "officialCardNumber": "213",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14244 - Crushing Impact.png",
+          "previewPath": "../runtime-images/12563-14244-preview.jpg",
+          "microPath": "../runtime-images/12563-14244-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-213-UR-ALT-CrushingImpact.png"
         }
       ]
@@ -6489,6 +7137,8 @@
           "officialCardNumber": "215",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14246 - Focused Prism Beams.png",
+          "previewPath": "../runtime-images/12565-14246-preview.jpg",
+          "microPath": "../runtime-images/12565-14246-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-215-UR-ALT-FocusedPrismBeams.png"
         }
       ]
@@ -6509,6 +7159,8 @@
           "officialCardNumber": "218",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14249 - Golden Destruction.png",
+          "previewPath": "../runtime-images/12566-14249-preview.jpg",
+          "microPath": "../runtime-images/12566-14249-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-218-UR-ALT-GoldenDestruction.png"
         }
       ]
@@ -6529,6 +7181,8 @@
           "officialCardNumber": "219",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14250 - Growing Grasp.png",
+          "previewPath": "../runtime-images/12567-14250-preview.jpg",
+          "microPath": "../runtime-images/12567-14250-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-219-UR-ALT-GrowingGrasp.png"
         }
       ]
@@ -6549,6 +7203,8 @@
           "officialCardNumber": "223",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14254 - Monster vs Machine.png",
+          "previewPath": "../runtime-images/12571-14254-preview.jpg",
+          "microPath": "../runtime-images/12571-14254-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-223-UR-ALT-MonstervsMachine.png"
         }
       ]
@@ -6569,6 +7225,8 @@
           "officialCardNumber": "226",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14257 - Winged Death.png",
+          "previewPath": "../runtime-images/12575-14257-preview.jpg",
+          "microPath": "../runtime-images/12575-14257-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-226-UR-ALT-WingedDeath.png"
         }
       ]
@@ -6589,6 +7247,8 @@
           "officialCardNumber": "174",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/14261 - Godzilla vs Gigan.png",
+          "previewPath": "../runtime-images/12582-14261-preview.jpg",
+          "microPath": "../runtime-images/12582-14261-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-174-R-GodzillavsGigan.png"
         }
       ]
@@ -6609,6 +7269,8 @@
           "officialCardNumber": "176",
           "rarity": "r-alt",
           "sourcePath": "../official-gallery/images/14263 - Godzilla vs SpaceGodzilla.png",
+          "previewPath": "../runtime-images/12583-14263-preview.jpg",
+          "microPath": "../runtime-images/12583-14263-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-176-R-GodzillavsSpaceGodzilla.png"
         }
       ]
@@ -6629,6 +7291,8 @@
           "officialCardNumber": "216",
           "rarity": "ur-alt",
           "sourcePath": "../official-gallery/images/14247 - Frenzied Dive.png",
+          "previewPath": "../runtime-images/12589-14247-preview.jpg",
+          "microPath": "../runtime-images/12589-14247-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-216-UR-ALT-FrenziedDive.png"
         }
       ]
@@ -6649,6 +7313,8 @@
           "officialCardNumber": "214",
           "rarity": "sr-alt",
           "sourcePath": "../official-gallery/images/14245 - Destructive Heat Ray.png",
+          "previewPath": "../runtime-images/12594-14245-preview.jpg",
+          "microPath": "../runtime-images/12594-14245-ci-micro.jpg",
           "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/07/GDZ01-214-SR-ALT-LegendaryHeatBreath-1.png"
         }
       ]

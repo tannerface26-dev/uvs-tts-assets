@@ -135,6 +135,7 @@ def main() -> None:
         set_code = str(source.get("officialSetCode") or "").strip()
         card_number = str(source.get("officialCardNumber") or "").strip()
         source_path = f"../official-gallery/{source['localPath']}"
+        derivative_stem = f"{card_id}-{gallery_id}"
         label_detail = " ".join(part for part in (set_code, card_number) if part)
         label = (
             f"Official Alternate Art ({label_detail})"
@@ -150,6 +151,8 @@ def main() -> None:
                 "officialCardNumber": card_number or None,
                 "rarity": source.get("rarity"),
                 "sourcePath": source_path,
+                "previewPath": f"../runtime-images/{derivative_stem}-preview.jpg",
+                "microPath": f"../runtime-images/{derivative_stem}-ci-micro.jpg",
                 "sourceUrl": source["sourceUrl"],
             }
         )
