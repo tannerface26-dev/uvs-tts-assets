@@ -1,11 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "identityFormat": "repo/{uvsUltraCardId}-{officialGalleryId}",
   "matchingPolicy": "exact_unique_normalized_name",
   "cards": [
     {
       "uvsUltraCardId": "4587",
       "cardName": "Yoshimitsu",
+      "original": {
+        "setId": "soularena",
+        "cardNumber": "131"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (TK802 199)",
@@ -22,6 +26,10 @@
     {
       "uvsUltraCardId": "9242",
       "cardName": "Kyoka Jiro",
+      "original": {
+        "setId": "mha01",
+        "cardNumber": "091"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4100)",
@@ -38,6 +46,10 @@
     {
       "uvsUltraCardId": "9260",
       "cardName": "Momo Yaoyorozu",
+      "original": {
+        "setId": "mha01",
+        "cardNumber": "109"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4012)",
@@ -54,6 +66,10 @@
     {
       "uvsUltraCardId": "9278",
       "cardName": "Ochaco Uraraka",
+      "original": {
+        "setId": "mha01",
+        "cardNumber": "127"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3970)",
@@ -70,6 +86,10 @@
     {
       "uvsUltraCardId": "9314",
       "cardName": "Tsuyu Asui",
+      "original": {
+        "setId": "mha01",
+        "cardNumber": "163"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3884)",
@@ -86,6 +106,10 @@
     {
       "uvsUltraCardId": "9343",
       "cardName": "Mina Ashido",
+      "original": {
+        "setId": "mha01",
+        "cardNumber": "207"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4056)",
@@ -102,6 +126,10 @@
     {
       "uvsUltraCardId": "9386",
       "cardName": "Midnight",
+      "original": {
+        "setId": "mha01",
+        "cardNumber": "242"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3926)",
@@ -118,6 +146,10 @@
     {
       "uvsUltraCardId": "9414",
       "cardName": "Mei Hatsume",
+      "original": {
+        "setId": "mha02",
+        "cardNumber": "028"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3936)",
@@ -134,6 +166,10 @@
     {
       "uvsUltraCardId": "9418",
       "cardName": "Himiko Toga",
+      "original": {
+        "setId": "mha02",
+        "cardNumber": "085"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4142)",
@@ -150,6 +186,10 @@
     {
       "uvsUltraCardId": "9956",
       "cardName": "Mirio Togata",
+      "original": {
+        "setId": "mha05",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4792)",
@@ -166,6 +206,10 @@
     {
       "uvsUltraCardId": "9958",
       "cardName": "Nejire Hado",
+      "original": {
+        "setId": "mha05",
+        "cardNumber": "073"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3914)",
@@ -192,6 +236,10 @@
     {
       "uvsUltraCardId": "9959",
       "cardName": "Tamaki Amajiki",
+      "original": {
+        "setId": "mha05",
+        "cardNumber": "091"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4782)",
@@ -208,6 +256,10 @@
     {
       "uvsUltraCardId": "10262",
       "cardName": "Ryukyu",
+      "original": {
+        "setId": "mha06",
+        "cardNumber": "118"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3894)",
@@ -224,6 +276,10 @@
     {
       "uvsUltraCardId": "10337",
       "cardName": "Mirko",
+      "original": {
+        "setId": "mha06",
+        "cardNumber": "200"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4034)",
@@ -240,6 +296,10 @@
     {
       "uvsUltraCardId": "10396",
       "cardName": "Keiko’s Support",
+      "original": {
+        "setId": "yyhdt",
+        "cardNumber": "142"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4462)",
@@ -256,6 +316,10 @@
     {
       "uvsUltraCardId": "10404",
       "cardName": "Urameshi Perseverance",
+      "original": {
+        "setId": "yyhdt",
+        "cardNumber": "154"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4464)",
@@ -272,6 +336,10 @@
     {
       "uvsUltraCardId": "10452",
       "cardName": "Dragon of the Darkness Flame",
+      "original": {
+        "setId": "yyhdt",
+        "cardNumber": "040"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4402)",
@@ -288,6 +356,10 @@
     {
       "uvsUltraCardId": "10479",
       "cardName": "Rose Whip Barrage",
+      "original": {
+        "setId": "yyhdt",
+        "cardNumber": "067"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4404)",
@@ -304,6 +376,10 @@
     {
       "uvsUltraCardId": "10499",
       "cardName": "Dimension Sword",
+      "original": {
+        "setId": "yyhdt",
+        "cardNumber": "085"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4406)",
@@ -320,6 +396,10 @@
     {
       "uvsUltraCardId": "10549",
       "cardName": "Double Spirit Blast",
+      "original": {
+        "setId": "yyhdt",
+        "cardNumber": "137"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4408)",
@@ -336,6 +416,10 @@
     {
       "uvsUltraCardId": "10636",
       "cardName": "Needle Barrage",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4136)",
@@ -352,6 +436,10 @@
     {
       "uvsUltraCardId": "10643",
       "cardName": "Itsuka Kendo",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "010"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4120)",
@@ -368,6 +456,10 @@
     {
       "uvsUltraCardId": "10647",
       "cardName": "Double Jumbo Fist",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "014"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4110)",
@@ -384,6 +476,10 @@
     {
       "uvsUltraCardId": "10654",
       "cardName": "Heartbeat Surround",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "021"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4094)",
@@ -400,6 +496,10 @@
     {
       "uvsUltraCardId": "10661",
       "cardName": "Lady Nagant",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "028"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4078)",
@@ -416,6 +516,10 @@
     {
       "uvsUltraCardId": "10664",
       "cardName": "Sniping Spy",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "031"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4070)",
@@ -432,6 +536,10 @@
     {
       "uvsUltraCardId": "10672",
       "cardName": "Acid Splash",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "039"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4050)",
@@ -448,6 +556,10 @@
     {
       "uvsUltraCardId": "10681",
       "cardName": "Luna Arc",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "048"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4028)",
@@ -464,6 +576,10 @@
     {
       "uvsUltraCardId": "10689",
       "cardName": "Canister Creation Strike",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "056"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (4008)",
@@ -480,6 +596,10 @@
     {
       "uvsUltraCardId": "10698",
       "cardName": "Patchwork Baby",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "088"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3932)",
@@ -496,6 +616,10 @@
     {
       "uvsUltraCardId": "10703",
       "cardName": "Mesa Mallet",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "067"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3982)",
@@ -512,6 +636,10 @@
     {
       "uvsUltraCardId": "10713",
       "cardName": "Zero Satellites",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "077"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3960)",
@@ -528,6 +656,10 @@
     {
       "uvsUltraCardId": "10718",
       "cardName": "Kinoko Komori",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "082"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3948)",
@@ -544,6 +676,10 @@
     {
       "uvsUltraCardId": "10720",
       "cardName": "Splitgill Lung Strike",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "084"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3942)",
@@ -560,6 +696,10 @@
     {
       "uvsUltraCardId": "10729",
       "cardName": "Somnambulist Subdual",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "092"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3920)",
@@ -576,6 +716,10 @@
     {
       "uvsUltraCardId": "10732",
       "cardName": "Nejire Flood",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "095"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3910)",
@@ -592,6 +736,10 @@
     {
       "uvsUltraCardId": "10735",
       "cardName": "Pony Tsunotori",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "098"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3904)",
@@ -608,6 +756,10 @@
     {
       "uvsUltraCardId": "10748",
       "cardName": "Camouflage Counter",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "107"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3880)",
@@ -624,6 +776,10 @@
     {
       "uvsUltraCardId": "10751",
       "cardName": "Woman",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "110"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3872)",
@@ -640,6 +796,10 @@
     {
       "uvsUltraCardId": "10753",
       "cardName": "Rupture Driver",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "112"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3866)",
@@ -656,6 +816,10 @@
     {
       "uvsUltraCardId": "10755",
       "cardName": "Decay Awakened",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "114"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3860)",
@@ -672,6 +836,10 @@
     {
       "uvsUltraCardId": "10757",
       "cardName": "Black Abyss",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "116"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3854)",
@@ -688,6 +856,10 @@
     {
       "uvsUltraCardId": "10761",
       "cardName": "Blueflame Surge",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "120"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3844)",
@@ -704,6 +876,10 @@
     {
       "uvsUltraCardId": "10762",
       "cardName": "Cluster Bombs",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "121"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3840)",
@@ -720,6 +896,10 @@
     {
       "uvsUltraCardId": "10763",
       "cardName": "Lightning Rod",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "138"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3802)",
@@ -736,6 +916,10 @@
     {
       "uvsUltraCardId": "10765",
       "cardName": "Resistance Training",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "172"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3728)",
@@ -752,6 +936,10 @@
     {
       "uvsUltraCardId": "10799",
       "cardName": "Recipro Turbo",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "142"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3790)",
@@ -768,6 +956,10 @@
     {
       "uvsUltraCardId": "10806",
       "cardName": "Super Grape Rush",
+      "original": {
+        "setId": "mha07",
+        "cardNumber": "149"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (3774)",
@@ -784,6 +976,10 @@
     {
       "uvsUltraCardId": "10954",
       "cardName": "Armin Arlert",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 002)",
@@ -800,6 +996,10 @@
     {
       "uvsUltraCardId": "10956",
       "cardName": "Eren, Attack Titan",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "008B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 0011)",
@@ -816,6 +1016,10 @@
     {
       "uvsUltraCardId": "10957",
       "cardName": "Levi Ackerman",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "014"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 014)",
@@ -832,6 +1036,10 @@
     {
       "uvsUltraCardId": "10958",
       "cardName": "Mikasa Ackerman",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "016"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 016)",
@@ -848,6 +1056,10 @@
     {
       "uvsUltraCardId": "10959",
       "cardName": "Whirling Slash",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "043"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 043)",
@@ -864,6 +1076,10 @@
     {
       "uvsUltraCardId": "10960",
       "cardName": "Get In, Get Out",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "051"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 051)",
@@ -880,6 +1096,10 @@
     {
       "uvsUltraCardId": "10963",
       "cardName": "Pressing the Advantage",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "251"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 251)",
@@ -896,6 +1116,10 @@
     {
       "uvsUltraCardId": "10964",
       "cardName": "Eren Yeager, Promising Scout",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "331"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2727)",
@@ -912,6 +1136,10 @@
     {
       "uvsUltraCardId": "10965",
       "cardName": "Attack Titan, Ferocious Challenger",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "331B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2799)",
@@ -928,6 +1156,10 @@
     {
       "uvsUltraCardId": "10966",
       "cardName": "Armin Arlert, Scared Strategist",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "332"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2795)",
@@ -944,6 +1176,10 @@
     {
       "uvsUltraCardId": "10967",
       "cardName": "Support of Your Friends",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "333"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2791)",
@@ -960,6 +1196,10 @@
     {
       "uvsUltraCardId": "10968",
       "cardName": "Clearing the Way",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "335"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2783)",
@@ -976,6 +1216,10 @@
     {
       "uvsUltraCardId": "10980",
       "cardName": "Execute Orders!",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "241"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 241)",
@@ -992,6 +1236,10 @@
     {
       "uvsUltraCardId": "10981",
       "cardName": "Wall Maria’s Might",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "257"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 257)",
@@ -1008,6 +1256,10 @@
     {
       "uvsUltraCardId": "10983",
       "cardName": "Fortify Walls",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "267"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 267)",
@@ -1024,6 +1276,10 @@
     {
       "uvsUltraCardId": "10993",
       "cardName": "Beast Titan",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 004)",
@@ -1040,6 +1296,10 @@
     {
       "uvsUltraCardId": "10999",
       "cardName": "Well-Orchestrated Attack",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "087"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 087)",
@@ -1056,6 +1316,10 @@
     {
       "uvsUltraCardId": "11001",
       "cardName": "Coordinated Strike",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "112"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 112)",
@@ -1072,6 +1336,10 @@
     {
       "uvsUltraCardId": "11007",
       "cardName": "High-Speed Dive",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "027"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 027)",
@@ -1088,6 +1356,10 @@
     {
       "uvsUltraCardId": "11008",
       "cardName": "Fortitude of the Armored Titan",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "064"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 064)",
@@ -1104,6 +1376,10 @@
     {
       "uvsUltraCardId": "11009",
       "cardName": "Short Work",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "124"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 121)",
@@ -1120,6 +1396,10 @@
     {
       "uvsUltraCardId": "11010",
       "cardName": "Colossus’s Steam Barrier",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "155"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 155)",
@@ -1136,6 +1416,10 @@
     {
       "uvsUltraCardId": "11011",
       "cardName": "Intense Heat Blast",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "164"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 164)",
@@ -1152,6 +1436,10 @@
     {
       "uvsUltraCardId": "11012",
       "cardName": "Midst of Despair",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "206"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 206)",
@@ -1168,6 +1456,10 @@
     {
       "uvsUltraCardId": "11013",
       "cardName": "Stomp of the Female Titan",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "212"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 212)",
@@ -1184,6 +1476,10 @@
     {
       "uvsUltraCardId": "11015",
       "cardName": "Ascend to Battle",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "023"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 023)",
@@ -1200,6 +1496,10 @@
     {
       "uvsUltraCardId": "11025",
       "cardName": "Race to the Rescue",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "036"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 036)",
@@ -1216,6 +1516,10 @@
     {
       "uvsUltraCardId": "11053",
       "cardName": "Emerge Victorious",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "073"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 073)",
@@ -1232,6 +1536,10 @@
     {
       "uvsUltraCardId": "11062",
       "cardName": "Swarmed by Titans",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "083"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 083)",
@@ -1248,6 +1556,10 @@
     {
       "uvsUltraCardId": "11069",
       "cardName": "Change of Plans",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "092"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 092)",
@@ -1264,6 +1576,10 @@
     {
       "uvsUltraCardId": "11084",
       "cardName": "Attack Titan’s Destructive Power",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "110"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 110)",
@@ -1280,6 +1596,10 @@
     {
       "uvsUltraCardId": "11087",
       "cardName": "Double-Bladed Spin",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "114"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 112)",
@@ -1296,6 +1616,10 @@
     {
       "uvsUltraCardId": "11094",
       "cardName": "Ravages of War",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "121"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 121)",
@@ -1312,6 +1636,10 @@
     {
       "uvsUltraCardId": "11113",
       "cardName": "Sins of the Past",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "145"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 145)",
@@ -1328,6 +1656,10 @@
     {
       "uvsUltraCardId": "11126",
       "cardName": "Increased Hostility",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "163"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 155)",
@@ -1344,6 +1676,10 @@
     {
       "uvsUltraCardId": "11133",
       "cardName": "Violent Betrayal",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "172"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 172)",
@@ -1360,6 +1696,10 @@
     {
       "uvsUltraCardId": "11144",
       "cardName": "Sacrifice for the Cause",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "187"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 187)",
@@ -1376,6 +1716,10 @@
     {
       "uvsUltraCardId": "11160",
       "cardName": "The Beast Titan’s Call",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "213"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 213)",
@@ -1392,6 +1736,10 @@
     {
       "uvsUltraCardId": "11174",
       "cardName": "Uplifting Bond",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "233"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 233)",
@@ -1408,6 +1756,10 @@
     {
       "uvsUltraCardId": "11182",
       "cardName": "Intimidating Command",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "246"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 246)",
@@ -1424,6 +1776,10 @@
     {
       "uvsUltraCardId": "11208",
       "cardName": "Unexpected Outcomes",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "293"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT01 293)",
@@ -1440,6 +1796,10 @@
     {
       "uvsUltraCardId": "11211",
       "cardName": "Reloadable Swords",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "334"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2787)",
@@ -1456,6 +1816,10 @@
     {
       "uvsUltraCardId": "11215",
       "cardName": "Battlefield Aid",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "341"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2769)",
@@ -1472,6 +1836,10 @@
     {
       "uvsUltraCardId": "11216",
       "cardName": "Eren’s Sidestep",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "343"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2763)",
@@ -1488,6 +1856,10 @@
     {
       "uvsUltraCardId": "11218",
       "cardName": "Titan Arm Bar",
+      "original": {
+        "setId": "aot01",
+        "cardNumber": "351"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2745)",
@@ -1504,6 +1876,10 @@
     {
       "uvsUltraCardId": "11226",
       "cardName": "Izuku Midoriya, On The Move",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2709)",
@@ -1520,6 +1896,10 @@
     {
       "uvsUltraCardId": "11227",
       "cardName": "Izuku Midoriya, Quirks Unleashed",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "001B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (2705)",
@@ -1536,6 +1916,10 @@
     {
       "uvsUltraCardId": "11228",
       "cardName": "Wielding One For All",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 002)",
@@ -1552,6 +1936,10 @@
     {
       "uvsUltraCardId": "11229",
       "cardName": "Tattered Costume",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 003)",
@@ -1568,6 +1956,10 @@
     {
       "uvsUltraCardId": "11230",
       "cardName": "Bullet Kick",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 004)",
@@ -1584,6 +1976,10 @@
     {
       "uvsUltraCardId": "11231",
       "cardName": "Deku’s Swift Takedown",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "005"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 005)",
@@ -1600,6 +1996,10 @@
     {
       "uvsUltraCardId": "11232",
       "cardName": "Fa Jin Flurry",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "006"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 006)",
@@ -1616,6 +2016,10 @@
     {
       "uvsUltraCardId": "11234",
       "cardName": "Pinpoint Focus:\nBlackwhip Shot",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "008"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 008)",
@@ -1632,6 +2036,10 @@
     {
       "uvsUltraCardId": "11235",
       "cardName": "Rapid Rescue",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "009"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 009)",
@@ -1648,6 +2056,10 @@
     {
       "uvsUltraCardId": "11236",
       "cardName": "Smokescreen Charge",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "010"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 010)",
@@ -1664,6 +2076,10 @@
     {
       "uvsUltraCardId": "11237",
       "cardName": "Creative Counter",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "011"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 011)",
@@ -1680,6 +2096,10 @@
     {
       "uvsUltraCardId": "11238",
       "cardName": "Eighth Wielder",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "012"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 012)",
@@ -1696,6 +2116,10 @@
     {
       "uvsUltraCardId": "11239",
       "cardName": "Expression Of Friendship",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "013"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 013)",
@@ -1712,6 +2136,10 @@
     {
       "uvsUltraCardId": "11240",
       "cardName": "Fifth Wielder: Blackwhip",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "014"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 014)",
@@ -1728,6 +2156,10 @@
     {
       "uvsUltraCardId": "11241",
       "cardName": "First Wielder: One for All",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "015"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 015)",
@@ -1744,6 +2176,10 @@
     {
       "uvsUltraCardId": "11242",
       "cardName": "Fourth Wielder: Danger Sense",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "016"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 016)",
@@ -1760,6 +2196,10 @@
     {
       "uvsUltraCardId": "11243",
       "cardName": "Second Wielder",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "017"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 017)",
@@ -1776,6 +2216,10 @@
     {
       "uvsUltraCardId": "11244",
       "cardName": "Seventh Wielder: Float",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "018"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 018)",
@@ -1792,6 +2236,10 @@
     {
       "uvsUltraCardId": "11245",
       "cardName": "Sixth Wielder: Smokescreen",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "019"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 019)",
@@ -1808,6 +2256,10 @@
     {
       "uvsUltraCardId": "11246",
       "cardName": "Third Wielder: Fa Jin",
+      "original": {
+        "setId": "mha08",
+        "cardNumber": "020"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (MHA08 020)",
@@ -1824,6 +2276,10 @@
     {
       "uvsUltraCardId": "11271",
       "cardName": "Beckett Mariner, Chaotic Ensign",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK01 001)",
@@ -1840,6 +2296,10 @@
     {
       "uvsUltraCardId": "11272",
       "cardName": "Brad Boimler, By-the-Book Ensign",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "023"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK02 001)",
@@ -1856,6 +2316,10 @@
     {
       "uvsUltraCardId": "11273",
       "cardName": "D’Vana Tendi, Eager Science Officer",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "045"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK03 001)",
@@ -1872,6 +2336,10 @@
     {
       "uvsUltraCardId": "11274",
       "cardName": "Sam Rutherford, Resourceful Engineer",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "067"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK04 001)",
@@ -1888,6 +2356,10 @@
     {
       "uvsUltraCardId": "11488",
       "cardName": "Beckett Mariner, Adventuring Archeologist",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK01 002)",
@@ -1904,6 +2376,10 @@
     {
       "uvsUltraCardId": "11489",
       "cardName": "Beckett’s Bat’leth",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK01 004)",
@@ -1920,6 +2396,10 @@
     {
       "uvsUltraCardId": "11490",
       "cardName": "Excited Blows",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "008"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK01 008)",
@@ -1936,6 +2416,10 @@
     {
       "uvsUltraCardId": "11491",
       "cardName": "Un-phased",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "011"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK01 011)",
@@ -1952,6 +2436,10 @@
     {
       "uvsUltraCardId": "11494",
       "cardName": "Brad Boimler, Acting Captain",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "024"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK02 002)",
@@ -1968,6 +2456,10 @@
     {
       "uvsUltraCardId": "11495",
       "cardName": "Combadge",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "026"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK02 004)",
@@ -1984,6 +2476,10 @@
     {
       "uvsUltraCardId": "11496",
       "cardName": "Survey Mission",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "034"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK02 012)",
@@ -2000,6 +2496,10 @@
     {
       "uvsUltraCardId": "11499",
       "cardName": "Rules Stickler",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "041"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK02 019)",
@@ -2016,6 +2516,10 @@
     {
       "uvsUltraCardId": "11500",
       "cardName": "D’Vana Tendi, Mistress of the Winter Constellations",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "046"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK03 002)",
@@ -2032,6 +2536,10 @@
     {
       "uvsUltraCardId": "11501",
       "cardName": "Emergency Treatment",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "047"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK03 003)",
@@ -2048,6 +2556,10 @@
     {
       "uvsUltraCardId": "11502",
       "cardName": "T88",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "048"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK03 004)",
@@ -2064,6 +2576,10 @@
     {
       "uvsUltraCardId": "11503",
       "cardName": "Syndicate Skills",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "056"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK03 012)",
@@ -2080,6 +2596,10 @@
     {
       "uvsUltraCardId": "11506",
       "cardName": "Sam Rutherford, Devron Racer",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "068"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK04 002)",
@@ -2096,6 +2616,10 @@
     {
       "uvsUltraCardId": "11507",
       "cardName": "“Strange Energies”",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "069"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK04 003)",
@@ -2112,6 +2636,10 @@
     {
       "uvsUltraCardId": "11508",
       "cardName": "Badgey, Vengeful Pal",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "070"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK04 004)",
@@ -2128,6 +2656,10 @@
     {
       "uvsUltraCardId": "11509",
       "cardName": "Charged Alien Sploof",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "073"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK04 007)",
@@ -2142,64 +2674,12 @@
       ]
     },
     {
-      "uvsUltraCardId": "11512",
-      "cardName": "U.S.S. Cerritos, NCC-75567",
-      "variants": [
-        {
-          "label": "Official Alternate Art (STK04 005)",
-          "qualifier": "repo/11512-2197",
-          "officialGalleryId": "2197",
-          "officialSetCode": "STK04",
-          "officialCardNumber": "005",
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/2197 - U.S.S. Cerritos, NCC-75567.png",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK04-005-USSCerritosNCC-75567-SR-ALT.png"
-        },
-        {
-          "label": "Official Alternate Art (STK03 005)",
-          "qualifier": "repo/11512-2215",
-          "officialGalleryId": "2215",
-          "officialSetCode": "STK03",
-          "officialCardNumber": "005",
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/2215 - U.S.S. Cerritos, NCC-75567.png",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK03-005-USSCerritosNCC-75567-SR-ALT.png"
-        },
-        {
-          "label": "Official Alternate Art (STK02 005)",
-          "qualifier": "repo/11512-2229",
-          "officialGalleryId": "2229",
-          "officialSetCode": "STK02",
-          "officialCardNumber": "005",
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/2229 - U.S.S. Cerritos, NCC-75567.png",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK02-005-USSCerritosNCC-75567-SR-ALT.png"
-        },
-        {
-          "label": "Official Alternate Art (STK01 005)",
-          "qualifier": "repo/11512-2245",
-          "officialGalleryId": "2245",
-          "officialSetCode": "STK01",
-          "officialCardNumber": "005",
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/2245 - U.S.S. Cerritos, NCC-75567.png",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-005-USSCerritosNCC-75567-SR-ALT.png"
-        },
-        {
-          "label": "Official Alternate Art (STK01 005)",
-          "qualifier": "repo/11512-2421",
-          "officialGalleryId": "2421",
-          "officialSetCode": "STK01",
-          "officialCardNumber": "005",
-          "rarity": "secret-rare-alt-art",
-          "sourcePath": "../official-gallery/images/2421 - U.S.S. Cerritos, NCC-75567.png",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2025/08/STK01-005-USSCerritosNCC-75567-SR.png"
-        }
-      ]
-    },
-    {
       "uvsUltraCardId": "11513",
       "cardName": "Connecting the Dots",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK01 003)",
@@ -2216,6 +2696,10 @@
     {
       "uvsUltraCardId": "11522",
       "cardName": "Insubordination",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "017"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK01 017)",
@@ -2232,6 +2716,10 @@
     {
       "uvsUltraCardId": "11527",
       "cardName": "Replicator Enthusiast",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "025"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK02 003)",
@@ -2248,6 +2736,10 @@
     {
       "uvsUltraCardId": "11529",
       "cardName": "Inconvenient Duplication",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "029"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK02 007)",
@@ -2264,6 +2756,10 @@
     {
       "uvsUltraCardId": "11543",
       "cardName": "Extreme Methods",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "052"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK03 008)",
@@ -2280,6 +2776,10 @@
     {
       "uvsUltraCardId": "11554",
       "cardName": "Unyielding Enthusiasm",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "066"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK03 022)",
@@ -2296,6 +2796,10 @@
     {
       "uvsUltraCardId": "11558",
       "cardName": "Okey Dokey!",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "077"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK04 011)",
@@ -2312,6 +2816,10 @@
     {
       "uvsUltraCardId": "11565",
       "cardName": "Other Self",
+      "original": {
+        "setId": "stk0x",
+        "cardNumber": "084"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (STK04 018)",
@@ -2328,6 +2836,10 @@
     {
       "uvsUltraCardId": "11571",
       "cardName": "Harness Undeath",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "192"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 192)",
@@ -2344,6 +2856,10 @@
     {
       "uvsUltraCardId": "11573",
       "cardName": "Hunter’s Dagger",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 002)",
@@ -2360,6 +2876,10 @@
     {
       "uvsUltraCardId": "11574",
       "cardName": "Teleportation Stone",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 003)",
@@ -2376,6 +2896,10 @@
     {
       "uvsUltraCardId": "11575",
       "cardName": "Clash with the Bloodred",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 004)",
@@ -2392,6 +2916,10 @@
     {
       "uvsUltraCardId": "11576",
       "cardName": "Determined Cut",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "005"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 005)",
@@ -2408,6 +2936,10 @@
     {
       "uvsUltraCardId": "11577",
       "cardName": "Enough of This",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "006"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 006)",
@@ -2424,6 +2956,10 @@
     {
       "uvsUltraCardId": "11578",
       "cardName": "Grasp for Survival",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "007"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 007)",
@@ -2440,6 +2976,10 @@
     {
       "uvsUltraCardId": "11579",
       "cardName": "Killing Intent",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "008"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 008)",
@@ -2456,6 +2996,10 @@
     {
       "uvsUltraCardId": "11580",
       "cardName": "Venom Fang Dagger",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "009"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 009)",
@@ -2472,6 +3016,10 @@
     {
       "uvsUltraCardId": "11581",
       "cardName": "Wolf Assassin",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "010"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 010)",
@@ -2488,6 +3036,10 @@
     {
       "uvsUltraCardId": "11583",
       "cardName": "Double Dungeon",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "012"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 012)",
@@ -2504,6 +3056,10 @@
     {
       "uvsUltraCardId": "11584",
       "cardName": "Dungeoneering Armor",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "013"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 013)",
@@ -2520,6 +3076,10 @@
     {
       "uvsUltraCardId": "11585",
       "cardName": "Fateful Decision",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "014"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 014)",
@@ -2536,6 +3096,10 @@
     {
       "uvsUltraCardId": "11586",
       "cardName": "Improving Skills",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "015"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 015)",
@@ -2552,6 +3116,10 @@
     {
       "uvsUltraCardId": "11587",
       "cardName": "Item Menu",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "016"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 016)",
@@ -2568,6 +3136,10 @@
     {
       "uvsUltraCardId": "11588",
       "cardName": "Leveling Strength",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "017"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 017)",
@@ -2584,6 +3156,10 @@
     {
       "uvsUltraCardId": "11589",
       "cardName": "Loot Box",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "018"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 018)",
@@ -2600,6 +3176,10 @@
     {
       "uvsUltraCardId": "11590",
       "cardName": "Serpent Scramble",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "019"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 019)",
@@ -2616,6 +3196,10 @@
     {
       "uvsUltraCardId": "11591",
       "cardName": "Timely Recovery",
+      "original": {
+        "setId": "sl01",
+        "cardNumber": "020"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 020)",
@@ -2632,6 +3216,10 @@
     {
       "uvsUltraCardId": "11597",
       "cardName": "Caduceus Clay, Insightful Caretaker",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 003)",
@@ -2648,6 +3236,10 @@
     {
       "uvsUltraCardId": "11604",
       "cardName": "Essek Thelyss, Expert Dunamancer",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "005"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 005)",
@@ -2664,6 +3256,10 @@
     {
       "uvsUltraCardId": "11605",
       "cardName": "Beauregard Lionett, Expositor",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 002)",
@@ -2680,6 +3276,10 @@
     {
       "uvsUltraCardId": "11606",
       "cardName": "Pumat Sol, Magical Proprietor",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "015"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 015)",
@@ -2696,6 +3296,10 @@
     {
       "uvsUltraCardId": "11607",
       "cardName": "Mollymauk Tealeaf, Carnival Hooligan",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "011"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 011)",
@@ -2712,6 +3316,10 @@
     {
       "uvsUltraCardId": "11614",
       "cardName": "Scanlan Shorthalt, Devious Troubadour",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "016"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 016)",
@@ -2728,6 +3336,10 @@
     {
       "uvsUltraCardId": "11615",
       "cardName": "Caleb Widogast, Fiery Transmuter",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 004)",
@@ -2744,6 +3356,10 @@
     {
       "uvsUltraCardId": "11616",
       "cardName": "Percival de Rolo III, Vengeful Sharpshooter",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "013"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 013)",
@@ -2760,6 +3376,10 @@
     {
       "uvsUltraCardId": "11617",
       "cardName": "Lady Kima of Vord",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "010"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 010)",
@@ -2776,6 +3396,10 @@
     {
       "uvsUltraCardId": "11618",
       "cardName": "Yasha Nydoorin, Orphanmaker",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "020"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 020)",
@@ -2792,6 +3416,10 @@
     {
       "uvsUltraCardId": "11619",
       "cardName": "Grog Strongjaw, Mighty Half-Giant",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "007"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 007)",
@@ -2808,6 +3436,10 @@
     {
       "uvsUltraCardId": "11626",
       "cardName": "Vax’ildan, Dagger Master",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "018"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 018)",
@@ -2824,6 +3456,10 @@
     {
       "uvsUltraCardId": "11627",
       "cardName": "Vex’ahlia, Protector of the Wilds",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "019"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 019)",
@@ -2840,6 +3476,10 @@
     {
       "uvsUltraCardId": "11628",
       "cardName": "Allura Vysoren, Arcanist of Tal’Dorei",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 001)",
@@ -2856,6 +3496,10 @@
     {
       "uvsUltraCardId": "11629",
       "cardName": "Jester Lavorre, Traveler’s Faithful",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "008"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 008)",
@@ -2872,6 +3516,10 @@
     {
       "uvsUltraCardId": "11630",
       "cardName": "Keyleth of the Air Ashari",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "009"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 009)",
@@ -2888,6 +3536,10 @@
     {
       "uvsUltraCardId": "11631",
       "cardName": "Nott the Brave, Chaotic Meddler",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "012"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 012)",
@@ -2904,6 +3556,10 @@
     {
       "uvsUltraCardId": "11632",
       "cardName": "Pike Trickfoot, Ferocious Priestess",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "014"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 014)",
@@ -2920,6 +3576,10 @@
     {
       "uvsUltraCardId": "11636",
       "cardName": "No-Mercy Percy",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "199"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 199)",
@@ -2936,6 +3596,10 @@
     {
       "uvsUltraCardId": "11637",
       "cardName": "Fjord, the Sea’s Champion",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "006"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 006)",
@@ -2952,6 +3616,10 @@
     {
       "uvsUltraCardId": "11642",
       "cardName": "Hunter’s Ally",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "194"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 194)",
@@ -2968,6 +3636,10 @@
     {
       "uvsUltraCardId": "11643",
       "cardName": "Taryon Darrington, Naive Creator",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "017"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 017)",
@@ -2984,6 +3656,10 @@
     {
       "uvsUltraCardId": "11646",
       "cardName": "Pristine Swordplay",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "201"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 201)",
@@ -3000,6 +3676,10 @@
     {
       "uvsUltraCardId": "11702",
       "cardName": "“I Would Like to Rage!”",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "174"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 174)",
@@ -3016,6 +3696,10 @@
     {
       "uvsUltraCardId": "11703",
       "cardName": "Aerial Goblin Bolt",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "182"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 182)",
@@ -3032,6 +3716,10 @@
     {
       "uvsUltraCardId": "11704",
       "cardName": "Blessed Mettle",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "184"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 184)",
@@ -3048,6 +3736,10 @@
     {
       "uvsUltraCardId": "11705",
       "cardName": "Earthbreaker",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "186"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 186)",
@@ -3064,6 +3756,10 @@
     {
       "uvsUltraCardId": "11707",
       "cardName": "Nature’s Tempest",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "198"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 198)",
@@ -3080,6 +3776,10 @@
     {
       "uvsUltraCardId": "11708",
       "cardName": "Orphanmaker’s Fury",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "200"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 200)",
@@ -3096,6 +3796,10 @@
     {
       "uvsUltraCardId": "11750",
       "cardName": "Cabal’s Ruin",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "176"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 176)",
@@ -3112,6 +3816,10 @@
     {
       "uvsUltraCardId": "11752",
       "cardName": "Fenthras",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "178"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 178)",
@@ -3128,6 +3836,10 @@
     {
       "uvsUltraCardId": "11753",
       "cardName": "Plate of the Dawnmartyr",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "179"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 179)",
@@ -3144,6 +3856,10 @@
     {
       "uvsUltraCardId": "11754",
       "cardName": "Spire of Conflux",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "180"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 180)",
@@ -3160,6 +3876,10 @@
     {
       "uvsUltraCardId": "11755",
       "cardName": "Titanstone Knuckles",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "181"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 181)",
@@ -3176,6 +3896,10 @@
     {
       "uvsUltraCardId": "11757",
       "cardName": "Grovekeeper’s Authority",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "191"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 191)",
@@ -3192,6 +3916,10 @@
     {
       "uvsUltraCardId": "11758",
       "cardName": "Hooligan’s Mockery",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "193"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 193)",
@@ -3208,6 +3936,10 @@
     {
       "uvsUltraCardId": "11760",
       "cardName": "Spell Bolt and Sword Swipe",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "203"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 203)",
@@ -3224,6 +3956,10 @@
     {
       "uvsUltraCardId": "11761",
       "cardName": "Sweeping Daggers",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "206"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 206)",
@@ -3240,6 +3976,10 @@
     {
       "uvsUltraCardId": "11764",
       "cardName": "Mighty Blitz",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "197"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 197)",
@@ -3256,6 +3996,10 @@
     {
       "uvsUltraCardId": "11765",
       "cardName": "Spellstorm",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "204"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 204)",
@@ -3272,6 +4016,10 @@
     {
       "uvsUltraCardId": "11795",
       "cardName": "Extended Back Roundhouse",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "187"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 187)",
@@ -3288,6 +4036,10 @@
     {
       "uvsUltraCardId": "11797",
       "cardName": "Grog’s Rage",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "190"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 190)",
@@ -3304,6 +4056,10 @@
     {
       "uvsUltraCardId": "11801",
       "cardName": "Scanlan’s Hand",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "175"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 175)",
@@ -3320,6 +4076,10 @@
     {
       "uvsUltraCardId": "11803",
       "cardName": "Spirit Unicorns",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "205"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 205)",
@@ -3336,6 +4096,10 @@
     {
       "uvsUltraCardId": "11804",
       "cardName": "Violent Animus Shot",
+      "original": {
+        "setId": "cr02",
+        "cardNumber": "207"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (CR02 207)",
@@ -3352,6 +4116,10 @@
     {
       "uvsUltraCardId": "11809",
       "cardName": "Mikasa Ackerman, Hizuru’s Hope",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "010"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 010)",
@@ -3368,6 +4136,10 @@
     {
       "uvsUltraCardId": "11816",
       "cardName": "The Founding Titan’s Power",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "104"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1180)",
@@ -3384,6 +4156,10 @@
     {
       "uvsUltraCardId": "11817",
       "cardName": "Ymir Fritz",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "104B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1178)",
@@ -3400,6 +4176,10 @@
     {
       "uvsUltraCardId": "11821",
       "cardName": "Armin Arlert, Power of the Colossus",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1248)",
@@ -3416,6 +4196,10 @@
     {
       "uvsUltraCardId": "11822",
       "cardName": "Colossus Titan, Finale",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "002B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1246)",
@@ -3432,6 +4216,10 @@
     {
       "uvsUltraCardId": "11825",
       "cardName": "Reiner Braun, Marley’s Shield",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "013"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1218)",
@@ -3448,6 +4236,10 @@
     {
       "uvsUltraCardId": "11826",
       "cardName": "Armored Titan, Finale",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "013B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1216)",
@@ -3464,6 +4256,10 @@
     {
       "uvsUltraCardId": "11829",
       "cardName": "Eren Yeager, Usurper",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1242)",
@@ -3480,6 +4276,10 @@
     {
       "uvsUltraCardId": "11830",
       "cardName": "Attack Titan, Finale",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "004B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1240)",
@@ -3496,6 +4296,10 @@
     {
       "uvsUltraCardId": "11831",
       "cardName": "Levi Ackerman, Vengeance-Driven",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "009"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 009)",
@@ -3512,6 +4316,10 @@
     {
       "uvsUltraCardId": "11832",
       "cardName": "Zeke Yeager, Warchief",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "015"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1212)",
@@ -3528,6 +4336,10 @@
     {
       "uvsUltraCardId": "11833",
       "cardName": "Beast Titan, Finale",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "015B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1210)",
@@ -3544,6 +4356,10 @@
     {
       "uvsUltraCardId": "11840",
       "cardName": "Falco Grice",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "005"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1238)",
@@ -3560,6 +4376,10 @@
     {
       "uvsUltraCardId": "11841",
       "cardName": "Jaw Titan, Flying Form",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "005B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1236)",
@@ -3576,6 +4396,10 @@
     {
       "uvsUltraCardId": "11844",
       "cardName": "Connie Springer, Conflicted Heart",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 003)",
@@ -3592,6 +4416,10 @@
     {
       "uvsUltraCardId": "11845",
       "cardName": "Pieck Finger, Panzer Unit Cartman",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "011"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1224)",
@@ -3608,6 +4436,10 @@
     {
       "uvsUltraCardId": "11846",
       "cardName": "Cart Titan, Finale",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "011B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1222)",
@@ -3624,6 +4456,10 @@
     {
       "uvsUltraCardId": "11853",
       "cardName": "Annie Leonhart, Awakened",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1252)",
@@ -3640,6 +4476,10 @@
     {
       "uvsUltraCardId": "11854",
       "cardName": "Female Titan, Finale",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "001B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1250)",
@@ -3656,6 +4496,10 @@
     {
       "uvsUltraCardId": "11855",
       "cardName": "Floch Forster, Yeagerist Leader",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "006"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 006)",
@@ -3672,6 +4516,10 @@
     {
       "uvsUltraCardId": "11857",
       "cardName": "Porco Galliard",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "012"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1220)",
@@ -3688,6 +4536,10 @@
     {
       "uvsUltraCardId": "11858",
       "cardName": "Jaw Titan, Crushing Biter",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "012B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1154)",
@@ -3704,6 +4556,10 @@
     {
       "uvsUltraCardId": "11868",
       "cardName": "Jean Kirstein, Hardened Soldier",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "008"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 008)",
@@ -3720,6 +4576,10 @@
     {
       "uvsUltraCardId": "11882",
       "cardName": "War Hammer Titan",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "014"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 014)",
@@ -3736,6 +4596,10 @@
     {
       "uvsUltraCardId": "11887",
       "cardName": "Aerial Reinforcement",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "017"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 206)",
@@ -3752,6 +4616,10 @@
     {
       "uvsUltraCardId": "11890",
       "cardName": "Timely Counterattack",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "027"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 209)",
@@ -3768,6 +4636,10 @@
     {
       "uvsUltraCardId": "11896",
       "cardName": "Support from the Female Titan",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "052"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 210)",
@@ -3784,6 +4656,10 @@
     {
       "uvsUltraCardId": "11919",
       "cardName": "Political Strife",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "130"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 221)",
@@ -3800,6 +4676,10 @@
     {
       "uvsUltraCardId": "11924",
       "cardName": "Hange’s Last Stand",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "155"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 224)",
@@ -3816,6 +4696,10 @@
     {
       "uvsUltraCardId": "11931",
       "cardName": "War Hammer Titan Attacks!",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "081"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1186)",
@@ -3832,6 +4716,10 @@
     {
       "uvsUltraCardId": "11932",
       "cardName": "The War Hammer Titan",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "081B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1184)",
@@ -3848,6 +4736,10 @@
     {
       "uvsUltraCardId": "11933",
       "cardName": "Colossal Confrontation",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "153"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1164)",
@@ -3864,6 +4756,10 @@
     {
       "uvsUltraCardId": "11934",
       "cardName": "Seeking Relief",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "153B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1162)",
@@ -3880,6 +4776,10 @@
     {
       "uvsUltraCardId": "11936",
       "cardName": "Falco’s Jaw Titan Attacks!",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "023"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1206)",
@@ -3896,6 +4796,10 @@
     {
       "uvsUltraCardId": "11937",
       "cardName": "Falco’s Jaw Titan",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "023B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1204)",
@@ -3912,6 +4816,10 @@
     {
       "uvsUltraCardId": "11938",
       "cardName": "The Ackermans Team Up",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "026"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 208)",
@@ -3928,6 +4836,10 @@
     {
       "uvsUltraCardId": "11947",
       "cardName": "Female Titan’s Roundhouse Kick",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "047"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1196)",
@@ -3944,6 +4856,10 @@
     {
       "uvsUltraCardId": "11948",
       "cardName": "Annie’s Contemplations",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "047B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1194)",
@@ -3960,6 +4876,10 @@
     {
       "uvsUltraCardId": "11956",
       "cardName": "The Final Slash",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "078"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 212)",
@@ -3976,6 +4896,10 @@
     {
       "uvsUltraCardId": "11957",
       "cardName": "The Rumbling",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "080"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 214)",
@@ -3992,6 +4916,10 @@
     {
       "uvsUltraCardId": "11959",
       "cardName": "Devastating Loss",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "085"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 216)",
@@ -4008,6 +4936,10 @@
     {
       "uvsUltraCardId": "11966",
       "cardName": "Unrelenting Advance",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "108"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 218)",
@@ -4024,6 +4956,10 @@
     {
       "uvsUltraCardId": "11968",
       "cardName": "Command of the Founder",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "111"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 219)",
@@ -4040,6 +4976,10 @@
     {
       "uvsUltraCardId": "11973",
       "cardName": "Falling Titans",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "127"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1172)",
@@ -4056,6 +4996,10 @@
     {
       "uvsUltraCardId": "11974",
       "cardName": "Zeke’s Dream Becoming Real",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "127B"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (1170)",
@@ -4072,6 +5016,10 @@
     {
       "uvsUltraCardId": "11976",
       "cardName": "Resurrected Titans",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "131"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 222)",
@@ -4088,6 +5036,10 @@
     {
       "uvsUltraCardId": "11993",
       "cardName": "The Jaw Titan’s Bite",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "079"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 213)",
@@ -4104,6 +5056,10 @@
     {
       "uvsUltraCardId": "12006",
       "cardName": "Thunder Spear Barrage",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "162"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 225)",
@@ -4120,6 +5076,10 @@
     {
       "uvsUltraCardId": "12010",
       "cardName": "The Nine Titans from throughout the Ages",
+      "original": {
+        "setId": "aot03",
+        "cardNumber": "182"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (AOT3 226)",
@@ -4136,6 +5096,10 @@
     {
       "uvsUltraCardId": "12014",
       "cardName": "Ryu, World Warrior",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 001)",
@@ -4152,6 +5116,10 @@
     {
       "uvsUltraCardId": "12015",
       "cardName": "Luke Sullivan, Gym Coach",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 002)",
@@ -4168,6 +5136,10 @@
     {
       "uvsUltraCardId": "12018",
       "cardName": "Chun-Li, Martial Arts Master",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "022"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 001)",
@@ -4184,6 +5156,10 @@
     {
       "uvsUltraCardId": "12019",
       "cardName": "Jamie Siu, Peacekeeping Breakdancer",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "023"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 002)",
@@ -4200,6 +5176,10 @@
     {
       "uvsUltraCardId": "12023",
       "cardName": "Avenger: Impaler",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 004)",
@@ -4216,6 +5196,10 @@
     {
       "uvsUltraCardId": "12024",
       "cardName": "Hashogeki",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "006"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 006)",
@@ -4232,6 +5216,10 @@
     {
       "uvsUltraCardId": "12025",
       "cardName": "Pale Rider",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "008"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 008)",
@@ -4248,6 +5236,10 @@
     {
       "uvsUltraCardId": "12026",
       "cardName": "Rising Uppercut",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "009"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 009)",
@@ -4264,6 +5256,10 @@
     {
       "uvsUltraCardId": "12030",
       "cardName": "Aerial Kikosho",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "025"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 004)",
@@ -4280,6 +5276,10 @@
     {
       "uvsUltraCardId": "12031",
       "cardName": "Arrow Kick",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "026"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 005)",
@@ -4296,6 +5296,10 @@
     {
       "uvsUltraCardId": "12036",
       "cardName": "Shin Hashogeki",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "011"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 011)",
@@ -4312,6 +5316,10 @@
     {
       "uvsUltraCardId": "12037",
       "cardName": "Breakin’",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "028"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 007)",
@@ -4328,6 +5336,10 @@
     {
       "uvsUltraCardId": "12049",
       "cardName": "Phantom Sway",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "031"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 010)",
@@ -4344,6 +5356,10 @@
     {
       "uvsUltraCardId": "12054",
       "cardName": "Hundred Lightning Kicks",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "030"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 009)",
@@ -4360,6 +5376,10 @@
     {
       "uvsUltraCardId": "12063",
       "cardName": "The Unending Path",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "020"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF601 020)",
@@ -4376,6 +5396,10 @@
     {
       "uvsUltraCardId": "12064",
       "cardName": "Dance of the Phoenix",
+      "original": {
+        "setId": "sf60x",
+        "cardNumber": "035"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SF602 014)",
@@ -4392,6 +5416,10 @@
     {
       "uvsUltraCardId": "12308",
       "cardName": "Sung Jinwoo, E Rank Hunter",
+      "original": {
+        "setId": "sleb",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (SL01 001)",
@@ -4408,6 +5436,10 @@
     {
       "uvsUltraCardId": "12360",
       "cardName": "Shun’Ei, Amped-Up Illusionist",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 023)",
@@ -4424,6 +5456,10 @@
     {
       "uvsUltraCardId": "12361",
       "cardName": "Meitenkun, Sleeping Prodigy",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 024)",
@@ -4440,6 +5476,10 @@
     {
       "uvsUltraCardId": "12362",
       "cardName": "Benimaru, Shooting Star",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 025)",
@@ -4456,6 +5496,10 @@
     {
       "uvsUltraCardId": "12364",
       "cardName": "Benimaru Collider",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "005"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 026)",
@@ -4472,6 +5516,10 @@
     {
       "uvsUltraCardId": "12365",
       "cardName": "Chou Geki Hou",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "006"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 027)",
@@ -4488,6 +5536,10 @@
     {
       "uvsUltraCardId": "12369",
       "cardName": "Phantom Singulation",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "010"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 028)",
@@ -4504,6 +5556,10 @@
     {
       "uvsUltraCardId": "12370",
       "cardName": "Scarlet Phantom",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "011"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 029)",
@@ -4520,6 +5576,10 @@
     {
       "uvsUltraCardId": "12371",
       "cardName": "Sen-Siss Hou",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "012"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 030)",
@@ -4536,6 +5596,10 @@
     {
       "uvsUltraCardId": "12372",
       "cardName": "Upward Rai-Kou Ken",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "013"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF01 031)",
@@ -4552,6 +5616,10 @@
     {
       "uvsUltraCardId": "12382",
       "cardName": "Isla, Dreaming Brilliance",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "023"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 023)",
@@ -4568,6 +5636,10 @@
     {
       "uvsUltraCardId": "12383",
       "cardName": "Dolores, Hidden Wisdom",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "024"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 024)",
@@ -4584,6 +5656,10 @@
     {
       "uvsUltraCardId": "12384",
       "cardName": "Heidern, Hard-Boiled Assassin",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "025"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 025)",
@@ -4600,6 +5676,10 @@
     {
       "uvsUltraCardId": "12386",
       "cardName": "Assault Saber",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "027"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 026)",
@@ -4616,6 +5696,10 @@
     {
       "uvsUltraCardId": "12388",
       "cardName": "Hadir",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "029"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 027)",
@@ -4632,6 +5716,10 @@
     {
       "uvsUltraCardId": "12389",
       "cardName": "Heidern End",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "030"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 028)",
@@ -4648,6 +5736,10 @@
     {
       "uvsUltraCardId": "12391",
       "cardName": "Nesh",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "032"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 029)",
@@ -4664,6 +5756,10 @@
     {
       "uvsUltraCardId": "12392",
       "cardName": "Scribe",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "033"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 030)",
@@ -4680,6 +5776,10 @@
     {
       "uvsUltraCardId": "12394",
       "cardName": "Wild Style",
+      "original": {
+        "setId": "kf0x",
+        "cardNumber": "035"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (KF02 031)",
@@ -4696,6 +5796,10 @@
     {
       "uvsUltraCardId": "12405",
       "cardName": "Anguirus, Fierce Dragon",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "001"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 188)",
@@ -4712,6 +5816,10 @@
     {
       "uvsUltraCardId": "12406",
       "cardName": "Battra, Beast of Destruction",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "002"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 189)",
@@ -4728,6 +5836,10 @@
     {
       "uvsUltraCardId": "12407",
       "cardName": "Biollante, Giant Plant Monster",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "003"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 190)",
@@ -4744,6 +5856,10 @@
     {
       "uvsUltraCardId": "12408",
       "cardName": "Burning Godzilla",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "004"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 191)",
@@ -4760,6 +5876,10 @@
     {
       "uvsUltraCardId": "12409",
       "cardName": "Destoroyah, Perfect Lifeform",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "005"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 192)",
@@ -4776,6 +5896,10 @@
     {
       "uvsUltraCardId": "12410",
       "cardName": "Gigan, Space Monster",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "006"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 193)",
@@ -4792,6 +5916,10 @@
     {
       "uvsUltraCardId": "12411",
       "cardName": "Godzilla, Shin Godzilla",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "007"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 194)",
@@ -4808,6 +5936,10 @@
     {
       "uvsUltraCardId": "12412",
       "cardName": "Godzilla, Titan of Terror",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "008"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 195)",
@@ -4824,6 +5956,10 @@
     {
       "uvsUltraCardId": "12413",
       "cardName": "Hedorah, Smog Monster",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "009"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 196)",
@@ -4840,6 +5976,10 @@
     {
       "uvsUltraCardId": "12414",
       "cardName": "Jet Jaguar, Warrior of Justice",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "010"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 197)",
@@ -4856,6 +5996,10 @@
     {
       "uvsUltraCardId": "12415",
       "cardName": "King Ghidorah, Three-Headed Monster",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "011"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 198)",
@@ -4872,6 +6016,10 @@
     {
       "uvsUltraCardId": "12416",
       "cardName": "Mechagodzilla, Modified Type-3 Kiryu",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "012"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 199)",
@@ -4888,6 +6036,10 @@
     {
       "uvsUltraCardId": "12417",
       "cardName": "Mothra, Divine Moth",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "013"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 200)",
@@ -4904,6 +6056,10 @@
     {
       "uvsUltraCardId": "12418",
       "cardName": "Rodan, Fire Rodan",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "014"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 201)",
@@ -4920,6 +6076,10 @@
     {
       "uvsUltraCardId": "12445",
       "cardName": "Burning Fury",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "115"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 211)",
@@ -4936,6 +6096,10 @@
     {
       "uvsUltraCardId": "12461",
       "cardName": "SpaceGodzilla, Bio-Quartz Monster",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "015"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 202)",
@@ -4952,6 +6116,10 @@
     {
       "uvsUltraCardId": "12464",
       "cardName": "Power of the Monsters",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "100"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 204)",
@@ -4968,6 +6136,10 @@
     {
       "uvsUltraCardId": "12466",
       "cardName": "Mechanical Monster",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "140"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 222)",
@@ -4984,6 +6156,10 @@
     {
       "uvsUltraCardId": "12470",
       "cardName": "Sacred Guardian",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "102"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 205)",
@@ -5000,6 +6176,10 @@
     {
       "uvsUltraCardId": "12483",
       "cardName": "Total Destruction",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "103"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 206)",
@@ -5016,6 +6196,10 @@
     {
       "uvsUltraCardId": "12486",
       "cardName": "Corona Beam",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "116"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 212)",
@@ -5032,6 +6216,10 @@
     {
       "uvsUltraCardId": "12487",
       "cardName": "Fully-Charged Blast",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "124"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 217)",
@@ -5048,6 +6236,10 @@
     {
       "uvsUltraCardId": "12490",
       "cardName": "Jet Uppercut",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "134"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 220)",
@@ -5064,6 +6256,10 @@
     {
       "uvsUltraCardId": "12493",
       "cardName": "Queen of the Monsters",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "148"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 224)",
@@ -5080,6 +6276,10 @@
     {
       "uvsUltraCardId": "12496",
       "cardName": "Godzilla vs Mechagodzilla",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "175"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 175)",
@@ -5096,6 +6296,10 @@
     {
       "uvsUltraCardId": "12508",
       "cardName": "Humanity Fights On",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "089"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 203)",
@@ -5112,6 +6316,10 @@
     {
       "uvsUltraCardId": "12518",
       "cardName": "Bladed Uppercut",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "111"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 209)",
@@ -5128,6 +6336,10 @@
     {
       "uvsUltraCardId": "12523",
       "cardName": "Thermal Flame",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "154"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 225)",
@@ -5144,6 +6356,10 @@
     {
       "uvsUltraCardId": "12528",
       "cardName": "Immense Showdown",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "178"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 227)",
@@ -5160,6 +6376,10 @@
     {
       "uvsUltraCardId": "12535",
       "cardName": "Acidic Sludge",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "106"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 207)",
@@ -5176,6 +6396,10 @@
     {
       "uvsUltraCardId": "12536",
       "cardName": "Blasting Off",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "112"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 210)",
@@ -5192,6 +6416,10 @@
     {
       "uvsUltraCardId": "12537",
       "cardName": "King Ghidorah Unleashed",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "136"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 221)",
@@ -5208,6 +6436,10 @@
     {
       "uvsUltraCardId": "12561",
       "cardName": "Anguirus Ball",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "109"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 208)",
@@ -5224,6 +6456,10 @@
     {
       "uvsUltraCardId": "12563",
       "cardName": "Crushing Impact",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "118"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 213)",
@@ -5240,6 +6476,10 @@
     {
       "uvsUltraCardId": "12565",
       "cardName": "Focused Prism Beams",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "122"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 215)",
@@ -5256,6 +6496,10 @@
     {
       "uvsUltraCardId": "12566",
       "cardName": "Golden Destruction",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "127"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 218)",
@@ -5272,6 +6516,10 @@
     {
       "uvsUltraCardId": "12567",
       "cardName": "Growing Grasp",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "129"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 219)",
@@ -5288,6 +6536,10 @@
     {
       "uvsUltraCardId": "12571",
       "cardName": "Monster vs Machine",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "143"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 223)",
@@ -5304,6 +6556,10 @@
     {
       "uvsUltraCardId": "12575",
       "cardName": "Winged Death",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "156"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 226)",
@@ -5320,6 +6576,10 @@
     {
       "uvsUltraCardId": "12582",
       "cardName": "Godzilla vs Gigan",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "174"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 174)",
@@ -5336,6 +6596,10 @@
     {
       "uvsUltraCardId": "12583",
       "cardName": "Godzilla vs SpaceGodzilla",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "176"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 176)",
@@ -5352,6 +6616,10 @@
     {
       "uvsUltraCardId": "12589",
       "cardName": "Frenzied Dive",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "123"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 216)",
@@ -5368,6 +6636,10 @@
     {
       "uvsUltraCardId": "12594",
       "cardName": "Destructive Heat Ray",
+      "original": {
+        "setId": "gdz01",
+        "cardNumber": "120"
+      },
       "variants": [
         {
           "label": "Official Alternate Art (GDZ01 214)",

@@ -779,6 +779,66 @@
       "sourcePath": "../official-gallery/images/15368 - Twist Reality.png"
     },
     {
+      "officialCardId": "2197",
+      "cardName": "U.S.S. Cerritos, NCC-75567",
+      "reason": "excluded_not_distinct_alternate_art",
+      "candidates": [
+        {
+          "uvsUltraCardId": "11512",
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+        }
+      ],
+      "sourcePath": "../official-gallery/images/2197 - U.S.S. Cerritos, NCC-75567.png"
+    },
+    {
+      "officialCardId": "2215",
+      "cardName": "U.S.S. Cerritos, NCC-75567",
+      "reason": "excluded_not_distinct_alternate_art",
+      "candidates": [
+        {
+          "uvsUltraCardId": "11512",
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+        }
+      ],
+      "sourcePath": "../official-gallery/images/2215 - U.S.S. Cerritos, NCC-75567.png"
+    },
+    {
+      "officialCardId": "2229",
+      "cardName": "U.S.S. Cerritos, NCC-75567",
+      "reason": "excluded_not_distinct_alternate_art",
+      "candidates": [
+        {
+          "uvsUltraCardId": "11512",
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+        }
+      ],
+      "sourcePath": "../official-gallery/images/2229 - U.S.S. Cerritos, NCC-75567.png"
+    },
+    {
+      "officialCardId": "2245",
+      "cardName": "U.S.S. Cerritos, NCC-75567",
+      "reason": "excluded_not_distinct_alternate_art",
+      "candidates": [
+        {
+          "uvsUltraCardId": "11512",
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+        }
+      ],
+      "sourcePath": "../official-gallery/images/2245 - U.S.S. Cerritos, NCC-75567.png"
+    },
+    {
+      "officialCardId": "2421",
+      "cardName": "U.S.S. Cerritos, NCC-75567",
+      "reason": "excluded_not_distinct_alternate_art",
+      "candidates": [
+        {
+          "uvsUltraCardId": "11512",
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+        }
+      ],
+      "sourcePath": "../official-gallery/images/2421 - U.S.S. Cerritos, NCC-75567.png"
+    },
+    {
       "officialCardId": "15364",
       "cardName": "Ursine Might",
       "reason": "no_exact_name_match",

@@ -18,6 +18,10 @@ CARD_DB_ROW = re.compile(
     r'^\s*\["(?P<name>(?:\\.|[^"])*)"\]\s*=\s*\{'
     r'.*?uvs_id=(?P<uvs_id>\d+).*?image="(?P<image>[^"]+)"'
 )
+ULTRA_IMAGE = re.compile(
+    r"^https://uvsultra\.online/images/extensions/"
+    r"(?P<set_id>[A-Za-z0-9_-]+)/(?P<card_number>[A-Za-z0-9_-]+)\.jpg$"
+)
 
 
 def normalize_name(value: str) -> str:
@@ -70,9 +74,16 @@ def main() -> None:
         type=Path,
         default=Path(__file__).with_name("unresolved.json"),
     )
+    parser.add_argument(
+        "--exclusions",
+        type=Path,
+        default=Path(__file__).with_name("exclusions.json"),
+    )
     args = parser.parse_args()
 
     gallery = json.loads(args.gallery_manifest.read_text(encoding="utf-8-sig"))
+    exclusions = json.loads(args.exclusions.read_text(encoding="utf-8"))
+    excluded_card_ids = set(exclusions["uvsUltraCardIds"])
     card_db = load_card_db(args.card_db)
     cards: dict[str, dict[str, object]] = {}
     unresolved: list[dict[str, object]] = []
@@ -93,11 +104,30 @@ def main() -> None:
 
         match = matches[0]
         card_id = match["uvsUltraCardId"]
+        if card_id in excluded_card_ids:
+            unresolved.append(
+                {
+                    "officialCardId": source["officialCardId"],
+                    "cardName": source["cardName"],
+                    "reason": "excluded_not_distinct_alternate_art",
+                    "candidates": matches,
+                    "sourcePath": f"../official-gallery/{source['localPath']}",
+                }
+            )
+            continue
+
+        original = ULTRA_IMAGE.fullmatch(match["imageUrl"])
+        if not original:
+            raise RuntimeError(f"Invalid UVS Ultra image URL: {match['imageUrl']}")
         card = cards.setdefault(
             card_id,
             {
                 "uvsUltraCardId": card_id,
                 "cardName": source["cardName"],
+                "original": {
+                    "setId": original.group("set_id"),
+                    "cardNumber": original.group("card_number"),
+                },
                 "variants": [],
             },
         )
@@ -125,7 +155,7 @@ def main() -> None:
         )
 
     catalog = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "identityFormat": "repo/{uvsUltraCardId}-{officialGalleryId}",
         "matchingPolicy": "exact_unique_normalized_name",
         "cards": sorted(cards.values(), key=lambda card: int(card["uvsUltraCardId"])),

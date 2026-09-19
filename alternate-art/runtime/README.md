@@ -16,6 +16,10 @@ runtime catalog automatically only when the official gallery name has one
 exact normalized match in CardDB. Name normalization changes case, whitespace,
 and typographic quotation marks only. It does not use fuzzy matching.
 
+Each runtime card includes its canonical UVS Ultra `original` image identity.
+`exclusions.json` removes reviewed false positives, such as gallery records
+whose images are not distinct alternate art.
+
 Regenerate the files with:
 
 ```powershell
