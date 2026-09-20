@@ -1,0 +1,1120 @@
+/* =========================================================
+   UVS ULTRA CUSTOM UI
+   ========================================================= */
+
+
+/* =========================================================
+   MAIN SEARCH AREA
+   ========================================================= */
+
+#search {
+    width: 100% !important;
+    max-width: none !important;
+
+    box-sizing: border-box;
+}
+
+
+#search_inputs {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+    padding: 4px !important;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   THREE COLUMN SEARCH LAYOUT
+   ========================================================= */
+
+#uvsu-layout {
+    display: grid;
+
+    grid-template-columns:
+        minmax(300px, 32fr)
+        minmax(300px, 32fr)
+        minmax(330px, 36fr);
+
+    gap: 6px;
+
+    width: 100%;
+
+    align-items: stretch;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   SEARCH SECTIONS
+   ========================================================= */
+
+.uvsu-section {
+    min-width: 0;
+
+    background: #eef7f9;
+
+    border:
+        1px solid
+        #c8d1d3;
+
+    box-sizing: border-box;
+}
+
+
+.uvsu-section-header {
+    padding:
+        5px
+        7px;
+
+    background: #ffffff;
+
+    border-bottom:
+        1px solid
+        #d5dcde;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.uvsu-section-body {
+    padding: 7px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   STANDARD ROW
+   ========================================================= */
+
+.uvsu-row {
+    display: grid;
+
+    grid-template-columns:
+        115px
+        minmax(0, 1fr);
+
+    align-items: start;
+
+    min-height: 27px;
+
+    margin-bottom: 3px;
+
+    box-sizing: border-box;
+}
+
+
+.uvsu-row-label {
+    padding-top: 4px;
+    padding-right: 8px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+
+.uvsu-row-control {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap: 3px;
+
+    min-width: 0;
+}
+
+
+/* =========================================================
+   GENERAL INPUTS
+   ========================================================= */
+
+#uvsu-layout
+input[type="text"] {
+    height: 25px;
+
+    padding:
+        2px
+        5px;
+
+    font-size: 12px;
+
+    box-sizing: border-box;
+}
+
+
+#uvsu-layout select {
+    font-size: 12px;
+}
+
+
+#uvsu-layout
+input[type="checkbox"],
+
+#uvsu-layout
+input[type="radio"] {
+    margin:
+        0
+        3px
+        0
+        0;
+
+    vertical-align: middle;
+}
+
+
+#uvsu-layout label {
+    margin: 0;
+
+    font-size: 12px;
+    font-weight: normal;
+
+    vertical-align: middle;
+}
+
+
+/* =========================================================
+   CARD NAME / TEXT
+   ========================================================= */
+
+.uvsu-card-name-row
+input[type="text"],
+
+.uvsu-card-text-row
+input[type="text"] {
+    flex:
+        1 1 130px;
+
+    min-width: 100px;
+}
+
+
+.uvsu-clear-button {
+    height:
+        25px !important;
+
+    padding:
+        2px
+        8px !important;
+
+    font-size:
+        11px !important;
+}
+
+
+/* =========================================================
+   FORMAT
+   ========================================================= */
+
+#formattype_list {
+    display: flex !important;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap:
+        2px
+        7px;
+
+    width: 100%;
+
+    float: none !important;
+}
+
+
+#formattype_list > label {
+    display:
+        inline-flex !important;
+
+    align-items: center;
+
+    float: none !important;
+
+    margin: 0 !important;
+
+    white-space: nowrap;
+}
+
+
+#spotlightDD {
+    margin-left: 3px;
+}
+
+
+/* =========================================================
+   TYPE
+   ========================================================= */
+
+#cardtype_list {
+    display: grid !important;
+
+    grid-template-columns:
+        repeat(
+            5,
+            minmax(55px, auto)
+        );
+
+    gap:
+        2px
+        5px;
+
+    width: 100%;
+
+    float: none !important;
+}
+
+
+#cardtype_list
+.float_cardtype {
+    display: flex !important;
+
+    align-items: center;
+
+    width: auto !important;
+
+    margin: 0 !important;
+
+    float: none !important;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   RARITY
+   ========================================================= */
+
+#rarity_list {
+    display: grid !important;
+
+    grid-template-columns:
+        repeat(
+            5,
+            minmax(55px, auto)
+        );
+
+    gap:
+        2px
+        5px;
+
+    width: 100%;
+
+    float: none !important;
+}
+
+
+#rarity_list
+.float_rarity {
+    display: flex !important;
+
+    align-items: center;
+
+    width: auto !important;
+
+    margin: 0 !important;
+
+    float: none !important;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   SET
+   ========================================================= */
+
+.uvsu-set-row {
+    align-items: start;
+}
+
+
+#extension {
+    width: 100% !important;
+    max-width: none !important;
+
+    min-height: 88px;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   RESOURCE SECTION
+   ========================================================= */
+
+.uvsu-resource-match-row {
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 6px;
+
+    font-size: 11px;
+}
+
+
+.uvsu-resource-match-row
+label {
+    margin-left:
+        3px !important;
+}
+
+
+.uvsu-symbol-group {
+    margin-bottom: 8px;
+}
+
+
+.uvsu-symbol-heading {
+    margin-bottom: 3px;
+
+    font-size: 11px;
+    font-style: italic;
+}
+
+
+.uvsu-symbol-content {
+    width: 100%;
+}
+
+
+/* =========================================================
+   RESOURCE SYMBOL GRIDS
+   ========================================================= */
+
+#rs_div,
+#atrs_div {
+    display: grid !important;
+
+    grid-template-columns:
+        repeat(
+            5,
+            minmax(55px, 1fr)
+        );
+
+    gap:
+        2px
+        5px;
+
+    width: 100% !important;
+
+    float: none !important;
+
+    box-sizing: border-box;
+}
+
+
+#rs_div .float_rs,
+#atrs_div .float_atrs {
+    display: flex !important;
+
+    align-items: center;
+
+    width: auto !important;
+
+    margin: 0 !important;
+
+    float: none !important;
+
+    white-space: nowrap;
+}
+
+
+#rs_div .float_rs label,
+#atrs_div .float_atrs label {
+    display: inline-flex;
+
+    align-items: center;
+}
+
+
+#rs_div img,
+#atrs_div img {
+    margin-right: 2px;
+
+    vertical-align: middle;
+}
+
+
+/* =========================================================
+   SEARCH INFO
+   ========================================================= */
+
+#uvsu-info-section
+.uvsu-row {
+    grid-template-columns:
+        115px
+        minmax(0, 1fr);
+}
+
+
+#uvsu-info-section
+.uvsu-row-control {
+    min-height: 25px;
+}
+
+
+#uvsu-info-section
+select {
+    height: 24px;
+
+    padding:
+        1px
+        3px;
+}
+
+
+#uvsu-info-section
+.uvsu-row-control >
+input[type="text"] {
+    flex:
+        1 1 100px;
+
+    min-width: 80px;
+    max-width: 180px;
+}
+
+
+/* =========================================================
+   INLINE OPTIONS
+   ========================================================= */
+
+.uvsu-inline-option {
+    display: inline-flex;
+
+    align-items: center;
+
+    margin-right: 3px;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   KEYWORD
+   ========================================================= */
+
+.uvsu-keyword-row {
+    align-items: start;
+}
+
+
+.uvsu-keyword-controls {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    gap: 3px;
+}
+
+
+.uvsu-keyword-match {
+    display: flex;
+
+    align-items: center;
+
+    font-size: 11px;
+}
+
+
+.uvsu-keyword-match
+label {
+    margin-left:
+        3px !important;
+}
+
+
+/* =========================================================
+   KEYWORD MULTISELECT
+   ========================================================= */
+
+#keyword_div.uvsu-keywords-ready {
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+
+    overflow: visible;
+}
+
+
+#keyword_div
+.uvsu-keyword-button {
+    position: relative;
+
+    width: 100%;
+
+    min-height: 27px;
+
+    padding:
+        4px
+        28px
+        4px
+        8px;
+
+    background: #ffffff;
+
+    border:
+        1px solid
+        #b9c1c3;
+
+    border-radius: 3px;
+
+    color: #333;
+
+    font-size: 12px;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+}
+
+
+#keyword_div
+.uvsu-keyword-button:hover {
+    background: #f5f5f5;
+}
+
+
+#keyword_div
+.uvsu-keyword-button::after {
+    content: "▼";
+
+    position: absolute;
+
+    right: 9px;
+    top: 50%;
+
+    transform:
+        translateY(-50%);
+
+    font-size: 9px;
+
+    color: #666;
+}
+
+
+/* =========================================================
+   KEYWORD DROPDOWN
+   ========================================================= */
+
+#keyword_div
+.uvsu-keyword-menu {
+    display: none;
+
+    position: absolute;
+
+    top:
+        calc(100% + 2px);
+
+    left: 0;
+
+    width: 100%;
+
+    max-height: 390px;
+
+    overflow-y: auto;
+
+    background: #ffffff;
+
+    border:
+        1px solid
+        #b9c1c3;
+
+    border-radius: 3px;
+
+    box-shadow:
+        0
+        5px
+        14px
+        rgba(0, 0, 0, 0.20);
+
+    z-index: 10000;
+
+    box-sizing: border-box;
+}
+
+
+#keyword_div.uvsu-open
+.uvsu-keyword-menu {
+    display: block;
+}
+
+
+/* =========================================================
+   KEYWORD OPTIONS
+   ========================================================= */
+
+#keyword_div
+.float_keyword {
+    display: flex !important;
+
+    align-items: center;
+
+    width: 100% !important;
+
+    padding:
+        5px
+        8px;
+
+    margin: 0 !important;
+
+    float: none !important;
+
+    box-sizing: border-box;
+}
+
+
+#keyword_div
+.float_keyword:hover {
+    background: #edf4f6;
+}
+
+
+#keyword_div
+.float_keyword label {
+    display: inline !important;
+
+    margin-left:
+        3px !important;
+
+    font-weight: normal;
+
+    cursor: pointer;
+}
+
+
+.uvsu-keyword-text-row
+input[type="text"] {
+    width: 100%;
+
+    max-width: none !important;
+}
+
+
+/* =========================================================
+   ORIGINAL SEARCH CONTAINERS
+   ========================================================= */
+
+.uvsu-original-container {
+    width: 0 !important;
+    height: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    border: 0 !important;
+
+    float: none !important;
+}
+
+
+#search_general >
+.search-label,
+
+#search_general >
+.search-label-big,
+
+#search_general >
+.search-label-medium,
+
+#search_general > br,
+
+#search_general >
+.clear {
+    display: none !important;
+}
+
+
+#format_div,
+#cardtype_div,
+#rarity_div {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* =========================================================
+   CARD ACTION MENU
+   ========================================================= */
+
+#cluetip {
+    z-index: 6000 !important;
+}
+
+
+/* =========================================================
+   PREVIEW SYSTEM SETTINGS
+   ========================================================= */
+
+/*
+ * This is the main section to edit if you want to
+ * fine-tune the previews.
+ *
+ * HOVER PREVIEW:
+ * Its LEFT edge is calculated by JavaScript to be
+ * EXACTLY the RIGHT edge of #content.
+ *
+ * LOCKED PREVIEW:
+ * Sits to the right of the hover preview.
+ */
+
+:root {
+
+    /*
+     * WIDTH OF EACH CARD
+     */
+
+    --uvsu-preview-width: 300px;
+
+
+    /*
+     * GAP BETWEEN HOVER AND LOCKED CARD
+     */
+
+    --uvsu-preview-gap: 12px;
+
+
+    /*
+     * These are calculated automatically by JS.
+     * You normally should NOT edit these.
+     */
+
+    --uvsu-preview-left: 0px;
+    --uvsu-locked-left: 312px;
+    --uvsu-preview-top: 0px;
+}
+
+
+/* =========================================================
+   NORMAL HOVER PREVIEW
+   ========================================================= */
+
+#preview {
+    display: block !important;
+
+    position: fixed !important;
+
+
+    /*
+     * JS CALCULATES:
+     *
+     * left =
+     * right edge of #content
+     */
+
+    left:
+        var(--uvsu-preview-left) !important;
+
+
+    top:
+        var(--uvsu-preview-top) !important;
+
+
+    right: auto !important;
+    bottom: auto !important;
+
+
+    width:
+        var(--uvsu-preview-width) !important;
+
+    max-width:
+        var(--uvsu-preview-width) !important;
+
+
+    height: auto !important;
+
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+
+    background:
+        transparent !important;
+
+
+    z-index:
+        5000 !important;
+
+
+    box-sizing:
+        border-box;
+}
+
+
+/* =========================================================
+   HOVER PREVIEW IMAGE
+   ========================================================= */
+
+#preview-image {
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box;
+}
+
+
+#preview-image img {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   LOCKED PREVIEW
+   ========================================================= */
+
+#uvsu-locked-preview {
+    position: fixed;
+
+
+    /*
+     * JS CALCULATES:
+     *
+     * hover left
+     * + preview width
+     * + preview gap
+     */
+
+    left:
+        var(--uvsu-locked-left);
+
+
+    top:
+        var(--uvsu-preview-top);
+
+
+    right: auto;
+    bottom: auto;
+
+
+    width:
+        var(--uvsu-preview-width);
+
+    max-width:
+        var(--uvsu-preview-width);
+
+
+    margin: 0;
+    padding: 0;
+
+
+    background:
+        transparent;
+
+
+    z-index:
+        5001;
+
+
+    box-sizing:
+        border-box;
+
+
+    cursor: pointer;
+}
+
+
+#uvsu-locked-preview[hidden] {
+    display: none !important;
+}
+
+
+/* =========================================================
+   LOCKED IMAGE
+   ========================================================= */
+
+#uvsu-locked-preview-image {
+    display: block;
+
+    width: 100%;
+    max-width: 100%;
+
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+
+    border:
+        3px solid
+        #333333;
+
+    background:
+        #ffffff;
+
+    box-sizing:
+        border-box;
+}
+
+
+/* =========================================================
+   LOCKED LABEL
+   ========================================================= */
+
+.uvsu-locked-label {
+    position: absolute;
+
+    top: 6px;
+    right: 6px;
+
+    padding:
+        4px
+        7px;
+
+    background:
+        rgba(
+            0,
+            0,
+            0,
+            0.78
+        );
+
+    color: #ffffff;
+
+    border-radius: 3px;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    line-height: 1;
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   LOCKED HOVER / FOCUS
+   ========================================================= */
+
+#uvsu-locked-preview:hover
+#uvsu-locked-preview-image {
+    outline:
+        3px solid
+        rgba(
+            0,
+            0,
+            0,
+            0.30
+        );
+
+    outline-offset: 2px;
+}
+
+
+#uvsu-locked-preview:focus-visible {
+    outline:
+        3px solid
+        #000000;
+
+    outline-offset: 4px;
+}
+
+
+/* =========================================================
+   RESPONSIVE SEARCH
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+    #uvsu-layout {
+        grid-template-columns:
+            minmax(300px, 1fr)
+            minmax(300px, 1fr);
+    }
+
+
+    #uvsu-info-section {
+        grid-column:
+            1 / -1;
+    }
+
+
+    :root {
+        --uvsu-preview-width:
+            250px;
+
+        --uvsu-preview-gap:
+            10px;
+    }
+}
+
+
+/* =========================================================
+   NARROW WINDOWS
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    #uvsu-layout {
+        grid-template-columns:
+            1fr;
+    }
+
+
+    #uvsu-info-section {
+        grid-column: auto;
+    }
+
+
+    .uvsu-row,
+    #uvsu-info-section
+    .uvsu-row {
+        grid-template-columns:
+            105px
+            minmax(0, 1fr);
+    }
+
+
+    #cardtype_list,
+    #rarity_list,
+    #rs_div,
+    #atrs_div {
+        grid-template-columns:
+            repeat(
+                3,
+                minmax(55px, 1fr)
+            );
+    }
+
+
+    :root {
+        --uvsu-preview-width:
+            190px;
+
+        --uvsu-preview-gap:
+            6px;
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "UVS Ultra Custom UI",
+  "version": "0.3.5",
+  "description": "Custom search interface for UVS Ultra",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://uvsultra.online/*"
+      ],
+      "css": [
+        "ultra-custom.css"
+      ],
+      "js": [
+        "remote-card-art.js",
+        "card-art.js",
+        "ultra-custom.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://uvsultra.online/deck.php*"
+      ],
+      "css": [
+        "deck-custom.css"
+      ],
+      "js": [
+        "deck-card-art.js",
+        "deck-custom.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
