@@ -4,28 +4,6 @@
   "matchingPolicy": "exact_unique_normalized_name",
   "cards": [
     {
-      "uvsUltraCardId": "4587",
-      "cardName": "Yoshimitsu",
-      "original": {
-        "setId": "soularena",
-        "cardNumber": "131"
-      },
-      "variants": [
-        {
-          "label": "Official Alternate Art (TK802 199)",
-          "qualifier": "repo/4587-15361",
-          "officialGalleryId": "15361",
-          "officialSetCode": "TK802",
-          "officialCardNumber": "199",
-          "rarity": "ch-r-alt",
-          "sourcePath": "../official-gallery/images/15361 - Yoshimitsu.png",
-          "previewPath": "../runtime-images/4587-15361-preview.jpg",
-          "microPath": "../runtime-images/4587-15361-ci-micro.jpg",
-          "sourceUrl": "https://uvsgames.com/wp-content/uploads/2026/06/TK802-199-CH-R-ALT-Yoshimitsu.png"
-        }
-      ]
-    },
-    {
       "uvsUltraCardId": "9242",
       "cardName": "Kyoka Jiro",
       "original": {

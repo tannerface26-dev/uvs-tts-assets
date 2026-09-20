@@ -785,7 +785,8 @@
       "candidates": [
         {
           "uvsUltraCardId": "11512",
-          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg",
+          "cardType": "Asset"
         }
       ],
       "sourcePath": "../official-gallery/images/2197 - U.S.S. Cerritos, NCC-75567.png"
@@ -797,7 +798,8 @@
       "candidates": [
         {
           "uvsUltraCardId": "11512",
-          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg",
+          "cardType": "Asset"
         }
       ],
       "sourcePath": "../official-gallery/images/2215 - U.S.S. Cerritos, NCC-75567.png"
@@ -809,7 +811,8 @@
       "candidates": [
         {
           "uvsUltraCardId": "11512",
-          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg",
+          "cardType": "Asset"
         }
       ],
       "sourcePath": "../official-gallery/images/2229 - U.S.S. Cerritos, NCC-75567.png"
@@ -821,7 +824,8 @@
       "candidates": [
         {
           "uvsUltraCardId": "11512",
-          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg",
+          "cardType": "Asset"
         }
       ],
       "sourcePath": "../official-gallery/images/2245 - U.S.S. Cerritos, NCC-75567.png"
@@ -833,7 +837,8 @@
       "candidates": [
         {
           "uvsUltraCardId": "11512",
-          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg"
+          "imageUrl": "https://uvsultra.online/images/extensions/stk0x/089.jpg",
+          "cardType": "Asset"
         }
       ],
       "sourcePath": "../official-gallery/images/2421 - U.S.S. Cerritos, NCC-75567.png"
@@ -900,6 +905,19 @@
       "reason": "no_exact_name_match",
       "candidates": [],
       "sourcePath": "../official-gallery/images/4156 - Wound - Restore ALT.png"
+    },
+    {
+      "officialCardId": "15361",
+      "cardName": "Yoshimitsu",
+      "reason": "card_type_mismatch",
+      "candidates": [
+        {
+          "uvsUltraCardId": "4587",
+          "imageUrl": "https://uvsultra.online/images/extensions/soularena/131.jpg",
+          "cardType": "Asset"
+        }
+      ],
+      "sourcePath": "../official-gallery/images/15361 - Yoshimitsu.png"
     },
     {
       "officialCardId": "15384",

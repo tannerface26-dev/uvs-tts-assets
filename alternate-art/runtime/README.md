@@ -18,6 +18,8 @@ Ultra's native `358x500` preview and `20x20` deck-row thumbnail dimensions.
 runtime catalog automatically only when the official gallery name has one
 exact normalized match in CardDB. Name normalization changes case, whitespace,
 and typographic quotation marks only. It does not use fuzzy matching.
+Character-classified gallery records must also match a CardDB Character row;
+same-name records with a different game-card type remain unresolved.
 
 Each runtime card includes its canonical UVS Ultra `original` image identity.
 `exclusions.json` removes reviewed false positives, such as gallery records

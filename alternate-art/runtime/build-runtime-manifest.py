@@ -50,6 +50,9 @@ def load_card_db(path: Path) -> dict[str, list[dict[str, str]]]:
             "uvsUltraCardId": match.group("uvs_id"),
             "imageUrl": match.group("image"),
         }
+        card_type = re.search(r'type="([^"]+)"', line)
+        if card_type:
+            row["cardType"] = card_type.group(1)
         key = normalize_name(unescape_lua(match.group("name")))
         candidates[key][(row["uvsUltraCardId"], row["imageUrl"])] = row
 
@@ -117,6 +120,20 @@ def main() -> None:
 
         match = matches[0]
         card_id = match["uvsUltraCardId"]
+        rarity = str(source.get("rarity") or "").casefold()
+        is_character_art = rarity.startswith("character") or rarity.startswith("ch-")
+        if is_character_art and match.get("cardType") != "Character":
+            unresolved.append(
+                {
+                    "officialCardId": source["officialCardId"],
+                    "cardName": source["cardName"],
+                    "reason": "card_type_mismatch",
+                    "candidates": matches,
+                    "sourcePath": f"../official-gallery/{source['localPath']}",
+                }
+            )
+            continue
+
         if card_id in excluded_card_ids:
             unresolved.append(
                 {
