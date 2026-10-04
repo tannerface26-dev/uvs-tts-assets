@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Install the Universus.cards to UVS Tabletop Simulator deck bookmarklet.">
-  <title>Universus.cards to UVS TTS Bookmarklet</title>
+  <meta name="description" content="Install the BuildUVS to UVS Tabletop Simulator deck bookmarklet.">
+  <title>BuildUVS to UVS TTS Bookmarklet</title>
   <style>
     :root {
       color-scheme: dark;
@@ -133,38 +133,37 @@
   <main>
     <section class="card">
       <p class="eyebrow">UVS Tabletop Simulator</p>
-      <h1>Universus.cards → TTS</h1>
-      <p>Turn any visible Universus.cards deck into text accepted by the UVS TTS red or blue deck importer.</p>
+      <h1>BuildUVS → TTS</h1>
+      <p>Turn any available BuildUVS tournament deck into text accepted by the UVS TTS red or blue deck importer.</p>
 
       <div class="actions">
         <a id="bookmarklet" class="button primary" href="#" aria-disabled="true">Loading bookmarklet…</a>
         <button id="copy" class="button" type="button" disabled>Copy bookmarklet</button>
-        <a class="button" href="universus-to-tts.txt" download>Download .txt</a>
+        <a class="button" href="builduvs-to-tts.txt" download>Download .txt</a>
       </div>
       <p id="status" class="status" role="status">Preparing the installer…</p>
 
       <h2>Install</h2>
       <ol>
         <li>Show your browser’s bookmarks bar. In Chrome or Edge, press <code>Ctrl+Shift+B</code>.</li>
-        <li>Drag the red <strong>Universus.cards → TTS</strong> button onto the bookmarks bar.</li>
+        <li>Drag the red <strong>BuildUVS → TTS</strong> button onto the bookmarks bar.</li>
         <li>If dragging is unavailable, use <strong>Copy bookmarklet</strong>, create a bookmark manually, and paste it into the bookmark’s URL field.</li>
       </ol>
 
       <h2>Use</h2>
       <ol>
-        <li>Open a deck at <code>universus.cards/deck/…</code>.</li>
+        <li>Open a deck at <code>builduvs.com/lists/event/rank</code>.</li>
         <li>Click the installed bookmark.</li>
         <li>Paste the copied deck list into the UVS TTS importer and click <strong>Import</strong>.</li>
       </ol>
 
       <div class="details">
-        <p>The export includes the starting character, categorized mainboard, sideboard, quantities, and exact set/card-number qualifiers. Maybeboard cards are omitted because the TTS importer has no maybeboard zone.</p>
-        <p>This bookmarklet only reads the deck page and copies formatted text. The loaded TTS mod still needs a compatible importer and CardDB.</p>
-        <p>Using BuildUVS? <a href="builduvs/"><strong>Install the BuildUVS → TTS bookmarklet</strong></a>.</p>
-        <p><a href="universus-to-tts.js">Readable source</a> · <a href="universus-to-tts.txt">Plain bookmarklet</a></p>
+        <p>The export includes the starting character, mainboard, sideboard, quantities, and exact set/card-number qualifiers. It reads BuildUVS’s public event deck data rather than scraping the visible card layout.</p>
+        <p>This bookmarklet only reads the selected deck and copies formatted text. The loaded TTS mod still needs a compatible importer and CardDB.</p>
+        <p><a href="builduvs-to-tts.js">Readable source</a> · <a href="builduvs-to-tts.txt">Plain bookmarklet</a></p>
       </div>
     </section>
-    <footer><a href="../">Back to UVS TTS Assets</a></footer>
+    <footer><a href="../">Universus.cards version</a> · <a href="../../">Back to UVS TTS Assets</a></footer>
   </main>
 
   <script>
@@ -185,7 +184,7 @@
       return copied;
     };
 
-    fetch("universus-to-tts.txt", { cache: "no-cache" })
+    fetch("builduvs-to-tts.txt", { cache: "no-cache" })
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.text();
@@ -196,7 +195,7 @@
           throw new Error("Invalid bookmarklet file");
         }
         bookmarkletLink.href = bookmarkletText;
-        bookmarkletLink.textContent = "Universus.cards → TTS";
+        bookmarkletLink.textContent = "BuildUVS → TTS";
         bookmarkletLink.removeAttribute("aria-disabled");
         copyButton.disabled = false;
         status.textContent = "Ready—drag the red button to your bookmarks bar.";
